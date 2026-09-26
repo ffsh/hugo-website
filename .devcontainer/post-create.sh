@@ -2,8 +2,7 @@
 set -euo pipefail
 
 HUGO_VERSION="0.166.0"
-WP2HUGO_VERSION="1.36.0"
-WP2HUGO_RELEASE_TAG="${WP2HUGO_VERSION#v}"
+WP2HUGO_RELEASE_TAG="1.36.0"
 
 arch="$(uname -m)"
 case "$arch" in
@@ -38,10 +37,7 @@ tar -xzf "$tmp_dir/${hugo_archive}" -C "$tmp_dir"
 
 wp2hugo_archive="wp2hugo_Linux_${wp2hugo_arch}.tar.gz"
 wp2hugo_release_base_url="https://github.com/ashishb/wp2hugo/releases/download/${WP2HUGO_RELEASE_TAG}"
-if ! curl -fsSL -o "$tmp_dir/${wp2hugo_archive}" "${wp2hugo_release_base_url}/${wp2hugo_archive}"; then
-  wp2hugo_release_base_url="https://github.com/ashishb/wp2hugo/releases/download/v${WP2HUGO_RELEASE_TAG}"
-  curl -fsSL -o "$tmp_dir/${wp2hugo_archive}" "${wp2hugo_release_base_url}/${wp2hugo_archive}"
-fi
+curl -fsSL -o "$tmp_dir/${wp2hugo_archive}" "${wp2hugo_release_base_url}/${wp2hugo_archive}"
 
 printf '%s  %s\n' "$wp2hugo_sha256" "$wp2hugo_archive" > "$tmp_dir/wp2hugo.sha256"
 (cd "$tmp_dir" && sha256sum -c "$tmp_dir/wp2hugo.sha256")
