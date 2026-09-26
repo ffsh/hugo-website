@@ -17,3 +17,5 @@ After opening in a devcontainer, verify the tools are available:
 hugo version
 wp2hugo --help
 ```
+
+If `wp2hugo` is not found on `PATH`, add `$HOME/.local/bin` to your shell `PATH`.

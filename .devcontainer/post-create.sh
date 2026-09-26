@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+WP2HUGO_VERSION="1.36.0"
+
 arch="$(uname -m)"
 case "$arch" in
   x86_64)
@@ -18,10 +20,17 @@ esac
 tmp_dir="$(mktemp -d)"
 trap 'rm -rf "$tmp_dir"' EXIT
 
+archive_name="wp2hugo_Linux_${wp2hugo_arch}.tar.gz"
+
 curl -fsSL \
-  -o "$tmp_dir/wp2hugo.tar.gz" \
-  "https://github.com/ashishb/wp2hugo/releases/latest/download/wp2hugo_Linux_${wp2hugo_arch}.tar.gz"
-tar -xzf "$tmp_dir/wp2hugo.tar.gz" -C "$tmp_dir"
+  -o "$tmp_dir/${archive_name}" \
+  "https://github.com/ashishb/wp2hugo/releases/download/${WP2HUGO_VERSION}/${archive_name}"
+curl -fsSL \
+  -o "$tmp_dir/checksums.txt" \
+  "https://github.com/ashishb/wp2hugo/releases/download/${WP2HUGO_VERSION}/checksums.txt"
+grep "  wp2hugo_Linux_${wp2hugo_arch}.tar.gz$" "$tmp_dir/checksums.txt" > "$tmp_dir/wp2hugo.sha256"
+(cd "$tmp_dir" && sha256sum -c "$tmp_dir/wp2hugo.sha256")
+tar -xzf "$tmp_dir/${archive_name}" -C "$tmp_dir"
 
 if [ -w /usr/local/bin ]; then
   install -m 0755 "$tmp_dir/wp2hugo" /usr/local/bin/wp2hugo
