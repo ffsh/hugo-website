@@ -23,10 +23,15 @@ tmp_dir="$(mktemp -d)"
 trap 'rm -rf "$tmp_dir"' EXIT
 
 archive_name="wp2hugo_Linux_${wp2hugo_arch}.tar.gz"
+release_base_url="https://github.com/ashishb/wp2hugo/releases/download/${WP2HUGO_VERSION}"
+
+if ! curl -fsSI "${release_base_url}/${archive_name}" >/dev/null; then
+  release_base_url="https://github.com/ashishb/wp2hugo/releases/download/v${WP2HUGO_VERSION#v}"
+fi
 
 curl -fsSL \
   -o "$tmp_dir/${archive_name}" \
-  "https://github.com/ashishb/wp2hugo/releases/download/${WP2HUGO_VERSION}/${archive_name}"
+  "${release_base_url}/${archive_name}"
 printf '%s  %s\n' "$wp2hugo_sha256" "$archive_name" > "$tmp_dir/wp2hugo.sha256"
 (cd "$tmp_dir" && sha256sum -c "$tmp_dir/wp2hugo.sha256")
 tar -xzf "$tmp_dir/${archive_name}" -C "$tmp_dir"
