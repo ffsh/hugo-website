@@ -19,7 +19,7 @@ case "$arch" in
     wp2hugo_sha256="1745a79e529b9d4a3ebcf5327e108f0f4d8f6242f859be52f420a17b865b2b32"
     ;;
   *)
-    echo "Unsupported architecture for wp2hugo: $arch" >&2
+    echo "Unsupported architecture for Hugo/wp2hugo installation: $arch" >&2
     exit 1
     ;;
 esac
