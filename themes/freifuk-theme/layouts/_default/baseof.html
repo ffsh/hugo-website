@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.Locale site.Language.Lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+    {{ $style := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint "sha256" }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    <script>
+      window.siteTranslations = {
+        searchEmpty: {{ i18n "search_empty" | jsonify }},
+        searchUnavailable: {{ i18n "search_unavailable" | jsonify }},
+        searchPlaceholder: {{ i18n "search_placeholder" | jsonify }},
+        searchEntryFallback: {{ i18n "search_entry" | jsonify }},
+        searchNoDescription: {{ i18n "search_no_description" | jsonify }}
+      };
+    </script>
+    {{ $searchScript := resources.Get "js/search.js" | resources.Minify | resources.Fingerprint "sha256" }}
+    <script src="{{ $searchScript.RelPermalink }}" defer></script>
+  </head>
+  <body>
+    {{ partial "header.html" . }}
+    <main class="page-shell">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+  </body>
+</html>

@@ -1,0 +1,86 @@
+{{ define "main" }}
+  {{ $posts := where site.RegularPages "Type" "posts" }}
+  {{ $paginator := .Paginate $posts.ByDate.Reverse 10 }}
+
+  <section class="container home-layout">
+    <div class="home-main">
+      <header class="home-header">
+        <p class="eyebrow">{{ i18n "news" }}</p>
+        <h1>Freifunk Südholstein</h1>
+        <p class="lead">{{ i18n "community_intro" }}</p>
+      </header>
+
+      <div class="blog-list">
+        {{ range $paginator.Pages }}
+          {{ $post := . }}
+          <article class="blog-post">
+            {{ with $post.Params.cover }}
+              {{ with .image }}
+                <a class="post-cover-link" href="{{ $post.RelPermalink }}">
+                  <img class="post-cover" src="{{ . | relURL }}" alt="{{ $post.Title }}" loading="lazy">
+                </a>
+              {{ end }}
+            {{ end }}
+
+            <div class="post-topline">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+              {{ with .Params.categories }}
+                <a class="post-category" href="{{ printf "/categories/%s" (urlize (index . 0)) | relURL }}">{{ index . 0 }}</a>
+              {{ end }}
+            </div>
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <p>{{ .Summary | plainify | truncate 180 }}</p>
+            <a class="read-more" href="{{ .RelPermalink }}">{{ i18n "read_more" }}</a>
+          </article>
+        {{ end }}
+      </div>
+
+      {{ if gt $paginator.TotalPages 1 }}
+        <nav class="pagination" aria-label="{{ i18n "page_navigation" }}">
+          {{ if $paginator.HasPrev }}
+            <a class="pagination-link nav-prev" href="{{ $paginator.Prev.URL }}" aria-label="{{ i18n "newer_pages" }}">‹</a>
+          {{ end }}
+
+          <div class="pagination-pages" aria-label="Seitennummern">
+            {{ $current := $paginator.PageNumber }}
+            {{ $total := $paginator.TotalPages }}
+
+            {{ if le $total 7 }}
+              {{ range $paginator.Pagers }}
+                <a class="pagination-number {{ if eq .PageNumber $current }}is-current{{ end }}" href="{{ .URL }}">{{ .PageNumber }}</a>
+              {{ end }}
+            {{ else }}
+              {{ $start := 1 }}
+              {{ $end := 5 }}
+
+              {{ if gt $current 3 }}
+                {{ $start = sub $current 2 }}
+                {{ $end = add $current 2 }}
+              {{ end }}
+
+              {{ if gt $end $total }}
+                {{ $end = $total }}
+              {{ end }}
+
+              {{ range seq $start $end }}
+                {{ $targetURL := printf "/page/%d/" . }}
+                {{ if eq . 1 }}{{ $targetURL = "/" }}{{ end }}
+                <a class="pagination-number {{ if eq . $current }}is-current{{ end }}" href="{{ $targetURL | relURL }}">{{ . }}</a>
+              {{ end }}
+
+              {{ if lt $end $total }}
+                <span class="pagination-ellipsis">…</span>
+                {{ $finalTargetURL := printf "/page/%d/" $total }}
+                <a class="pagination-number" href="{{ $finalTargetURL | relURL }}">{{ $total }}</a>
+              {{ end }}
+            {{ end }}
+          </div>
+
+          {{ if $paginator.HasNext }}
+            <a class="pagination-link nav-next" href="{{ $paginator.Next.URL }}" aria-label="{{ i18n "older_pages" }}">›</a>
+          {{ end }}
+        </nav>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

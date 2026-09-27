@@ -1,0 +1,18 @@
+name = "freifuk-theme"
+description = "Minimalist Freifunk community blog and docs theme for Hugo"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+min_version = "0.146.0"
+
+[author]
+  name = "Freifunk Südholstein"
+  homepage = "https://freifunk-suedholstein.de"
+
+[original]
+  author = "Freifunk Südholstein"
+  homepage = "https://freifunk-suedholstein.de"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

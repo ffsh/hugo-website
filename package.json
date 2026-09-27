@@ -1,0 +1,24 @@
+{
+  "name": "freifunk-suedholstein-hugo-site",
+  "private": true,
+  "scripts": {
+    "build": "hugo --gc --minify",
+    "serve": "hugo server -D --disableFastRender --port 1313",
+    "check:html": "html-validate \"public/**/*.html\" --config .htmlvalidate.json",
+    "check:css": "stylelint \"themes/freifuk-theme/assets/css/**/*.css\"",
+    "check:markdown": "markdownlint \"content/**/*.md\" \"themes/freifuk-theme/**/*.md\"",
+    "check:a11y": "bash ./scripts/check-a11y.sh",
+    "check:perf": "bash ./scripts/check-perf.sh",
+    "check": "npm run build && npm run check:html && npm run check:css && npm run check:markdown && npm run check:a11y",
+    "dev": "npm run serve"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "html-validate": "^9.0.0",
+    "lighthouse": "^12.2.1",
+    "markdownlint-cli": "^0.42.0",
+    "pa11y-ci": "^3.1.0",
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}

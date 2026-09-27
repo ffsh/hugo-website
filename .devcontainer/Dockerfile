@@ -7,4 +7,8 @@ RUN apt-get update \
         curl \
         jq \
         ca-certificates \
+        python3 \
+        python3-pip \
+        nodejs \
+        npm \
     && rm -rf /var/lib/apt/lists/*

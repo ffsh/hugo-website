@@ -1,0 +1,13 @@
+{{- $type := .Get "type" | default "info" -}}
+{{- $title := .Get "title" -}}
+<aside class="content-callout callout-{{ $type }}">
+  {{- with $title -}}
+    <div class="callout-header">
+      <span class="callout-badge" aria-hidden="true">{{ if eq $type "success" }}✓{{ else if eq $type "warning" }}!{{ else if eq $type "danger" }}×{{ else }}i{{ end }}</span>
+      <strong>{{ . }}</strong>
+    </div>
+  {{- end -}}
+  <div class="callout-body">
+    {{ .Inner | .Page.RenderString }}
+  </div>
+</aside>

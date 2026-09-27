@@ -1,0 +1,29 @@
+search: Suche
+search_label: Suche
+search_placeholder: Suche...
+search_in_blog: Suche im Blog
+search_button: Suchen
+search_results: Suchergebnisse
+search_empty: Keine passenden Einträge gefunden.
+search_unavailable: Die Suche ist gerade nicht verfügbar.
+search_entry: Eintrag
+search_no_description: Keine Beschreibung verfügbar.
+rss_subscribe: RSS abonnieren
+nav_open: Navigation öffnen
+nav_close: Navigation schließen
+nav_label: Hauptnavigation
+theme_toggle_dark: Dunkelmodus aktivieren
+theme_toggle_light: Hellmodus aktivieren
+news: Neuigkeiten
+community_intro: Aktuelle Inhalte aus der Community, Projekte und wichtige Hinweise aus dem Freifunk-Netzwerk.
+read_more: Weiterlesen
+newer_pages: Neuere Seiten
+older_pages: Ältere Seiten
+page_navigation: Seitennavigation
+footer_navigation: Footer-Navigation
+category_label: Kategorie
+tag_label: Schlagwort
+all_posts_with_topic: Alle Beiträge mit diesem Thema in der Community.
+post_count_single: Beitrag
+post_count_plural: Beiträge
+post_count_badge: "{{ .Count }} {{ if eq .Count 1 }}Beitrag{{ else }}Beiträge{{ end }}"

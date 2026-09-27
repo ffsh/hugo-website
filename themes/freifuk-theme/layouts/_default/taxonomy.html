@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <div class="container content-block">
+    <header class="page-header taxonomy-page-header">
+      <p class="eyebrow">{{ if eq .Data.Singular "category" }}{{ i18n "category_label" }}{{ else }}{{ i18n "tag_label" }}{{ end }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="lead">{{ i18n "all_posts_with_topic" }}</p>
+    </header>
+
+    <div class="taxonomy-summary">
+      <span class="taxonomy-badge">{{ len .Pages }} {{ if eq (len .Pages) 1 }}{{ i18n "post_count_single" }}{{ else }}{{ i18n "post_count_plural" }}{{ end }}</span>
+    </div>
+
+    <div class="list-grid">
+      {{ range .Pages.ByDate.Reverse }}
+        <article class="card post-card">
+          <div class="card-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+            {{ with .GetTerms "categories" }}
+              <span>•</span>
+              <span>
+                {{ range $i, $term := . }}{{ if $i }}, {{ end }}<a href="{{ $term.RelPermalink }}">{{ $term.LinkTitle }}</a>{{ end }}
+              </span>
+            {{ end }}
+          </div>
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <p>{{ .Summary | plainify | truncate 180 }}</p>
+          <a class="read-more" href="{{ .RelPermalink }}">{{ i18n "read_more" }}</a>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

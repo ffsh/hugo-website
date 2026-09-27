@@ -1,0 +1,118 @@
+{{ define "main" }}
+  <article class="container content-block article-shell">
+    <header class="page-header article-header">
+      <p class="eyebrow">
+        {{ with .Section }}{{ . | humanize }}{{ end }}
+      </p>
+      <h1>{{ .Title }}</h1>
+      <div class="article-meta">
+        {{ with .Date }}<time datetime="{{ .Format "2006-01-02" }}">{{ .Format "02.01.2006" }}</time>{{ end }}
+        {{ with .Params.author }}<span>· {{ . }}</span>{{ end }}
+        <span>· {{ .ReadingTime }}-minütige Lektüre</span>
+      </div>
+
+    </header>
+
+    {{ with .Params.cover }}
+      {{ with .image }}
+        <div class="article-cover-wrap">
+          <img class="article-cover" src="{{ . | relURL }}" alt="{{ $.Title }}">
+        </div>
+      {{ end }}
+    {{ end }}
+
+    {{ with .TableOfContents }}
+      <aside class="article-toc" aria-label="Inhaltsverzeichnis">
+        <h2>Inhalt</h2>
+        {{ . }}
+      </aside>
+    {{ end }}
+
+    <div class="article-content">
+      {{ .Content }}
+    </div>
+
+    <div class="article-actions" aria-label="Beitrag teilen">
+      <span class="share-label">Teilen</span>
+      <div class="share-links">
+        <a class="share-link" href="https://share.joinmastodon.org/?text={{ .Title | urlquery }}%20{{ .Permalink | urlquery }}" target="_blank" rel="noopener noreferrer" aria-label="Auf Mastodon teilen">
+          <img class="share-icon" src="{{ "/logo/logo-purple.svg" | relURL }}" alt="Mastodon" aria-hidden="true">
+          <span>Mastodon</span>
+        </a>
+      </div>
+    </div>
+
+    {{ $posts := where site.RegularPages "Type" "posts" }}
+    {{ $related := where $posts "RelPermalink" "ne" .RelPermalink }}
+
+    {{ with .Params.categories }}
+      {{ $primaryCategory := index . 0 }}
+      {{ $related = where $related "Params.categories" "intersect" (slice $primaryCategory) }}
+    {{ end }}
+
+    {{ if not (gt (len $related) 0) }}
+      {{ $related = where $posts "RelPermalink" "ne" .RelPermalink }}
+    {{ end }}
+
+    {{ $related = first 3 ($related.ByDate.Reverse) }}
+
+    {{ if gt (len $related) 0 }}
+      <aside class="related-posts" aria-label="Ähnliche Beiträge">
+        <h2>Weitere Beiträge</h2>
+        <div class="related-list">
+          {{ range $related }}
+            <article class="related-item">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+              <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              <p>{{ .Summary | plainify | truncate 120 }}</p>
+            </article>
+          {{ end }}
+        </div>
+      </aside>
+    {{ end }}
+  </article>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const article = document.querySelector('.article-content');
+      if (!article) return;
+
+      const slugify = (value) => value
+        .toLowerCase()
+        .trim()
+        .replace(/\s+/g, '-')
+        .replace(/[^a-z0-9\-\u00C0-\u024F]/g, '')
+        .replace(/-+/g, '-');
+
+      article.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]').forEach(function (heading) {
+        const id = heading.id || slugify(heading.textContent || 'section');
+        heading.id = id;
+
+        if (heading.querySelector('.anchor-link')) return;
+
+        const link = document.createElement('a');
+        link.className = 'anchor-link';
+        link.href = '#' + id;
+        link.setAttribute('aria-label', 'Link zu diesem Abschnitt');
+        link.title = 'Link zu diesem Abschnitt';
+        link.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2"/><path d="M15 7h2a5 5 0 1 1 0 10h-2"/><path d="M8 12h8"/></svg>';
+
+        heading.classList.add('has-anchor-link');
+        heading.setAttribute('tabindex', '0');
+        heading.appendChild(link);
+
+        heading.addEventListener('click', function (event) {
+          if (event.target.closest('.anchor-link')) return;
+          window.location.hash = '#' + id;
+        });
+
+        heading.addEventListener('keydown', function (event) {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            window.location.hash = '#' + id;
+          }
+        });
+      });
+    });
+  </script>
+{{ end }}

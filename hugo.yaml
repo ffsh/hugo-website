@@ -1,0 +1,81 @@
+baseURL: https://freifunk-suedholstein.de
+defaultContentLanguage: de
+languages:
+  de:
+    weight: 1
+    label: Deutsch
+title: Freifunk Südholstein
+theme: freifuk-theme
+taxonomies:
+  category: categories
+  tag: tags
+params:
+  description: Freifunkverbund aus Herzogtum Lauenburg und Stormarn
+  author:
+    name: Grotax
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+outputFormats:
+  RSS:
+    mediaType: application/rss+xml
+    baseName: feed
+paginate: 10
+menu:
+  main:
+    - identifier: about
+      name: Über uns
+      url: /ueber-uns/
+      weight: 10
+    - identifier: hardware
+      name: Hardware
+      url: /hardware/
+      weight: 20
+    # - identifier: gateways
+    #   name: Gateways
+    #   url: /gateways/
+    #   weight: 30
+    - identifier: stats
+      name: Statistiken
+      url: /statistiken/
+      weight: 40
+    - identifier: faq
+      name: FAQ
+      url: /faq/
+      weight: 50
+    - identifier: download
+      name: Download
+      url: /download/
+      weight: 60
+    - identifier: contribute
+      name: Mitgestalten
+      url: /mitgestalten/
+      weight: 70
+    - identifier: contact
+      name: Kontakt
+      url: /kontakt/
+      weight: 80
+    - identifier: archive
+      name: Archiv
+      url: /all/
+      weight: 90
+
+  footer:
+    - identifier: impressum
+      name: Impressum
+      url: /impressum/
+      weight: 10
+    - identifier: datenschutz
+      name: Datenschutz
+      url: /datenschutz/
+      weight: 20

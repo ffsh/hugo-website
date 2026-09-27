@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <div class="container content-block">
+    <header class="page-header">
+      <p class="eyebrow">{{ i18n "search" }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
+    </header>
+
+    <div id="searchbox" class="searchbox">
+      <input id="searchInput" type="search" placeholder="{{ i18n "search_placeholder" }}" aria-label="{{ i18n "search_label" }}" autocomplete="off">
+      <ul id="searchResults" class="search-results" aria-label="{{ i18n "search_results" }}"></ul>
+    </div>
+  </div>
+{{ end }}

@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <div class="container content-block">
+    <header class="page-header">
+      <p class="eyebrow">{{ if eq .Data.Singular "category" }}Kategorien{{ else }}Schlagwörter{{ end }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="lead">
+        {{ if eq .Data.Singular "category" }}Durchstöbern Sie Beiträge nach Themen, Projekten und Community-Bereichen.{{ else }}Entdecken Sie die wichtigsten Begriffe aus aktuellen Diskussionen und Entwicklungen.{{ end }}
+      </p>
+    </header>
+
+    <div class="taxonomy-summary">
+      <span class="taxonomy-badge">{{ len .Data.Terms }} {{ if eq (len .Data.Terms) 1 }}Eintrag{{ else }}Einträge{{ end }}</span>
+    </div>
+
+    <div class="taxonomy-grid" aria-label="{{ if eq .Data.Singular "category" }}Kategorien{{ else }}Schlagwörter{{ end }}-Übersicht">
+      {{ range .Data.Terms.ByCount }}
+        <a class="taxonomy-card" href="{{ .Page.RelPermalink }}">
+          <span class="taxonomy-name">{{ .Page.Title }}</span>
+          <span class="taxonomy-count">
+            {{ .Count }} {{ if eq .Count 1 }}Beitrag{{ else }}Beiträge{{ end }}
+          </span>
+          <span class="taxonomy-tag">Mehr ansehen</span>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

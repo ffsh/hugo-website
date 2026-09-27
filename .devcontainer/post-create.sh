@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+workspace_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$workspace_dir"
+
 HUGO_VERSION="0.166.0"
 WP2HUGO_RELEASE_TAG="1.36.0"
 
@@ -53,4 +56,8 @@ else
   mkdir -p "$HOME/.local/bin"
   install -m 0755 "$tmp_dir/hugo" "$HOME/.local/bin/hugo"
   install -m 0755 "$tmp_dir/wp2hugo" "$HOME/.local/bin/wp2hugo"
+fi
+
+if [ -f "$workspace_dir/package.json" ]; then
+  npm install --prefix "$workspace_dir"
 fi

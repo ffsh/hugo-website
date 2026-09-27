@@ -1,0 +1,113 @@
+{{- $authorEmail := "" }}
+{{- with site.Params.author }}
+  {{- if reflect.IsMap . }}
+    {{- with .email }}
+      {{- $authorEmail = . }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{- $authorName := "" }}
+{{- with site.Params.author }}
+  {{- if reflect.IsMap . }}
+    {{- with .name }}
+      {{- $authorName = . }}
+    {{- end }}
+  {{- else }}
+    {{- $authorName = . }}
+  {{- end }}
+{{- end }}
+
+{{- $pctx := . }}
+{{- if .IsHome }}{{ $pctx = site }}{{ end }}
+{{- $pages := slice }}
+{{- if or $.IsHome $.IsSection }}
+{{- $pages = $pctx.RegularPages }}
+{{- else }}
+{{- $pages = $pctx.Pages }}
+{{- end }}
+{{- $pages = where $pages "Params.hiddenInRss" "!=" true -}}
+{{- $limit := site.Config.Services.RSS.Limit }}
+{{- if ge $limit 1 }}
+{{- $pages = $pages | first $limit }}
+{{- end }}
+{{- $baseURL := site.BaseURL | default "https://freifunk-suedholstein.de" | strings.TrimSuffix "/" }}
+{{- $feedURL := printf "%s/feed.xml" $baseURL }}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ if eq .Title site.Title }}{{ site.Title }}{{ else }}{{ with .Title }}{{ . | plainify }} on {{ end }}{{ site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Neueste Inhalte auf {{ site.Title }}</description>
+    {{- with site.Params.images }}
+    <image>
+      <title>{{ site.Title }}</title>
+      <url>{{ index . 0 | absURL }}</url>
+      <link>{{ index . 0 | absURL }}</link>
+    </image>
+    {{- end }}
+    <generator>Hugo</generator>
+    <language>{{ site.Language.Locale | default site.Language.Lang }}</language>
+    {{- with $authorEmail }}
+    <managingEditor>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</managingEditor>
+    <webMaster>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</webMaster>
+    {{- end }}
+    {{- with site.Copyright }}
+    <copyright>{{ . | markdownify | plainify | strings.TrimPrefix "© " }}</copyright>
+    {{- end }}
+    {{- if not (eq (len $pages) 0) }}
+    <lastBuildDate>{{ (index ($pages.ByDate.Reverse) 0).Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{- end }}
+    <ttl>60</ttl>
+    <atom:link href="{{ $feedURL }}" rel="self" type="application/rss+xml" />
+    {{- range $pages }}
+    {{- if and (ne .Layout `search`) (ne .Layout `archives`) }}
+    {{- $itemTitle := .Title | plainify | htmlUnescape }}
+    {{- $itemContent := .Content | htmlUnescape }}
+    {{- $itemContent = replaceRE `\sstyle=("[^"]*"|'[^']*')` "" $itemContent }}
+    {{- $itemContent = replace $itemContent "&amp;" "___AMP___" }}
+    {{- $itemContent = replace $itemContent "&lt;" "___LT___" }}
+    {{- $itemContent = replace $itemContent "&gt;" "___GT___" }}
+    {{- $itemContent = replace $itemContent "&quot;" "___QUOT___" }}
+    {{- $itemContent = replace $itemContent "&apos;" "___APOS___" }}
+    {{- $itemContent = replace $itemContent "&nbsp;" "___NBSP___" }}
+    {{- $itemContent = replace $itemContent "&ldquo;" "___LDQUO___" }}
+    {{- $itemContent = replace $itemContent "&rdquo;" "___RDQUO___" }}
+    {{- $itemContent = replace $itemContent "&lsquo;" "___LSQUO___" }}
+    {{- $itemContent = replace $itemContent "&rsquo;" "___RSQUO___" }}
+    {{- $itemContent = replace $itemContent "&mdash;" "___MDASH___" }}
+    {{- $itemContent = replace $itemContent "&ndash;" "___NDASH___" }}
+    {{- $itemContent = replace $itemContent "&" "&amp;" }}
+    {{- $itemContent = replace $itemContent "___AMP___" "&amp;" }}
+    {{- $itemContent = replace $itemContent "___LT___" "&lt;" }}
+    {{- $itemContent = replace $itemContent "___GT___" "&gt;" }}
+    {{- $itemContent = replace $itemContent "___QUOT___" "&quot;" }}
+    {{- $itemContent = replace $itemContent "___APOS___" "&apos;" }}
+    {{- $itemContent = replace $itemContent "___NBSP___" "&nbsp;" }}
+    {{- $itemContent = replace $itemContent "___LDQUO___" "&ldquo;" }}
+    {{- $itemContent = replace $itemContent "___RDQUO___" "&rdquo;" }}
+    {{- $itemContent = replace $itemContent "___LSQUO___" "&lsquo;" }}
+    {{- $itemContent = replace $itemContent "___RSQUO___" "&rsquo;" }}
+    {{- $itemContent = replace $itemContent "___MDASH___" "&mdash;" }}
+    {{- $itemContent = replace $itemContent "___NDASH___" "&ndash;" }}
+    {{- $itemContent = replaceRE `((?:href|src)=(?:"|'))/` (printf "%s%s" "$1" $baseURL) $itemContent }}
+    <item>
+      <title>{{ $itemTitle }}</title>
+      <link>{{ .Permalink }}</link>
+      <guid isPermaLink="false">{{ .Permalink }}</guid>
+      <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
+      {{- with .GetTerms "categories" }}
+        {{- range . }}
+        <category>{{ .Title | plainify | htmlUnescape }}</category>
+        {{- end }}
+      {{- end }}
+      <description>{{ with .Description }}{{ . | plainify | htmlUnescape }}{{ else }}{{ .Summary | plainify | htmlUnescape }}{{ end }}</description>
+      {{- if .Content }}
+      <content:encoded>{{ printf "<![CDATA[%s]]>" $itemContent | safeHTML }}</content:encoded>
+      {{- end }}
+    </item>
+    {{- end }}
+    {{- end }}
+  </channel>
+</rss>

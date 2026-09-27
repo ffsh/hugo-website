@@ -1,0 +1,16 @@
+# Hugo build output
+/public/
+/resources/
+.hugo_build.lock
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env
+.env.*
+
+# Node tooling
+node_modules/
+.reports/

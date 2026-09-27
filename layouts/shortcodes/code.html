@@ -1,0 +1,12 @@
+{{- $lang := .Get "lang" | default "text" -}}
+{{- $title := .Get "title" -}}
+{{- $file := .Get "file" -}}
+<figure class="code-embed">
+  {{- with or $title $file -}}
+    <figcaption class="code-caption">
+      {{- with $title -}}<span>{{ . }}</span>{{- end -}}
+      {{- with $file -}}<span class="code-file">{{ . }}</span>{{- end -}}
+    </figcaption>
+  {{- end -}}
+  <pre class="code-block"><code class="language-{{ $lang }}">{{ .Inner | htmlEscape }}</code></pre>
+</figure>

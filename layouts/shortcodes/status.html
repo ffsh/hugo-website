@@ -1,0 +1,7 @@
+{{- $type := .Get "type" | default "info" -}}
+{{- $label := .Get "label" | default "Status" -}}
+{{- $value := .Get "value" | default .Inner -}}
+<div class="status-card status-{{ $type }}">
+  <span class="status-label">{{ $label }}</span>
+  <strong>{{ $value }}</strong>
+</div>
