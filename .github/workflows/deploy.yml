@@ -18,7 +18,7 @@ jobs:
       contents: read
     env:
       HUGO_BASE_URL: >-
-        ${{ github.ref == 'refs/heads/main' && 'https://beta.freifunk-suedholstein.de/' || secrets.PRODUCTION_BASE_URL || 'https://freifunk-suedholstein.de/' }}
+        ${{ (github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/main') && 'https://beta.freifunk-suedholstein.de/' || secrets.PRODUCTION_BASE_URL || 'https://freifunk-suedholstein.de/' }}
 
     steps:
       - name: Checkout repository
@@ -54,12 +54,12 @@ jobs:
   deploy:
     name: Deploy via SSH
     needs: build
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
     runs-on: ubuntu-latest
 
     steps:
       - name: Download build artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: public
           path: ./public
