@@ -2,6 +2,7 @@
 author: Grotax
 date: "2018-04-26T10:08:34+00:00"
 title: Firmware
+url: /download/
 ---
 ## Download
 

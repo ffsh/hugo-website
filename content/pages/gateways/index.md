@@ -4,6 +4,7 @@ autopostToMastodon-post-status: "off"
 autopostToMastodonshare-lastSuccessfullTootURL: https://norden.social/@ffsh/107266625393591173
 date: "2021-11-12T23:13:30+00:00"
 title: Gateways
+url: /gateways/
 ---
 {{< figure src="/media/pages/gateways/United-Kingdom-flag-icon.webp" alt="" caption="" >}}
 

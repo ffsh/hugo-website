@@ -2,6 +2,7 @@
 author: Grotax
 date: "2018-04-30T09:52:08+00:00"
 title: Über uns
+url: /ueber-uns/
 ---
 - [Impressum](https://www.freifunk-suedholstein.de/impressum/)
 - [Datenschutz](https://www.freifunk-suedholstein.de/datenschutz/)

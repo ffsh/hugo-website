@@ -2,6 +2,7 @@
 author: Grotax
 date: "2018-04-30T09:51:10+00:00"
 title: Kontakt
+url: /kontakt/
 ---
 Du kannst uns eine E-Mail an:  
 [kontakt@freifunk-suedholstein.de](mailto:kontakt@freifunk-suedholstein.de)  

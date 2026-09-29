@@ -218,8 +218,8 @@ img {
 .nav-link:hover,
 .nav-link.active {
   color: var(--ink-900);
-  background: rgb(0 158 224 / 6%);
-  border-color: rgb(0 158 224 / 16%);
+  background: var(--panel-soft);
+  border-color: var(--border);
 }
 
 .nav-link.active::after {
@@ -1534,8 +1534,9 @@ img {
     padding: 0.7rem 0.8rem;
     border-radius: 10px;
     border: 1px solid var(--border);
-    background: rgb(248 250 252 / 85%);
+    background: var(--panel-soft);
     font-size: 0.9rem;
+    color: var(--ink-900);
   }
 
   .nav-link.active::after {

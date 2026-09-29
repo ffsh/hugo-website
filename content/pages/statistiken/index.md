@@ -2,6 +2,7 @@
 author: Grotax
 date: "2018-05-15T08:44:15+00:00"
 title: Statistiken
+url: /statistiken/
 ---
 Wir betreiben einen Server, der Statistiken über unser Freifunk-Netzwerk sammelt. Ein paar ausgewähle Graphen kannst du dir hier ansehen, mehr gibt es unter [grafana.freifunk-suedholstein.de](https://grafana.freifunk-suedholstein.de)
 

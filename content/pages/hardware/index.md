@@ -3,6 +3,7 @@ author: Grotax
 autopostToMastodon-post-status: "off"
 date: "2019-02-08T11:53:58+00:00"
 title: Hardware
+url: /hardware/
 ---
 Du möchtest einen neuen Router für Freifunk kaufen, du weißt aber nicht welchen, dann gebe ich hier ein paar Hinweise, wie du den passenden Router für dich findest.
 

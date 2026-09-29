@@ -2,6 +2,7 @@
 author: Grotax
 date: "2018-04-26T11:00:30+00:00"
 title: Mitgestalten
+url: /mitgestalten/
 ---
 ## Stelle einen Knoten auf
 
