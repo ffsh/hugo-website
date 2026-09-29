@@ -21,11 +21,14 @@
       {{ end }}
     {{ end }}
 
-    {{ with .TableOfContents }}
-      <aside class="article-toc" aria-label="Inhaltsverzeichnis">
-        <h2>Inhalt</h2>
-        {{ . }}
-      </aside>
+    {{ $toc := .TableOfContents }}
+    {{ with $toc }}
+      {{ if ne (plainify .) "" }}
+        <aside class="article-toc" aria-label="Inhaltsverzeichnis">
+          <h2>Inhalt</h2>
+          {{ . }}
+        </aside>
+      {{ end }}
     {{ end }}
 
     <div class="article-content">

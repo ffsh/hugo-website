@@ -13,6 +13,8 @@ params:
   description: Freifunkverbund aus Herzogtum Lauenburg und Stormarn
   author:
     name: Grotax
+  assets:
+    favicon: /favicon.png
 markup:
   highlight:
     codeFences: true
