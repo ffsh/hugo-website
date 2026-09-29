@@ -5,12 +5,22 @@
       <p>{{ site.Params.description }}</p>
     </div>
 
-    {{ with site.Menus.footer }}
-      <nav class="footer-meta" aria-label="{{ i18n "footer_navigation" }}">
-        {{ range . }}
-          <a href="{{ .URL | relURL }}">{{ .Name }}</a>
-        {{ end }}
-      </nav>
-    {{ end }}
+    <div class="footer-meta">
+      {{ with site.Menus.footer }}
+        <nav aria-label="{{ i18n "footer_navigation" }}">
+          {{ range . }}
+            <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+          {{ end }}
+        </nav>
+      {{ end }}
+
+      {{ with site.Params.gitCommit }}
+        {{ $repo := site.Params.githubRepo | default "https://github.com/ffsh/hugo-website" }}
+        {{ $shortSha := substr . 0 7 }}
+        <a class="footer-commit" href="{{ $repo }}/commit/{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Git commit {{ $shortSha }}">
+          Commit {{ $shortSha }}
+        </a>
+      {{ end }}
+    </div>
   </div>
 </footer>

@@ -20,6 +20,8 @@ hugo server -D
 hugo --gc --minify --baseURL "https://beta.freifunk-suedholstein.de/" && rsync -az --delete --checksum public/ web-ffsh:/var/www/web-beta/  
 ```
 
+The GitHub Actions workflow deploys the generated output via SSH afterwards.
+
 ## Project layout
 
 - `content/` – Markdown content migrated from WordPress

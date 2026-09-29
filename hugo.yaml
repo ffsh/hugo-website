@@ -7,6 +7,8 @@ taxonomies:
   tag: tags
 params:
   description: Freifunkverbund aus Herzogtum Lauenburg und Stormarn
+  githubRepo: https://github.com/ffsh/hugo-website
+  gitCommit: ""
   author:
     name: Grotax
   assets:
