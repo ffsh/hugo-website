@@ -10,7 +10,7 @@ tags:
 title: Firmware Release 2021.1.1.0
 
 cover:
-  image: /covers/thomas-jensen-C9dTdBM3joM-unsplash.jpg
+  image: /covers/thomas-jensen-C9dTdBM3joM-unsplash.webp
   alt: "Firmware Release 2021.1.1.0"
 ---
 Moin liebe Freifunka,

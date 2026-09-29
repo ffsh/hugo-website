@@ -1,18 +1,7 @@
 ---
-_edit_last: "1"
-_twp_file_id: ""
-_twp_img_id: ""
-_twp_meta_pattern: So eben hat {author} einen neuenBeitrag "{title}" auf {full_url} veröffentlicht. ☺️
-_twp_send_to_channel: "0"
-_wp_page_template: default
 author: Grotax
 date: "2018-04-30T09:51:10+00:00"
-guid: https://www.freifunk-suedholstein.de/?page_id=114
-parent_post_id: null
-post_id: "114"
 title: Kontakt
-url: /kontakt/
-
 ---
 Du kannst uns eine E-Mail an:  
 [kontakt@freifunk-suedholstein.de](mailto:kontakt@freifunk-suedholstein.de)  

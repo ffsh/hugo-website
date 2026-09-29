@@ -12,7 +12,7 @@ tags:
 title: 'FFSH #18 Januar 2021'
 
 cover:
-  image: /covers/misha-feshchak-syCXK9WndqQ-unsplash-scaled.jpg
+  image: /covers/misha-feshchak-syCXK9WndqQ-unsplash-scaled.webp
   alt: "FFSH #18 Januar 2021"
 ---
 Frohes neues Jahr wünsche ich und der Rest des Kernteams von Freifunk Südholstein.

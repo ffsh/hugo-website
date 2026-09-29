@@ -10,7 +10,7 @@ tags:
 title: 'FFSH #21 Osterspecial'
 
 cover:
-  image: /covers/egg-2147169_1920.jpg
+  image: /covers/egg-2147169_1920.webp
   alt: "FFSH #21 Osterspecial"
 ---
 Hallo und euch allen ein frohes Osterfest.

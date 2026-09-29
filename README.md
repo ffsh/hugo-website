@@ -14,6 +14,12 @@ hugo version
 hugo server -D
 ```
 
+## Beta deployment
+
+```bash
+hugo --gc --minify --baseURL "https://beta.freifunk-suedholstein.de/" && rsync -az --delete --checksum public/ web-ffsh:/var/www/web-beta/  
+```
+
 ## Project layout
 
 - `content/` – Markdown content migrated from WordPress

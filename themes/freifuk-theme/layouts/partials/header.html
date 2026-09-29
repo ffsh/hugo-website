@@ -14,11 +14,20 @@
         </svg>
       </a>
 
-      <form class="search-form" action="{{ "search" | absURL }}" method="get" role="search">
-        <label class="sr-only" for="site-search">{{ i18n "search_label" }}</label>
-        <input id="site-search" name="q" type="search" placeholder="{{ i18n "search_placeholder" }}" aria-label="{{ i18n "search_in_blog" }}">
-        <button type="submit" aria-label="{{ i18n "search_button" }}">{{ i18n "search_button" }}</button>
-      </form>
+      <div class="search-shell">
+        <button class="search-toggle" type="button" aria-label="{{ i18n "search_button" }}" aria-expanded="false" aria-controls="site-search-form">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="11" cy="11" r="5.8"></circle>
+            <path d="M16 16L21 21"></path>
+          </svg>
+        </button>
+
+        <form id="site-search-form" class="search-form" action="{{ "search" | absURL }}" method="get" role="search">
+          <label class="sr-only" for="site-search">{{ i18n "search_label" }}</label>
+          <input id="site-search" name="q" type="search" placeholder="{{ i18n "search_placeholder" }}" aria-label="{{ i18n "search_in_blog" }}">
+          <button type="submit" aria-label="{{ i18n "search_button" }}">{{ i18n "search_button" }}</button>
+        </form>
+      </div>
 
       <button class="theme-toggle" type="button" aria-label="{{ i18n "theme_toggle_dark" }}" aria-pressed="false" data-light-label="{{ i18n "theme_toggle_light" }}" data-dark-label="{{ i18n "theme_toggle_dark" }}">
         <span aria-hidden="true">☀️</span>
@@ -53,6 +62,9 @@
     const toggle = document.querySelector('.nav-toggle');
     const menu = document.getElementById('main-menu');
     const themeToggle = document.querySelector('.theme-toggle');
+    const searchShell = document.querySelector('.search-shell');
+    const searchToggle = document.querySelector('.search-toggle');
+    const searchForm = document.getElementById('site-search-form');
 
     if (themeToggle) {
       const setTheme = (theme) => {
@@ -73,6 +85,34 @@
       themeToggle.addEventListener('click', function () {
         const nextTheme = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
         setTheme(nextTheme);
+      });
+    }
+
+    if (searchToggle && searchForm && searchShell) {
+      const closeSearch = () => {
+        searchShell.classList.remove('search-open');
+        searchToggle.setAttribute('aria-expanded', 'false');
+      };
+
+      searchToggle.addEventListener('click', function () {
+        const isOpen = searchShell.classList.toggle('search-open');
+        searchToggle.setAttribute('aria-expanded', String(isOpen));
+        if (isOpen) {
+          const input = searchForm.querySelector('input');
+          if (input) {
+            setTimeout(function () {
+              input.focus();
+            }, 50);
+          }
+        }
+      });
+
+      searchForm.addEventListener('submit', closeSearch);
+
+      document.addEventListener('click', function (event) {
+        if (!searchShell.contains(event.target)) {
+          closeSearch();
+        }
       });
     }
 

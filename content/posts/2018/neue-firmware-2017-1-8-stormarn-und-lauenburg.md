@@ -20,7 +20,7 @@ Heute haben wir die Version 2017.1.8 zum **testen** veröffentlicht, diese bring
 - Update des Kernels auf 4.4.129
 - Neue Texte für das Kontaktfeld (im Konfigurationsmodus)
 
-{{< figure src="https://beta.freifunk-suedholstein.de/wp-content/uploads/2019/06/Auswahl%5F021.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2018/neue-firmware-2017-1-8-stormarn-und-lauenburg/Auswahl_021.webp" alt="" caption="" >}}
 
 #### Neue Schlüssel
 

@@ -9,7 +9,7 @@ tags:
 title: Firmware Update 2022.1.3.0
 
 cover:
-  image: /covers/michael-dziedzic-Rc6usOigMk-unsplash2.jpg
+  image: /covers/michael-dziedzic-Rc6usOigMk-unsplash2.webp
   alt: "Firmware Update 2022.1.3.0"
 ---
 Leibe FreifunkerInnen,  
@@ -30,9 +30,9 @@ Die Firmware gibt es wie immer unter [https://install.freifunk-suedholstein.de/]
 Es wäre toll wenn sich mehr Knoten-BetreiberInnen dazu bereit erklären würden ihren Knoten auf den testing Kanal umstellen könnten.  
 Wir haben aufgrund der Änderungen bei OpenWRT und Gluon aktuell nur drei Knoten, welche in der Lage sind neue Test Firmware zu installieren, das ist gewissermaßen problematisch da so die verschiedenen Konfigurationen nicht abgebildet werden. Die Update Kanäle stable, rc und testing sind Grundsätzlich zu einander Kompatibel, man muss also nicht alle knoten umstellen.
 
-{{< figure src="/wp-content/uploads/2023/03/firmware%5Ftesting%5F2023%5F03.jpg" alt="Firmware Statistik für testing, nur 3 Knoten mit der Aktuellen Version." caption="Firmware Statistik für testing, nur 3 Knoten mit der Aktuellen Version." >}}
+{{< figure src="/media/posts/2023/firmware-update-2022-1-3-0/firmware_testing_2023_03.webp" alt="Firmware Statistik für testing, nur 3 Knoten mit der Aktuellen Version." caption="Firmware Statistik für testing, nur 3 Knoten mit der Aktuellen Version." >}}
 
-{{< figure src="/wp-content/uploads/2023/03/firmware%5Frc%5F2023%5F03.jpg" alt="Firmware Statistik für rc, nur 1 Knoten mit einer alten Version." caption="Firmware Statistik für rc, nur 1 Knoten mit einer alten Version." >}}
+{{< figure src="/media/posts/2023/firmware-update-2022-1-3-0/firmware_rc_2023_03.webp" alt="Firmware Statistik für rc, nur 1 Knoten mit einer alten Version." caption="Firmware Statistik für rc, nur 1 Knoten mit einer alten Version." >}}
 
 Bevor man sich dafür entscheidet den testing oder rc Kanal zu nutzen sind folgende Dinge zu beachten:
 

@@ -1,17 +1,8 @@
 ---
-_edit_last: "1"
-_heateor_sss_meta:
-  sharing: 0
-  vertical_sharing: 0
 author: Grotax
 autopostToMastodon-post-status: "off"
 date: "2019-02-08T11:53:58+00:00"
-guid: https://www.freifunk-suedholstein.de/?page_id=586
-parent_post_id: null
-post_id: "586"
 title: Hardware
-url: /hardware/
-
 ---
 Du möchtest einen neuen Router für Freifunk kaufen, du weißt aber nicht welchen, dann gebe ich hier ein paar Hinweise, wie du den passenden Router für dich findest.
 

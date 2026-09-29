@@ -8,6 +8,22 @@ search_empty: Keine passenden Einträge gefunden.
 search_unavailable: Die Suche ist gerade nicht verfügbar.
 search_entry: Eintrag
 search_no_description: Keine Beschreibung verfügbar.
+empty_list: In dieser Ansicht sind noch keine Beiträge vorhanden.
+empty_taxonomy: Für dieses Thema wurden noch keine Beiträge veröffentlicht.
+empty_archive: Im Archiv sind noch keine Einträge vorhanden.
+empty_terms: Es wurden noch keine Kategorien oder Schlagwörter angelegt.
+lang_switch_to_en: Wechsel zu Englisch
+lang_switch_to_de: Wechsel zu Deutsch
+home_cta_label: Freifunk Einstieg
+home_cta_intro_kicker: Einführung
+home_cta_intro_title: Was ist Freifunk?
+home_cta_intro_text: Alles über das Netzwerk, die Ziele und die Community.
+home_cta_download_kicker: Loslegen
+home_cta_download_title: Download
+home_cta_download_text: Firmware, Installationshinweise und passende Geräte.
+home_cta_join_kicker: Kontakt
+home_cta_join_title: Mitmachen
+home_cta_join_text: Fragen, Austausch und neue Ideen direkt mit der Community.
 rss_subscribe: RSS abonnieren
 nav_open: Navigation öffnen
 nav_close: Navigation schließen

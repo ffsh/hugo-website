@@ -9,7 +9,7 @@ tags:
 title: Firmware Update 2021.1.2.2
 
 cover:
-  image: /covers/michael-dziedzic-Rc6usOigMk-unsplash2.jpg
+  image: /covers/michael-dziedzic-Rc6usOigMk-unsplash2.webp
   alt: "Firmware Update 2021.1.2.2"
 ---
 Es gibt wieder ein neues Firmware Update für alle Router.  

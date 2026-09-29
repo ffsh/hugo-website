@@ -9,7 +9,7 @@ tags:
 title: Firmware Update 2023.1.1.0
 
 cover:
-  image: /covers/michael-dziedzic-Rc6usOigMk-unsplash2.jpg
+  image: /covers/michael-dziedzic-Rc6usOigMk-unsplash2.webp
   alt: "Firmware Update 2023.1.1.0"
 ---
 Moin liebe Freifunkerinnen,

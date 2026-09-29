@@ -18,22 +18,22 @@ Der [Meshviewer](https://github.com/ffrgb/meshviewer) wird vom Freifunk Regensbu
 
 In die neue Mesh-Ansicht wurde technisch komplett überarbeitet. Auch die Oberfläche hat sich stark verändert.  
 
-{{< figure src="https://beta.freifunk-suedholstein.de/wp-content/uploads/2019/06/Auswahl%5F030.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2018/die-neue-karte-im-detail/Auswahl_030.webp" alt="" caption="" >}}
 
-{{< figure src="https://beta.freifunk-suedholstein.de/wp-content/uploads/2019/06/meshviewer%5Fsymbole.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2018/die-neue-karte-im-detail/meshviewer_symbole.webp" alt="" caption="" >}}
 
-{{< figure src="https://beta.freifunk-suedholstein.de/wp-content/uploads/2019/06/link-quality.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2018/die-neue-karte-im-detail/link-quality.webp" alt="" caption="" >}}
 
 Das Design hat sich grundsätzlich verändert ich will hier einige punkte hervorheben. Knoten haben nun runde Punkte, die Gateways haben Quadrate. Dünne Linien stehen für VPN Verbindungen, die dickeren stehen für LAN/WLAN. Die Darstellung der Verbindungsqualität wurde verbessert es gibt sehr anschauliche Farbverläufe von rot (schlecht) bis grün (gut). Dabei wird sowohl die Maximale als auch die minimale Qualität dargestellt.
 
-{{< figure src="https://beta.freifunk-suedholstein.de/wp-content/uploads/2019/06/Auswahl%5F029.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2018/die-neue-karte-im-detail/Auswahl_029.webp" alt="" caption="" >}}
 
 Über "Lokalisierung" kannst du deinen Standort für die Karte freigeben, wenn dein Browser diese Funktion unterstützt.  
 Außerdem unterstützt die Karte mehrere Sprachen und erkennt auch die Sprache deines Browsers um automatisch umzuschalten du kannst sie aber auch selber oben links umschalten.
 
 #### Tile Server
 
-{{< figure src="https://beta.freifunk-suedholstein.de/wp-content/uploads/2019/06/tile.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2018/die-neue-karte-im-detail/tile.webp" alt="" caption="" >}}
 
 Der Hintergrund der Karte besteht aus Kacheln (Tiles), diese werden einzeln von einem Server geladen. Den Hintergrund kannst du über die Schaltfläche unten rechts ändern. Aktuell bieten wir zwei verschiedene Hintergründe an.
 
@@ -65,9 +65,9 @@ InfluxDB ist eine Datenbank für Zeitreihen. Sie eignet sich besonders gut zum A
 
 #### Grafana
 
-{{< figure src="https://beta.freifunk-suedholstein.de/wp-content/uploads/2019/06/stats-1.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2018/die-neue-karte-im-detail/stats-1.webp" alt="" caption="" >}}
 
-{{< figure src="https://beta.freifunk-suedholstein.de/wp-content/uploads/2019/06/stats-2.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2018/die-neue-karte-im-detail/stats-2.webp" alt="" caption="" >}}
 
 [Grafana](https://map.freifunk-suedholstein.de/grafana) nutzen wir um aus den Daten, welche YANIC einsammelt, um Graphen zu generieren.  
 Einige davon betten wir in der Karte eingebettet. Wir haben jedoch mehr Graphen und in Zukunft kommen sicher neue dazu. Mehr Graphen findest du [hier](https://www.freifunk-suedholstein.de/statistiken/).

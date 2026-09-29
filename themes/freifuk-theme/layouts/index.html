@@ -10,6 +10,26 @@
         <p class="lead">{{ i18n "community_intro" }}</p>
       </header>
 
+      <section class="home-cta-grid" aria-label="Freifunk Einstieg">
+        <a class="home-cta-card" href="{{ "ueber-uns" | relURL }}">
+          <span class="home-cta-kicker">Einführung</span>
+          <h2>Was ist Freifunk?</h2>
+          <p>Alles über das Netzwerk, die Ziele und die Community.</p>
+        </a>
+
+        <a class="home-cta-card" href="{{ "download" | relURL }}">
+          <span class="home-cta-kicker">Loslegen</span>
+          <h2>Download</h2>
+          <p>Firmware, Installationshinweise und passende Geräte.</p>
+        </a>
+
+        <a class="home-cta-card" href="{{ "kontakt" | relURL }}">
+          <span class="home-cta-kicker">Kontakt</span>
+          <h2>Mitmachen</h2>
+          <p>Fragen, Austausch und neue Ideen direkt mit der Community.</p>
+        </a>
+      </section>
+
       <div class="blog-list">
         {{ range $paginator.Pages }}
           {{ $post := . }}

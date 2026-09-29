@@ -28,7 +28,7 @@ Bei uns gibt es drei "Domains":
 - ffod: Freifunk Stormarn, stormarn.freifunk.net
 - ffrz: Freifunk Lauenburg, lauenburg.freifunk.net
 
-{{< figure src="https://beta.freifunk-suedholstein.de/wp-content/uploads/2019/06/Domain-Karte.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2018/oktober-18/Domain-Karte.webp" alt="" caption="" >}}
 
 Anders als in anderen Freifunk-Gruppen sind diese "Domains" bei uns nicht von einander getrennt. Es hat also rein optische Unterschiede.
 

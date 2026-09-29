@@ -9,7 +9,7 @@ tags:
 title: Sondertreffen 22. Januar 20:00
 
 cover:
-  image: /covers/andre-ravazzi-SkH2iOtV6II-unsplash-scaled.jpg
+  image: /covers/andre-ravazzi-SkH2iOtV6II-unsplash-scaled.webp
   alt: "Sondertreffen 22. Januar 20:00"
 ---
 Am 22.01.2021 treffen wir uns außer der Reihe zusammen mit [LUG-Stormarn](https://lug-stormarn.de/index.php/news/100-zwischendurchtreffen-am-freitag-22-januar).

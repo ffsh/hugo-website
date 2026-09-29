@@ -17,7 +17,7 @@ Dieses mal erscheinen die Beiträge für Juni und Juli als ein gemeinsamer Beitr
 
 Wir haben in den letzten paar Wochen einiges an unserer Infrastruktur verändert. Die meisten unserer Dienste laufen jetzt auf individuellen VMs ([Virtuelle Maschinen](https://de.wikipedia.org/wiki/Virtuelle_Maschine)) in der Cloud. Zugegeben laufen sie alle bei dem gleichen Anbieter, Hetzner allerdings in verschiedenen Rechenzentren und Städten. Jenkins ist der letzte Dienst, welchen wir nicht in der Cloud betreiben.
 
-{{< figure src="/wp-content/uploads/2019/05/netzwerk%5Feinfach.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2019/ffsh-10-juni-juli-2019/netzwerk_einfach.webp" alt="" caption="" >}}
 
 ## Neue Frimware
 

@@ -10,7 +10,7 @@ tags:
 title: 'FFSH #17 Dezember 2020'
 
 cover:
-  image: /covers/thomas-jensen-ISG-rUel0Uw-unsplash1.jpg
+  image: /covers/thomas-jensen-ISG-rUel0Uw-unsplash1.webp
   alt: "FFSH #17 Dezember 2020"
 ---
 Und fast haben wir das Jahr 2020 geschafft.

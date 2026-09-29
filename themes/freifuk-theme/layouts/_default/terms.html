@@ -8,20 +8,26 @@
       </p>
     </header>
 
-    <div class="taxonomy-summary">
-      <span class="taxonomy-badge">{{ len .Data.Terms }} {{ if eq (len .Data.Terms) 1 }}Eintrag{{ else }}Einträge{{ end }}</span>
-    </div>
+    {{ if gt (len .Data.Terms) 0 }}
+      <div class="taxonomy-summary">
+        <span class="taxonomy-badge">{{ len .Data.Terms }} {{ if eq (len .Data.Terms) 1 }}Eintrag{{ else }}Einträge{{ end }}</span>
+      </div>
 
-    <div class="taxonomy-grid" aria-label="{{ if eq .Data.Singular "category" }}Kategorien{{ else }}Schlagwörter{{ end }}-Übersicht">
-      {{ range .Data.Terms.ByCount }}
-        <a class="taxonomy-card" href="{{ .Page.RelPermalink }}">
-          <span class="taxonomy-name">{{ .Page.Title }}</span>
-          <span class="taxonomy-count">
-            {{ .Count }} {{ if eq .Count 1 }}Beitrag{{ else }}Beiträge{{ end }}
-          </span>
-          <span class="taxonomy-tag">Mehr ansehen</span>
-        </a>
-      {{ end }}
-    </div>
+      <div class="taxonomy-grid" aria-label="{{ if eq .Data.Singular "category" }}Kategorien{{ else }}Schlagwörter{{ end }}-Übersicht">
+        {{ range .Data.Terms.ByCount }}
+          <a class="taxonomy-card" href="{{ .Page.RelPermalink }}">
+            <span class="taxonomy-name">{{ .Page.Title }}</span>
+            <span class="taxonomy-count">
+              {{ .Count }} {{ if eq .Count 1 }}Beitrag{{ else }}Beiträge{{ end }}
+            </span>
+            <span class="taxonomy-tag">Mehr ansehen</span>
+          </a>
+        {{ end }}
+      </div>
+    {{ else }}
+      <div class="empty-state" role="status" aria-live="polite">
+        <p>{{ i18n "empty_terms" }}</p>
+      </div>
+    {{ end }}
   </div>
 {{ end }}

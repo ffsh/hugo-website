@@ -8,7 +8,7 @@ tags:
 title: Treffen Freitag 14.05.2021, 20:00
 
 cover:
-  image: /covers/jake-hills-23LET4Hxj_U-unsplash.jpg
+  image: /covers/jake-hills-23LET4Hxj_U-unsplash.webp
   alt: "Treffen Freitag 14.05.2021, 20:00"
 ---
 Hallo liebe Freifunka,

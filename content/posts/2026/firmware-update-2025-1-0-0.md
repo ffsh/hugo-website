@@ -2,7 +2,7 @@
 categories:
   - firmware
 cover:
-  image: /wp-content/uploads/2026/01/nano-banana-firmware-scaled.webp
+  image: /covers/nano-banana-firmware-scaled.webp
   alt: "Firmware Update 2025.1.0.0"
 date: "2026-01-15T09:24:09+00:00"
 title: Firmware Update 2025.1.0.0

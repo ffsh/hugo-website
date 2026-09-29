@@ -10,7 +10,7 @@ title: Firmware Release 2020.2.3.0
 ---
 Wir haben erfolgreich das neuste Gluon Update an die meisten Knoten ausgerollt.
 
-{{< figure src="/wp-content/uploads/2021/05/firmware-statistik-202105.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2021/firmware-release-2020-2-3-0/firmware-statistik-202105.webp" alt="" caption="" >}}
 
 In diesem Update sind Bugfixes und Sicherheitsupdates enthalten.
 

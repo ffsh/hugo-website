@@ -26,16 +26,16 @@ Verbinde nun deinen Rechner über ein LAN-Kabel mit einer der (gelben) Anschlüs
 Halte die Reset-taste an deinem Router für etwa drei Sekunden gedrückt.   
 Nun sollten alle LEDs kurz aufblinken und der Router startet in den Konfigurationsmodus.
 
-{{< figure src="https://beta.freifunk-suedholstein.de/wp-content/uploads/2019/06/00.jpg" alt="" caption="" >}}
+{{< figure src="/media/posts/2018/fehler-beim-update-auf-2017-1-8/00.webp" alt="" caption="" >}}
 
 Jetzt gibst du in deinem Browser die IP Adresse 192.168.1.1 ein.
 
-{{< figure src="https://beta.freifunk-suedholstein.de/wp-content/uploads/2019/06/01-2.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2018/fehler-beim-update-auf-2017-1-8/01-2.webp" alt="" caption="" >}}
 
 Nun klickst du oben Rechts auf den Reiter Experten-Modus.  
 Jetzt klickst Du auf den Reiter Firmware aktualisieren:
 
-{{< figure src="https://beta.freifunk-suedholstein.de/wp-content/uploads/2019/06/02-1.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2018/fehler-beim-update-auf-2017-1-8/02-1.webp" alt="" caption="" >}}
 
 Hier wählst Du nun die Datei aus, welche Du zuvor von unserer Webseite geladen hast.  
 Danach nur noch bestätigen. Nach dem dein Router neu gestartet hat, sollte nun wieder die korrekte SSID lauenburg.freifunk.net angezeigt werden. Solltest Du dabei Probleme haben oder sonstige Fragen haben schreibe uns gerne eine [E-Mail](https://www.freifunk-suedholstein.de/kontakt/).

@@ -9,7 +9,7 @@ tags:
 title: Freitrix - ein FFSH Projekt
 
 cover:
-  image: /covers/khaled-ali-RpteA0T0Quc-unsplash.jpg
+  image: /covers/khaled-ali-RpteA0T0Quc-unsplash.webp
   alt: "Freitrix - ein FFSH Projekt"
 ---
 Hallo liebe Freifunka,
@@ -44,8 +44,8 @@ Daneben gibt es aber noch diverse andere Clients, du findest eine Übersicht auf
 
 Jetzt hast du einen Account auf [freitrix.de](https://webchat.freitrix.de) aber hast weder Kontakte noch bist du in einem Raum. Zum starten kannst du unserem Freifunk Südholstein Raum und dem LUG Stormarn Raum beitreten.
 
-{{< figure src="/wp-content/uploads/2021/03/fluffychat-groups.png" alt="FluffyChat öffentliche Gruppen finden." caption="FluffyChat öffentliche Gruppen finden." >}}
+{{< figure src="/media/posts/2021/freitrix-ein-ffsh-projekt/fluffychat-groups.webp" alt="FluffyChat öffentliche Gruppen finden." caption="FluffyChat öffentliche Gruppen finden." >}}
 
-{{< figure src="/wp-content/uploads/2021/03/element-groups-1024x490.png" alt="Startbildschirm Element" caption="Startbildschirm Element" >}}
+{{< figure src="/media/posts/2021/freitrix-ein-ffsh-projekt/element-groups.webp" alt="Startbildschirm Element" caption="Startbildschirm Element" >}}
 
-{{< figure src="/wp-content/uploads/2021/03/element-groups-1.png" alt="Räume erkunden in Element" caption="Räume erkunden in Element" >}}
+{{< figure src="/media/posts/2021/freitrix-ein-ffsh-projekt/element-groups-1.webp" alt="Räume erkunden in Element" caption="Räume erkunden in Element" >}}

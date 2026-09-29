@@ -25,7 +25,7 @@ Auf den Gateways wurde eine neue Version von [Batman](https://www.open-mesh.org/
 
 Wir haben die Firmware der Knoten auf 2018.2 aktualisiert und sind damit wieder auf dem aktuellsten Stand. Außerdem kann man nun im Experten-Modus konfigurieren ob der VPN-Tunnel verschlüsselt wird oder nicht.
 
-{{< figure src="https://beta.freifunk-suedholstein.de/wp-content/uploads/2019/01/client-drop.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2019/ffsh-5-januar-2019/client-drop.webp" alt="" caption="" >}}
 
 Nach dem Update auf 2018.2 konnte man in unseren Statistiken einen starken Abfall der Clients beobachten. Clients sind in diesem Fall eure Smartphones, Notebooks, etc. die unser Freifunk-Netzwerk benutzen.
 

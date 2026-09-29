@@ -9,7 +9,7 @@ tags:
 title: 'FFSH #22 Juni 2021'
 
 cover:
-  image: /covers/omar-flores-MOO6k3RaiwE-unsplash.jpg
+  image: /covers/omar-flores-MOO6k3RaiwE-unsplash.webp
   alt: "FFSH #22 Juni 2021"
 ---
 Moin liebe Freifunka,
@@ -20,7 +20,7 @@ Photo by [Omar Flores](https://unsplash.com/@colorflores?utm_source=unsplash&utm
 
 ## Knoten mit alter Software aktualisiert
 
-{{< figure src="/wp-content/uploads/2021/05/firmware-statistik-202105.png" alt="Screenshot von der Statistik aus unserer Karte. Sie zeigt insgesamt 8 Knoten mit sehr alter Software." caption="Screenshot von der Statistik aus unserer Karte. Sie zeigt insgesamt 8 Knoten mit sehr alter Software." >}}
+{{< figure src="/media/posts/2021/firmware-release-2020-2-3-0/firmware-statistik-202105.webp" alt="Screenshot von der Statistik aus unserer Karte. Sie zeigt insgesamt 8 Knoten mit sehr alter Software." caption="Screenshot von der Statistik aus unserer Karte. Sie zeigt insgesamt 8 Knoten mit sehr alter Software." >}}
 
 Mit etwas Aufwand konnten wir auf dem vergangenen Freifunk Treffen dafür sorgen, dass der Großteil der Knoten mit einer Firmware aus 2018 auf die aktuelle Version aktualisiert wird. Diese Knoten wollten nicht aktualisieren, da sie 2 valide Signaturen voraussetzen. Wir hatten diese Voraussetzung etwa 2017 eingeführt, seit dem hat sich jedoch einiges verändert und daher setzen wir heute nur noch auf eine valide Signatur, welche im Regelfall von mir erstellt wird.
 

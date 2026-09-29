@@ -9,7 +9,7 @@ tags:
 title: Sicherheitsupdate 2022.1.1.0
 
 cover:
-  image: /covers/umberto-jXd2FSvcRr8-unsplash.jpg
+  image: /covers/umberto-jXd2FSvcRr8-unsplash.webp
   alt: "Sicherheitsupdate 2022.1.1.0"
 ---
 Moin, Moin

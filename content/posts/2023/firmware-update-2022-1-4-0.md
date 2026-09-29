@@ -9,7 +9,7 @@ tags:
 title: Firmware Update 2022.1.4.0
 
 cover:
-  image: /covers/umberto-jXd2FSvcRr8-unsplash.jpg
+  image: /covers/umberto-jXd2FSvcRr8-unsplash.webp
   alt: "Firmware Update 2022.1.4.0"
 ---
 Es ist wieder so weit es gibt eine neue Firmware basierend auf Gluon 2022.1.4.

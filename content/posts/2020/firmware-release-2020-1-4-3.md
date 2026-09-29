@@ -14,4 +14,4 @@ Heute gibt es wieder ein neues Firmware Update für unsere Router, enthalten sin
 Ich erinnere an dieser Stelle auch noch einmal daran zu prüfen ob der eigene Knoten noch auf dem aktuellen Stand ist.  
 Es gibt ein paar wenige Knoten die alte oder sehr alte Firmware verwenden, wir können keinerlei versprechen machen, dass diese Knoten auch in den nächsten Wochen noch reibungslos mit dem Netz zusammenarbeiten.
 
-{{< figure src="/wp-content/uploads/2020/09/alte%5Ffirmware.png" alt="Liste von Routern mit alter Firmware." caption="Liste von Routern mit alter Firmware." >}}
+{{< figure src="/media/posts/2020/firmware-release-2020-1-4-3/alte_firmware.webp" alt="Liste von Routern mit alter Firmware." caption="Liste von Routern mit alter Firmware." >}}

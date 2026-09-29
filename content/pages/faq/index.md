@@ -1,20 +1,7 @@
 ---
-_edit_last: "1"
-_heateor_sss_meta:
-  sharing: 0
-  vertical_sharing: 0
-_twp_file_id: ""
-_twp_img_id: ""
-_twp_meta_pattern: So eben hat {author} einen neuen Beitrag "{title}" auf {full_url} veröffentlicht.
-_twp_send_to_channel: "0"
 author: Grotax
 date: "2019-01-21T11:48:03+00:00"
-guid: https://www.freifunk-suedholstein.de/?page_id=523
-parent_post_id: null
-post_id: "523"
 title: FAQ
-url: /faq/
-
 ---
 ## **Was ist Freifunk?**
 

@@ -6,21 +6,27 @@
       {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
     </header>
 
-    <div class="list-grid">
-      {{ range .Pages.ByDate.Reverse }}
-        <article class="card post-card">
-          <div class="card-meta">
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
-            {{ with .Params.categories }}
-              <span>•</span>
-              <span>{{ index . 0 }}</span>
-            {{ end }}
-          </div>
-          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-          <p>{{ .Summary | plainify | truncate 180 }}</p>
-          <a class="read-more" href="{{ .RelPermalink }}">{{ i18n "read_more" }}</a>
-        </article>
-      {{ end }}
-    </div>
+    {{ if gt (len .Pages) 0 }}
+      <div class="list-grid">
+        {{ range .Pages.ByDate.Reverse }}
+          <article class="card post-card">
+            <div class="card-meta">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+              {{ with .Params.categories }}
+                <span>•</span>
+                <span>{{ index . 0 }}</span>
+              {{ end }}
+            </div>
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <p>{{ .Summary | plainify | truncate 180 }}</p>
+            <a class="read-more" href="{{ .RelPermalink }}">{{ i18n "read_more" }}</a>
+          </article>
+        {{ end }}
+      </div>
+    {{ else }}
+      <div class="empty-state" role="status" aria-live="polite">
+        <p>{{ i18n "empty_list" }}</p>
+      </div>
+    {{ end }}
   </div>
 {{ end }}

@@ -8,7 +8,7 @@ tags:
 title: Treffen Freitag 08.10.2021
 
 cover:
-  image: /covers/petr-magera-u4WFV0pAZpc-unsplash.jpg
+  image: /covers/petr-magera-u4WFV0pAZpc-unsplash.webp
   alt: "Treffen Freitag 08.10.2021"
 ---
 Moin liebe Freifunka es ist wieder so weit, wir treffen uns online am 08.10.2021

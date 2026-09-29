@@ -8,7 +8,7 @@ tags:
 title: Frohe Weihnachten
 
 cover:
-  image: /covers/anna-popovic-NizoYtO0yiY-unsplash-scaled.jpg
+  image: /covers/anna-popovic-NizoYtO0yiY-unsplash-scaled.webp
   alt: "Frohe Weihnachten"
 ---
 Fast ist es so weit, nur noch 2 Tage dann ist Weihnachten. Hiermit wünsche ich allen Lesern ein frohes Fest, ich weiß dass dieses Jahr für viele anders sein wird. Für andere war Weihnachten noch nie etwas tolles.

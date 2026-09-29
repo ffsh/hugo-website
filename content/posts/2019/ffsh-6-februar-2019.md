@@ -46,7 +46,7 @@ Seit dem letzten Beitrag haben wir unsere Firmware auf gluon 2018.2 aktualisiert
 
 Ich habe außerdem mit der Überarbeitung unserer Dokumentation begonnen.
 
-{{< figure src="https://beta.freifunk-suedholstein.de/wp-content/uploads/2019/06/Auswahl%5F279.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2019/ffsh-6-februar-2019/Auswahl_279.webp" alt="" caption="" >}}
 
 Bei dem Gateway-Teil unserer Dokumentation handelt es sich um die älteste vorliegende Dokumentation. Diese ist dynamisch gewachsen und hat viele Verbesserungspotentiale. Daher stand seit längerem eine grundsätzliche Überarbeitung an. Die Überarbeitung wird sich auch noch einige Zeit hinziehen.
 

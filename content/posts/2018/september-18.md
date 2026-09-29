@@ -48,7 +48,7 @@ Wenn du Fragen oder Probleme hast kannst du dich auch gerne bei uns [melden](htt
 
 ### Gateways
 
-{{< figure src="https://beta.freifunk-suedholstein.de/wp-content/uploads/2019/06/gateways.png" alt="" caption="" >}}
+{{< figure src="/media/posts/2018/september-18/gateways.webp" alt="" caption="" >}}
 
 Am Montag dieser Woche, gab es dann eine kleine Störung, durch eine sehr ungleichmäßige Verteilung der Knoten. Grund hierfür waren Anpassungen an der Gateway Konfiguration und ein eiliges neu starten eben dieser. Gegen Abend konnte das Problem jedoch behoben werden.  
 

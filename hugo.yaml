@@ -1,9 +1,5 @@
 baseURL: https://freifunk-suedholstein.de
 defaultContentLanguage: de
-languages:
-  de:
-    weight: 1
-    label: Deutsch
 title: Freifunk Südholstein
 theme: freifuk-theme
 taxonomies:
@@ -14,7 +10,7 @@ params:
   author:
     name: Grotax
   assets:
-    favicon: /favicon.png
+    favicon: /favicon.webp
 markup:
   highlight:
     codeFences: true
@@ -43,10 +39,6 @@ menu:
       name: Hardware
       url: /hardware/
       weight: 20
-    # - identifier: gateways
-    #   name: Gateways
-    #   url: /gateways/
-    #   weight: 30
     - identifier: stats
       name: Statistiken
       url: /statistiken/

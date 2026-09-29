@@ -8,7 +8,7 @@ tags:
 title: Treffen Freitag 11.06.2021, 20:00
 
 cover:
-  image: /covers/marvin-meyer-SYTO3xs06fU-unsplash.jpg
+  image: /covers/marvin-meyer-SYTO3xs06fU-unsplash.webp
   alt: "Treffen Freitag 11.06.2021, 20:00"
 ---
 Moin liebe Freifunka,

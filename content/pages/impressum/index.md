@@ -1,19 +1,7 @@
 ---
-_edit_last: "1"
-_publicize_pending: "1"
-_twp_file_id: ""
-_twp_img_id: ""
-_twp_meta_pattern: So eben hat {author} einen neuenBeitrag "{title}" auf {full_url} veröffentlicht. ☺️
-_twp_send_to_channel: "0"
-_wp_page_template: default
 author: ks
 date: "2018-03-20T10:41:10+00:00"
-guid: https://www.freifunk-suedholstein.de/?page_id=49
-parent_post_id: null
-post_id: "49"
 title: Impressum
-url: /impressum/
-
 ---
 # Impressum
 

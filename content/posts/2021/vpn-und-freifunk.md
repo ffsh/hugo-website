@@ -11,7 +11,7 @@ tags:
 title: VPN und Freifunk
 
 cover:
-  image: /covers/denny-muller-JyRTi3LoQnc-unsplash-scaled.jpg
+  image: /covers/denny-muller-JyRTi3LoQnc-unsplash-scaled.webp
   alt: "VPN und Freifunk"
 ---
 In diesem Beitrag geht es über VPNs und was das mit Freifunk zu tun hat.  
@@ -26,7 +26,7 @@ Ein tatsächlicher Nutzen von VPNs kann das Umgehen von Geoblocking sein, Netfli
 
 OK so Weit so gut aber was genau hat das jetzt mit Freifunk zu tun? Wir im Freifunk Südholstein verwenden auch VPN Software mit dem Namen "fastd", diese verwenden wir, um die Freifunk Knoten mit den Gateway-Servern zu verbinden und schaffen dadurch auch eine indirekte Verbindung zu allen anderen Freifunk Knoten.
 
-{{< figure src="/wp-content/uploads/2021/01/Netzwerk%5Fffsh19-300x250.png" alt="Vereinfachte Topologie unseres Netzwerks mit einem Gateway, einem Freifunk Knoten und 4 Endgeräten. Der Freifunk Knoten ist über fastd mit dem Gateway verbunden." caption="Vereinfachte Topologie unseres Netzwerks mit einem Gateway, einem Freifunk Knoten und 4 Endgeräten. Der Freifunk Knoten ist über fastd mit dem Gateway verbunden." >}}
+{{< figure src="/media/posts/2021/vpn-und-freifunk/Netzwerk_ffsh19-300x250.webp" alt="Vereinfachte Topologie unseres Netzwerks mit einem Gateway, einem Freifunk Knoten und 4 Endgeräten. Der Freifunk Knoten ist über fastd mit dem Gateway verbunden." caption="Vereinfachte Topologie unseres Netzwerks mit einem Gateway, einem Freifunk Knoten und 4 Endgeräten. Der Freifunk Knoten ist über fastd mit dem Gateway verbunden." >}}
 
 ### fastd, L2TP, WireGuard
 

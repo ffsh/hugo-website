@@ -1,22 +1,7 @@
 ---
-_edit_last: "1"
-_heateor_sss_meta:
-  sharing: 0
-  vertical_sharing: 0
-_publicize_pending: "1"
-_twp_file_id: ""
-_twp_img_id: ""
-_twp_meta_pattern: So eben hat {author} einen neuenBeitrag "{title}" auf {full_url} veröffentlicht. ☺️
-_twp_send_to_channel: "0"
-_wp_page_template: default
 author: Grotax
 date: "2018-04-26T11:00:30+00:00"
-guid: https://www.freifunk-suedholstein.de/?page_id=72
-parent_post_id: null
-post_id: "72"
 title: Mitgestalten
-url: /mitgestalten/
-
 ---
 ## Stelle einen Knoten auf
 

@@ -7,38 +7,44 @@
     </header>
 
     {{ $posts := where site.RegularPages "Type" "posts" }}
-    <p class="taxonomy-summary">{{ len $posts }} Beiträge in der Gesamtdarstellung.</p>
+    {{ if gt (len $posts) 0 }}
+      <p class="taxonomy-summary">{{ len $posts }} Beiträge in der Gesamtdarstellung.</p>
 
-    <div class="archive-groups">
-      {{ range $posts.GroupByDate "2006" }}
-        <section class="archive-group">
-          <div class="archive-year-row">
-            <h2>{{ .Key }}</h2>
-            <span>{{ len .Pages }} {{ if eq (len .Pages) 1 }}Eintrag{{ else }}Einträge{{ end }}</span>
-          </div>
+      <div class="archive-groups">
+        {{ range $posts.GroupByDate "2006" }}
+          <section class="archive-group">
+            <div class="archive-year-row">
+              <h2>{{ .Key }}</h2>
+              <span>{{ len .Pages }} {{ if eq (len .Pages) 1 }}Eintrag{{ else }}Einträge{{ end }}</span>
+            </div>
 
-          <ul class="archive-list">
-            {{ range .Pages.ByDate.Reverse }}
-              {{ $categories := .GetTerms "categories" }}
-              <li class="archive-item">
-                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01." }}</time>
-                <div class="archive-item-body">
-                  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                  {{ with .Summary }}
-                    <p class="archive-item-excerpt">{{ . | plainify | truncate 180 }}</p>
-                  {{ end }}
-                  <div class="archive-item-meta">
-                    {{ with $categories }}
-                      {{ range $i, $term := . }}{{ if $i }}, {{ end }}<a href="{{ $term.RelPermalink }}">{{ $term.LinkTitle }}</a>{{ end }}
+            <ul class="archive-list">
+              {{ range .Pages.ByDate.Reverse }}
+                {{ $categories := .GetTerms "categories" }}
+                <li class="archive-item">
+                  <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01." }}</time>
+                  <div class="archive-item-body">
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    {{ with .Summary }}
+                      <p class="archive-item-excerpt">{{ . | plainify | truncate 180 }}</p>
                     {{ end }}
-                    {{ with .ReadingTime }}{{ if $categories }} · {{ end }}{{ . }} Min. Lesezeit{{ end }}
+                    <div class="archive-item-meta">
+                      {{ with $categories }}
+                        {{ range $i, $term := . }}{{ if $i }}, {{ end }}<a href="{{ $term.RelPermalink }}">{{ $term.LinkTitle }}</a>{{ end }}
+                      {{ end }}
+                      {{ with .ReadingTime }}{{ if $categories }} · {{ end }}{{ . }} Min. Lesezeit{{ end }}
+                    </div>
                   </div>
-                </div>
-              </li>
-            {{ end }}
-          </ul>
-        </section>
-      {{ end }}
-    </div>
+                </li>
+              {{ end }}
+            </ul>
+          </section>
+        {{ end }}
+      </div>
+    {{ else }}
+      <div class="empty-state" role="status" aria-live="polite">
+        <p>{{ i18n "empty_archive" }}</p>
+      </div>
+    {{ end }}
   </div>
 {{ end }}
