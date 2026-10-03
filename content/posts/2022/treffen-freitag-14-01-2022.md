@@ -10,6 +10,8 @@ title: Treffen Freitag 14.01.2022
 cover:
   image: /covers/jason-leung-Xaanw0s0pMk-unsplash.webp
   alt: "Treffen Freitag 14.01.2022"
+authors:
+  - Grotax
 ---
 Das erste Treffen 2022!
 

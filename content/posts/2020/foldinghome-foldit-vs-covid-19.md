@@ -9,6 +9,8 @@ tags:
   - foldit
   - verteiltes-rechnen
 title: Folding@home & foldit vs COVID-19
+authors:
+  - Grotax
 ---
 An dieser Stelle möchte ich unsere Reichweite nutzen, um zwei Projekte vorzustellen, die aktuell das Coronavirus sowie mögliche Heilungsmöglichkeiten erforschen.
 

@@ -8,6 +8,8 @@ tags:
   - firmware
   - gluon
 title: Das site Repository
+authors:
+  - Grotax
 ---
 Die Firmware unserer Community basiert auf gluon einer Firmware für Mesh-Netzwerke, diese basiert wiederum auf [LEDE](https://de.wikipedia.org/wiki/LEDE_(Linux-Distribution)) bzw [OpenWrt](https://de.wikipedia.org/wiki/OpenWrt).
 Damit wir gluon in unserer Community einsetzen können, müssen wir eine eigene Konfiguration pflegen. Diese Konfiguration wird site config genannt.

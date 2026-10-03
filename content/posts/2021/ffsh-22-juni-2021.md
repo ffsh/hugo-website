@@ -11,6 +11,8 @@ title: 'FFSH #22 Juni 2021'
 cover:
   image: /covers/omar-flores-MOO6k3RaiwE-unsplash.webp
   alt: "FFSH #22 Juni 2021"
+authors:
+  - Grotax
 ---
 Moin liebe Freifunka,
 

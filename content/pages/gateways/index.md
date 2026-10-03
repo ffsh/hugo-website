@@ -1,5 +1,6 @@
 ---
-author: ulf
+authors:
+  - ulf
 date: "2021-11-12T23:13:30+00:00"
 title: Gateways
 url: /gateways/

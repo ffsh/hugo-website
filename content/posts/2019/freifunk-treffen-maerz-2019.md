@@ -10,6 +10,8 @@ tags:
   - südholstein
   - treffen
 title: Freifunk Treffen März 2019
+authors:
+  - Grotax
 ---
 Das dritte Treffen 2019, findet wieder in Bad Oldesloe in der [OASE](https://www.freifunk-suedholstein.de/events/venues/oase-oldesloer-alternative-soziale-einrichtung-e-v/) statt. Wir freuen uns über zahlreiches Erscheinen. Auch neue Freifunker oder Interessierte sind herzlich eingeladen.
 

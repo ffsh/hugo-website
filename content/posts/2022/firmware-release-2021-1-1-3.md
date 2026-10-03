@@ -12,6 +12,8 @@ title: Firmware Release 2021.1.1.3
 cover:
   image: /covers/umberto-jXd2FSvcRr8-unsplash.webp
   alt: "Firmware Release 2021.1.1.3"
+authors:
+  - Grotax
 ---
 Moin es gibt wieder eine neue Firmware.
 

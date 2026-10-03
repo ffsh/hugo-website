@@ -7,6 +7,8 @@ tags:
   - firmware
   - treffen
 title: 'FFSH #1: September 18'
+authors:
+  - Grotax
 ---
 Eine kleine Zusammenfassung des Monats September 18.
 

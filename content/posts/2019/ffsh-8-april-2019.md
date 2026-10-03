@@ -9,6 +9,8 @@ tags:
   - freifunk
   - südholstein
 title: 'FFSH #8: April 2019'
+authors:
+  - Grotax
 ---
 Etwas verspätet hier der April-Beitrag.
 

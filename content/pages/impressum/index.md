@@ -1,5 +1,6 @@
 ---
-author: ks
+authors:
+  - ks
 date: "2018-03-20T10:41:10+00:00"
 title: Impressum
 url: /impressum/

@@ -8,6 +8,8 @@ tags:
   - gluon
   - jenkins
 title: Firmware bauen mit Jenkins
+authors:
+  - Grotax
 ---
 Jenkins ist eine in Java geschriebene Software für automatisiertes compilieren von Software.
 Bisher wurde die Firmware manuell in der Konsole gebaut. Ab sofort werden die Firmware Images von Jenkins gebaut. Daraus ergeben sich folgende Änderungen:

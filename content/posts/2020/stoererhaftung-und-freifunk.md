@@ -7,6 +7,8 @@ tags:
   - freifunk
   - störerhaftung
 title: Störerhaftung und Freifunk
+authors:
+  - Grotax
 ---
 Wir erinnern uns noch dunkel, es gab mal dieses Bestreben, die Störerhaftung für Betreiber von offenen WLANs abzuschaffen, darauf hin gab es dann eine neue Novelle des TMG (Telemedien Gesetz) dabei sollten Bertreiber von der Haftung ausgenommen werden, wenn klar ist, dass es sich bei dem Verursacher der Urheberrechtsverletzung nicht um den Anschlussinhaber sondern einen Dritten handelt. Als neues Werkzeug für Urheber kamen Websperren ins Spiel.
 

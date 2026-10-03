@@ -6,6 +6,8 @@ tags:
   - august
   - treffen
 title: KEIN Treffen im August
+authors:
+  - Grotax
 ---
 Liebe Freifunkerinnern und Freifunker,
 

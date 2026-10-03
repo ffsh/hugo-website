@@ -11,6 +11,8 @@ title: Freitrix - ein FFSH Projekt
 cover:
   image: /covers/khaled-ali-RpteA0T0Quc-unsplash.webp
   alt: "Freitrix - ein FFSH Projekt"
+authors:
+  - Grotax
 ---
 Hallo liebe Freifunka,
 

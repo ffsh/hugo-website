@@ -8,6 +8,8 @@ tags:
   - südholstein
   - verein
 title: Start Freifunk Südholstein e.V.
+authors:
+  - Grotax
 ---
 Herzlich willkommen auf unserer frisch veröffentlichten Webseite zum Freifunk Südholstein e.V..
 

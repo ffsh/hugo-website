@@ -5,6 +5,8 @@ date: "2023-04-16T16:50:48+00:00"
 tags:
   - freitrix
 title: Freitrix - Ende nach fast 6 Jahren
+authors:
+  - Grotax
 ---
 Im November 2017 ging der Matrix Server Freitrix.de online. Statistik Daten lasse ich an dieser Stelle mal weg.
 

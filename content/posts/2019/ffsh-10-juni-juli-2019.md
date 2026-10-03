@@ -9,6 +9,8 @@ tags:
   - juni
   - südholstein
 title: 'FFSH #10: Juni & Juli 2019'
+authors:
+  - Grotax
 ---
 Das Modem schwitzt und keucht damit es die letzten Bits des aktuellen Trendvideos über die Leitung bekommt, es ist Sommer.  
 Dieses mal erscheinen die Beiträge für Juni und Juli als ein gemeinsamer Beitrag, dies hat sowohl zeitliche als auch technische Gründe.

@@ -6,6 +6,8 @@ tags:
   - firmware
   - gluon
 title: Firmware Update auf 2018.1.1
+authors:
+  - Grotax
 ---
 Auch wenn ich letzte Woche bereits ein Update auf 2018.1 verteilt hatte, dass bereits die Reparaturen von 2018.1.1 hatte. Habe ich mich dazu entschlossen erneut ein Update zu veröffentlichen, dass diesmal auch den richtigen Namen hat.
 

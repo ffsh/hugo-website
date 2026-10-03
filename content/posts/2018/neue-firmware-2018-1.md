@@ -6,6 +6,8 @@ summary: |-
 tags:
   - firmware
 title: 'Neue Firmware: 2018.1'
+authors:
+  - Grotax
 ---
 Moin,
 ab heute gibt es die neue 2018er Firmware für Freifunk Südholstein.

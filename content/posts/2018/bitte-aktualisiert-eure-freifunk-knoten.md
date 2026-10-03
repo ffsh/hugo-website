@@ -6,6 +6,8 @@ summary: |-
 tags:
   - firmware
 title: Bitte aktualisiert eure Freifunk-Knoten
+authors:
+  - Grotax
 ---
 Hiermit möchte ich noch einmal dazu aufrufen eure Knoten zu aktualisieren.
 Wir können nur eine begrenzte Anzahl von Versionen in unserem Netzwerk unterstützen.

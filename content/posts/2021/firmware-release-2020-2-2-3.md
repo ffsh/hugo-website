@@ -11,6 +11,8 @@ title: Firmware Release 2020.2.2.3
 cover:
   image: /covers/michael-dziedzic-Rc6usOigMk-unsplash2.webp
   alt: "Firmware Release 2020.2.2.3"
+authors:
+  - Grotax
 ---
 Hallo zusammen, ich habe heute eine neue Firmware mit der Version 2020.2.2.3 veröffentlicht.  
 Photo by [Michael Dziedzic](https://unsplash.com/@lazycreekimages?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/firmware?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

@@ -6,6 +6,8 @@ tags:
   - oktober
   - treffen
 title: Treffen November 2020
+authors:
+  - Grotax
 ---
 Ahoi
 

@@ -12,6 +12,8 @@ title: Firmware Update 2023.2.1.0
 cover:
   image: /covers/umberto-jXd2FSvcRr8-unsplash.webp
   alt: "Firmware Update 2023.2.1.0"
+authors:
+  - Grotax
 ---
 Moin zusammen,
 

@@ -6,6 +6,8 @@ tags:
   - freifunk
   - südholstein
 title: Happy Birthday!
+authors:
+  - Grotax
 ---
 Heute wird unser Freifunkprojekt drei Jahre alt.
 Am 21.06.15 startete das erste Gateway für Freifunk Stormarn.

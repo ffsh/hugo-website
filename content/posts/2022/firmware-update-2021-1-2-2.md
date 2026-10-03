@@ -11,6 +11,8 @@ title: Firmware Update 2021.1.2.2
 cover:
   image: /covers/michael-dziedzic-Rc6usOigMk-unsplash2.webp
   alt: "Firmware Update 2021.1.2.2"
+authors:
+  - Grotax
 ---
 Es gibt wieder ein neues Firmware Update für alle Router.  
 Es handelt sich dabei um ein kleines Update, welches ein paar Fehler behebt sowie die Konfiguration etwas anpasst.

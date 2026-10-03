@@ -12,6 +12,8 @@ title: 'FFSH #21 Osterspecial'
 cover:
   image: /covers/egg-2147169_1920.webp
   alt: "FFSH #21 Osterspecial"
+authors:
+  - Grotax
 ---
 Hallo und euch allen ein frohes Osterfest.
 

@@ -6,6 +6,8 @@ tags:
   - freifunk
   - treffen
 title: Heute kein Treffen!
+authors:
+  - Grotax
 ---
 Unser Treffen in Bad Oldesloe fällt heute aus.
 

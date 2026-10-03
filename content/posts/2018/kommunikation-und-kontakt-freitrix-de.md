@@ -7,6 +7,8 @@ tags:
   - freitrix
   - südholstein
 title: Kommunikation und Kontakt - freitrix.de
+authors:
+  - Grotax
 ---
 Es gibt verschiedene Wege um Kontakt zu uns herzustellen.
 An dieser Stelle sei einmal auf das (unser) Projekt [freitrix.de](https://www.freitrix.de/) hingewiesen.

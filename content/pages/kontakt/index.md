@@ -1,5 +1,6 @@
 ---
-author: Grotax
+authors:
+  - Grotax
 date: "2018-04-30T09:51:10+00:00"
 title: Kontakt
 url: /kontakt/

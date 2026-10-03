@@ -6,6 +6,8 @@ tags:
   - dezember
   - treffen
 title: Freifunk Treffen Dezember 2018
+authors:
+  - Grotax
 ---
 Moin, es naht das letzte Treffen des Jahres - diesmal wieder im Vintage in Reinbek.
 

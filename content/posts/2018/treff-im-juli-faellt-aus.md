@@ -6,6 +6,8 @@ tags:
   - juli
   - treffen
 title: Treff im Juli fällt aus
+authors:
+  - Grotax
 ---
 Auf Grund des hoffentlich guten Wetters, einiger Urlaube und wenig Neuigkeiten, haben wir uns dazu entschlossen eine Sommerpause einzulegen.
 Das Treffen im Juli, am Freitag den 13.07. fällt somit aus.

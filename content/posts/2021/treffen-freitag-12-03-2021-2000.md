@@ -9,6 +9,8 @@ title: Treffen Freitag 12.03.2021, 20:00
 cover:
   image: /covers/georgiana-avram-gASJ-p0Mblw-unsplash.webp
   alt: "Treffen Freitag 12.03.2021, 20:00"
+authors:
+  - Grotax
 ---
 Hallo liebe Freifunka,
 

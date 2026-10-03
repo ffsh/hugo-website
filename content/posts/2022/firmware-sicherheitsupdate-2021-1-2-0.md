@@ -11,6 +11,8 @@ title: Firmware Sicherheitsupdate 2021.1.2.0
 cover:
   image: /covers/markus-spiske-gcgves5H_Ac-unsplash.webp
   alt: "Firmware Sicherheitsupdate 2021.1.2.0"
+authors:
+  - Grotax
 ---
 Moin liebe Freifunka,
 

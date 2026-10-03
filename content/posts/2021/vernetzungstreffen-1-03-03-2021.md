@@ -10,6 +10,8 @@ title: 'Vernetzungstreffen #1 - 03.03.2021'
 cover:
   image: /covers/benjamin-child-0sT9YhNgSEs-unsplash1.webp
   alt: "Vernetzungstreffen #1 - 03.03.2021"
+authors:
+  - Grotax
 ---
 Moin liebe Freifunker,
 

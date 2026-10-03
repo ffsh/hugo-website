@@ -10,6 +10,8 @@ title: Letztes Treffen.
 cover:
   image: /covers/compare-fibre-fRGoTJFQAHM-unsplash.webp
   alt: "Letztes Treffen."
+authors:
+  - Grotax
 ---
 Moin liebe Freifunker\*innen,
 

@@ -7,6 +7,8 @@ tags:
   - reinbek
   - treffen
 title: Morgen Treffen in Reinbek
+authors:
+  - Grotax
 ---
 Hallo Freifunker und Interessierte,
 

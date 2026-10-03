@@ -6,6 +6,8 @@ tags:
   - bad-oldesloe
   - treffen
 title: Heute 18:00 Treffen in Bad Oldesloe
+authors:
+  - Grotax
 ---
 In 2 Stunden (18:00) treffen wir uns in der [OASE Oldesloer Alternative Soziale Einrichtung e.V.](https://www.freifunk-suedholstein.de/events/venues/oase-oldesloer-alternative-soziale-einrichtung-e-v/) in Bad Oldesloe.
 Themen sind neben Freifunk wie immer:

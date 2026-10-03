@@ -5,6 +5,8 @@ date: "2018-07-04T19:18:00+00:00"
 tags:
   - firmware
 title: Fehler beim Update auf 2017.1.8
+authors:
+  - Grotax
 ---
 Beim letzten Firmware Update ist mir leider ein Fehler unterlaufen. Dieser hat die Folge, dass Dein Lauenburg Knoten jetzt ein Stormarn Knoten ist.  
 **Was bedeutet das?**  

@@ -7,6 +7,8 @@ tags:
   - freifunk
   - gemeinnützigkeit
 title: Anerkennung der Gemeinnützigkeit von Freifunk- Initiativen
+authors:
+  - Grotax
 ---
 Wie ich in den beiden letzten Beiträgen schon berichtet hatte. Gibt es aktuell erneut Bemühungen die Abgabenordnung dahin gehend zu ändern, dass das Betrieben von Netzen wie wir es tun als gemeinnützig anerkannt wird.
 

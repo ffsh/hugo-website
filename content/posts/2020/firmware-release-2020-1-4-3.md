@@ -6,6 +6,8 @@ tags:
   - firmware
   - freifunk-südholstein
 title: Firmware Release 2020.1.4.3
+authors:
+  - Grotax
 ---
 Moin Moin
 

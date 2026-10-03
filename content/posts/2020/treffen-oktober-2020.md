@@ -7,6 +7,8 @@ tags:
   - oktober
   - treffen
 title: Treffen Oktober 2020
+authors:
+  - Grotax
 ---
 Moin Moin
 

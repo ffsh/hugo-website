@@ -8,6 +8,8 @@ tags:
   - november
   - südholstein
 title: 'FFSH #3: November 18'
+authors:
+  - Grotax
 ---
 Etwas verspätet und obwohl es bereits Dezember ist hier der November-Beitrag.  
 

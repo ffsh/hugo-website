@@ -12,6 +12,8 @@ title: Firmware Release 2021.1.1.0
 cover:
   image: /covers/thomas-jensen-C9dTdBM3joM-unsplash.webp
   alt: "Firmware Release 2021.1.1.0"
+authors:
+  - Grotax
 ---
 Moin liebe Freifunka,
 

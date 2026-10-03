@@ -9,6 +9,8 @@ tags:
   - september
   - südholstein
 title: 'FFSH #11 August & September'
+authors:
+  - Grotax
 ---
 Die ersten Blätter fallen vom Baum, ein neuer Blogbeitrag erscheint und es ist bereits September.
 

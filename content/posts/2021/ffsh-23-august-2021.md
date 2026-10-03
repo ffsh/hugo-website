@@ -9,6 +9,8 @@ title: 'FFSH #23 August 2021'
 cover:
   image: /covers/michal-mrozek-AP-OWtqJJeE-unsplash.webp
   alt: "FFSH #23 August 2021"
+authors:
+  - Grotax
 ---
 Moin ein kleines Update aus dem Maschinenraum!
 

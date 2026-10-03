@@ -6,6 +6,8 @@ tags:
   - treffen
   - vernetzungstreffen
 title: 'Vernetzungstreffen #2 - 02.06.2021'
+authors:
+  - Grotax
 ---
 Moin liebe Freifunka,
 

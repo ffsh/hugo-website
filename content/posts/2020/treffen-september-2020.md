@@ -7,6 +7,8 @@ tags:
   - september
   - treffen
 title: Treffen September 2020
+authors:
+  - Grotax
 ---
 Hey, in etwa einer halben Stunde um 20:00 startet unser Freifunk Treffen, dass einmal im Monat stattfindet.  
 Seit dem Ausbruch der Pandemie haben wir unsere Treffen digital abgehalten.

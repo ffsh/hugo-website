@@ -7,6 +7,8 @@ tags:
   - firmware
   - v2018.2.1
 title: Firmware Update 2018.2.1 freigegeben
+authors:
+  - Grotax
 ---
 Gerade habe ich das Update **2018.2.1** freigegeben. Die Router sollten relativ schnell updaten.
 

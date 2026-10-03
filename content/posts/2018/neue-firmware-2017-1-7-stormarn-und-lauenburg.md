@@ -9,6 +9,8 @@ tags:
   - lauenburg
   - stormarn
 title: Neue Firmware 2017.1.7 (Stormarn und Lauenburg)
+authors:
+  - Grotax
 ---
 Heute haben wir die Version 2017.1.7 veröffentlicht diese bringt folgende Änderungen mit sich:
 

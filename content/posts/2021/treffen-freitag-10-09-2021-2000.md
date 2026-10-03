@@ -6,6 +6,8 @@ tags:
   - freifunk-südholstein
   - treffen
 title: Treffen Freitag 10.09.2021 20:00
+authors:
+  - Grotax
 ---
 Moin liebe Freifunka,
 

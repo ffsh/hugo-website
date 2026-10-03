@@ -9,6 +9,8 @@ tags:
   - freifunk
   - südholstein
 title: 'FFSH #6: Februar 2019'
+authors:
+  - Grotax
 ---
 Es ist Februar und Zeit für einen neuen Blogbeitrag, diesen Monat geht es um die TLS-Probleme, Neuerungen auf der Webseite und die Überarbeitung der Dokumentation.
 

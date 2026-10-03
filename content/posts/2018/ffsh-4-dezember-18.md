@@ -8,6 +8,8 @@ tags:
   - freifunk
   - südholstein
 title: 'FFSH #4: Dezember 18'
+authors:
+  - Grotax
 ---
 Die ersten Schneeflocken sind gefallen und wir haben Dezember. Vom 27. - 30.12.18 findet in Leipzig der 35C3 (35. Chaos Communication Congress) statt, es gibt wieder viele interessante Vorträge und auch den einen oder anderen Freifunker kann man hier antreffen. Wer nicht nach Leipzig kann oder kein Ticket bekommen konnte, der kann sich [Livestreams](https://streaming.media.ccc.de/) und [Aufzeichnungen](https://media.ccc.de/) ansehen. Wenn Du eine Empfehlung hast, dann schreibe doch einen Kommentar oder erwähne uns in einem [toot](https://norden.social/@ffsh).
 

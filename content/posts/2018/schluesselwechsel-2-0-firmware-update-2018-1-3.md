@@ -9,6 +9,8 @@ tags:
   - v2018.2
   - v2019.1
 title: Schlüsselwechsel 2.0 &amp; Firmware Update 2018.1.3
+authors:
+  - Grotax
 ---
 Ab heute wird eine neue Firmware auf dem `testing` und `rc` Zweig verteilt. Diese basiert auf Gluon 2018.1.3 und enthält einige Fehlerbhebungen.
 

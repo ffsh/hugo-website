@@ -7,7 +7,17 @@
       <h1>{{ .Title }}</h1>
       <div class="article-meta">
         {{ with .Date }}<time datetime="{{ .Format "2006-01-02" }}">{{ .Format "02.01.2006" }}</time>{{ end }}
-        {{ with .Params.author }}<span>· {{ . }}</span>{{ end }}
+        {{ with .GetTerms "authors" }}
+          <span>·
+            {{ range $index, $term := . }}{{ if $index }}, {{ end }}<a href="{{ $term.RelPermalink }}">{{ $term.LinkTitle }}</a>{{ end }}
+          </span>
+        {{ else }}
+          {{ $authorName := .Params.author }}
+          {{ if not $authorName }}{{ $authorName = site.Params.author.name }}{{ end }}
+          {{ with $authorName }}
+            <span>· <a href="{{ printf "/authors/%s/" (urlize .) | relURL }}">{{ . }}</a></span>
+          {{ end }}
+        {{ end }}
         <span>· {{ .ReadingTime }}-minütige Lektüre</span>
       </div>
 

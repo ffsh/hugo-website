@@ -7,6 +7,8 @@ tags:
   - reinbek
   - treffen
 title: Freifunk Treffen April 2019
+authors:
+  - Grotax
 ---
 Diesen Freitag Treffen wir uns wieder im Vintage in Reinbek. Interessierte neue Besucher sind herzlich eingeladen.
 

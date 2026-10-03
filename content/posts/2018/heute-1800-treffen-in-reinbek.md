@@ -6,6 +6,8 @@ tags:
   - juni
   - treffen
 title: Heute 18:00 Treffen in Reinbek
+authors:
+  - Grotax
 ---
 In 2 Stunden (18:00) treffen wir uns im [Vintage](https://www.freifunk-suedholstein.de/events/venues/the-vintage/) in Reinbek.
 Themen sind neben Freifunk wie immer:

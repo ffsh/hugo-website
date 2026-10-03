@@ -6,6 +6,8 @@ tags:
   - freifunk
   - südholstein
 title: Freifunk Südholstein
+authors:
+  - Grotax
 ---
 Liebe Freifunkas,
 im Juni 2015 ging Freifunk Stormarn ans Netz. Wenige Monate später schlossen sich ein paar Freifunkas aus dem Kreis Herzogtum Lauenburg an, sodass wir damals die gleiche Infrastruktur Aufbauten und die Firmware so gestalteten, dass sie sich hauptsächlich nur durch die SSID unterschied.

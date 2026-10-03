@@ -8,6 +8,8 @@ tags:
   - freifunk
   - südholstein
 title: 'FFSH #13 Februar 2020'
+authors:
+  - Grotax
 ---
 Moin an alle Freifunker, ja wir leben noch. Da mein letzter Beitrag schon eine Weile her ist, willkommen im neuen Jahr.
 

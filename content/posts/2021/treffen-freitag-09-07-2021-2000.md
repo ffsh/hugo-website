@@ -10,6 +10,8 @@ title: Treffen Freitag 09.07.2021 20:00
 cover:
   image: /covers/erik-mclean-RKYccSX4AJM-unsplash.webp
   alt: "Treffen Freitag 09.07.2021 20:00"
+authors:
+  - Grotax
 ---
 Moin, heute Abend ist es wieder soweit Zeit für unser Freifunk Treffen,
 

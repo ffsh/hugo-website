@@ -1,5 +1,6 @@
 ---
-author: Grotax
+authors:
+  - Grotax
 date: "2018-05-15T08:44:15+00:00"
 title: Statistiken
 url: /statistiken/

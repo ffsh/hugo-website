@@ -8,6 +8,8 @@ tags:
   - mai
   - südholstein
 title: 'FFSH #9: Mai 2019'
+authors:
+  - Grotax
 ---
 Alles neu macht der Mai, naja fast, super viel hat sich in letzter Zeit nicht bewegt. Dennoch möchte ich in diesem Beitrag die Ereignisse der letzten Wochen zusammentragen.
 

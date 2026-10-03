@@ -10,6 +10,8 @@ title: Treffen Freitag 08.10.2021
 cover:
   image: /covers/petr-magera-u4WFV0pAZpc-unsplash.webp
   alt: "Treffen Freitag 08.10.2021"
+authors:
+  - Grotax
 ---
 Moin liebe Freifunka es ist wieder so weit, wir treffen uns online am 08.10.2021
 

@@ -10,6 +10,8 @@ tags:
   - frimware
   - südholstein
 title: 'FFSH #14 April 2020'
+authors:
+  - Grotax
 ---
 Die ersten Blumen fangen an zu blühen, an den ersten warmen Tagen riecht es bereits nach Frühling, es ist April.
 

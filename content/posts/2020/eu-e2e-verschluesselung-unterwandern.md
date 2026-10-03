@@ -7,6 +7,8 @@ tags:
   - e2e
   - politik
 title: 'EU: E2E Verschlüsselung unterwandern'
+authors:
+  - Grotax
 ---
 Vertraulichkeit, Integrität, Verfügbarkeit¹ sind die Schutzziele der Informationssicherheit. Mit Verschlüsselung erreichen wir sowohl Vertraulichkeit als auch Integrität, sie sind für eine sichere Kommunikation essentiell.
 

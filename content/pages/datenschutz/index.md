@@ -1,5 +1,6 @@
 ---
-author: ks
+authors:
+  - ks
 date: "2018-03-11T19:27:58+00:00"
 title: Datenschutz
 url: /datenschutz/

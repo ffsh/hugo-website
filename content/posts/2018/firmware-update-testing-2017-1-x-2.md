@@ -8,6 +8,8 @@ tags:
   - stormarn
   - testing
 title: 'Firmware Update Testing: 2017.1.x'
+authors:
+  - Grotax
 ---
 Heute habe ich ein update für Stormarn/ [testing](http://firmware.stormarn.freifunk.net/testing) und Lauenburg/ [testing](http://firmware.lauenburg.freifunk.net/testing) veröffentlicht.
 

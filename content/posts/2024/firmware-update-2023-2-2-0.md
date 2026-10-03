@@ -11,6 +11,8 @@ title: Firmware Update 2023.2.2.0
 cover:
   image: /covers/stephen-phillips-hostreviews-co-uk-tN344soypQM-unsplash.webp
   alt: "Firmware Update 2023.2.2.0"
+authors:
+  - Grotax
 ---
 Moin aus dem Maschinenraum.
 

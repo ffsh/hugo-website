@@ -6,6 +6,8 @@ tags:
   - firmware
   - freifunk-südholstein
 title: Firmware Update 2021.1.2.1
+authors:
+  - Grotax
 ---
 Moin liebe Freifunka,
 

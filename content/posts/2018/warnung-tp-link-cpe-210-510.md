@@ -5,6 +5,8 @@ date: "2018-06-05T11:01:02+00:00"
 tags:
   - firmware
 title: '[Update] Warnung TP-Link CPE 210/510'
+authors:
+  - Grotax
 ---
 Mit Bildnummer 112 sollte das Problem behoben sein trotzdem gilt weiterhin:
 Der dev Kanal ist sehr experimentell und nur für Freifunker mit sehr viel Erfahrung (löten, tftp, Serielle Konsole, etc.).

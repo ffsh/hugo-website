@@ -9,6 +9,8 @@ tags:
   - gluon
   - v2018.1
 title: Treffen und Fimrware-Update
+authors:
+  - Grotax
 ---
 Noch einmal zur Erinnerung: Morgen findet nach der längeren Pause wieder ein Treffen statt.  
 Wo: [OASE in Bad Oldesloe](https://www.freifunk-suedholstein.de/events/venues/oase-oldesloer-alternative-soziale-einrichtung-e-v/)  

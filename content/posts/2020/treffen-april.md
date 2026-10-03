@@ -3,6 +3,8 @@ categories:
   - allgemein
 date: "2020-04-03T07:45:07+00:00"
 title: Treffen April
+authors:
+  - Grotax
 ---
 Achtung!! Uhrzeit und Ort geändert!!
 

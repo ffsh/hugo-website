@@ -11,6 +11,8 @@ title: Firmware Update 2022.1.3.0
 cover:
   image: /covers/michael-dziedzic-Rc6usOigMk-unsplash2.webp
   alt: "Firmware Update 2022.1.3.0"
+authors:
+  - Grotax
 ---
 Leibe FreifunkerInnen,  
 es gibt eine neue Frimware 2022.1.3.0, nach ungefähr 5 Monaten.  

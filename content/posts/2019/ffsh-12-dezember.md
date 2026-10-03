@@ -11,6 +11,8 @@ tags:
   - südholstein
   - v2019.1
 title: 'FFSH #12 Dezember'
+authors:
+  - Grotax
 ---
 Und plötzlich ist Dezember, das Jahr neigt sich dem Ende zu, doch eins ist sicher, es wird nicht das Letzte sein. Und auch bei Freifunk Südholstein geht es weiter.
 

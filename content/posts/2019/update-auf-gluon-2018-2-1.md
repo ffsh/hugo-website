@@ -10,6 +10,8 @@ tags:
   - südholstein
   - v2018.2.1
 title: Update auf Gluon 2018.2.1
+authors:
+  - Grotax
 ---
 Wir haben wieder ein paar Updates in Vorbereitung. In den nächsten Tagen werden wir alle Knoten auf 2018.2.1 aktualisieren.
 

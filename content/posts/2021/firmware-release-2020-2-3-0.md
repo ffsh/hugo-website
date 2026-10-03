@@ -7,6 +7,8 @@ tags:
   - firmware
   - freifunk-südholstein
 title: Firmware Release 2020.2.3.0
+authors:
+  - Grotax
 ---
 Wir haben erfolgreich das neuste Gluon Update an die meisten Knoten ausgerollt.
 

@@ -2,7 +2,8 @@
 date: '2026-10-03T06:26:27Z'
 draft: true
 title: 'Karte'
-author: Grotax
+authors:
+  - Grotax
 url: /karte/
 references:
   - "Freifunk Südholstein – Meshviewer: Interaktive Knotenkarte auf map.freifunk-suedholstein.de"

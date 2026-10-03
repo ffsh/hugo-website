@@ -1,9 +1,13 @@
 {{ define "main" }}
   <div class="container content-block">
     <header class="page-header taxonomy-page-header">
-      <p class="eyebrow">{{ if eq .Data.Singular "category" }}{{ i18n "category_label" }}{{ else }}{{ i18n "tag_label" }}{{ end }}</p>
+      <p class="eyebrow">
+        {{ if eq .Data.Singular "category" }}{{ i18n "category_label" }}{{ else if eq .Data.Singular "author" }}Autor{{ else }}{{ i18n "tag_label" }}{{ end }}
+      </p>
       <h1>{{ .Title }}</h1>
-      <p class="lead">{{ i18n "all_posts_with_topic" }}</p>
+      <p class="lead">
+        {{ if eq .Data.Singular "author" }}Alle Beiträge von {{ .Title }}.{{ else }}{{ i18n "all_posts_with_topic" }}{{ end }}
+      </p>
     </header>
 
     <div class="taxonomy-summary">

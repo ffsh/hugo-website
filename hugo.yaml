@@ -5,6 +5,7 @@ theme: freifuk-theme
 taxonomies:
   category: categories
   tag: tags
+  author: authors
 params:
   description: Freifunkverbund aus Herzogtum Lauenburg und Stormarn
   githubRepo: https://github.com/ffsh/hugo-website

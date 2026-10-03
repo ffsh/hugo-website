@@ -11,6 +11,8 @@ title: Firmware Update 2025.1.3.0
 cover:
   image: /covers/michael-dziedzic-Rc6usOigMk-unsplash2.webp
   alt: "Firmware Update 2025.1.3.0"
+authors:
+  - Grotax
 ---
 **Moin zusammen,**
 

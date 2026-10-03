@@ -6,6 +6,8 @@ tags:
   - firmware
   - freifunk-südholstein
 title: Firmware Release 2020.2.1.1
+authors:
+  - Grotax
 ---
 Heute habe ich eine neue Firmware für alle Router freigegeben.
 

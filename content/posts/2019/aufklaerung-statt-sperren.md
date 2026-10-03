@@ -8,6 +8,8 @@ tags:
   - torrent
   - zensur
 title: Aufklärung statt Sperren
+authors:
+  - Grotax
 ---
 Am 20.04.2019 wurden wir informiert, dass über unser Freifunk Netzwerk der Film Aquaman verteilt wurde.
 

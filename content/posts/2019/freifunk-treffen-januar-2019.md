@@ -8,6 +8,8 @@ tags:
   - südholstein
   - treffen
 title: Freifunk Treffen Januar 2019
+authors:
+  - Grotax
 ---
 Morgen findet das erste Treffen des Jahres 2019 statt. Diesmal wieder in Bad Oldesloe in der [OASE](https://www.freifunk-suedholstein.de/events/venues/oase-oldesloer-alternative-soziale-einrichtung-e-v/).
 

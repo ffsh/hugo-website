@@ -11,6 +11,8 @@ title: 'FFSH #19 März 2021'
 cover:
   image: /covers/ekaterina-novitskaya-tWU1dHBKBK4-unsplash.webp
   alt: "FFSH #19 März 2021"
+authors:
+  - Grotax
 ---
 ```
 März

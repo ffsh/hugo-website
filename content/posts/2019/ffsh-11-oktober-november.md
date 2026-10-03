@@ -10,6 +10,8 @@ tags:
   - oktober
   - südholstein
 title: 'FFSH #11 Oktober & November'
+authors:
+  - Grotax
 ---
 Langsam wird es richtig kalt draußen und es wird Zeit sich drinnen um den Freifunk Knoten zu sammeln.
 

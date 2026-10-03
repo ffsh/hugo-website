@@ -7,6 +7,8 @@ tags:
   - "2018"
   - dezember
 title: Frohes Fest und guten Rutsch
+authors:
+  - Grotax
 ---
 Das Team vom Freifunk Südholstein wünscht allen ein frohes Weihnachtsfest, besinnliche Feiertage und einen guten Rutsch ins Jahr 2019.
 

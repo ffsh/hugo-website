@@ -7,6 +7,8 @@ tags:
   - freifunk-südholstein
   - treffen
 title: Treffen Freitag 12.11.21
+authors:
+  - Grotax
 ---
 Moin Freifunka, es ist wieder so weit nächsten Freitag treffen wir uns.
 

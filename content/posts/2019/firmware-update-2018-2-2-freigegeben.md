@@ -7,6 +7,8 @@ tags:
   - gluon
   - v2018.2.2
 title: Firmware Update 2018.2.2 freigegeben
+authors:
+  - Grotax
 ---
 Gestern habe ich ein neues Firmwareupdate freigegeben.
 

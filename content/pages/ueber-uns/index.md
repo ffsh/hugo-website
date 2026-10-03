@@ -1,5 +1,6 @@
 ---
-author: Grotax
+authors:
+  - Grotax
 date: "2018-04-30T09:52:08+00:00"
 title: Über uns
 url: /ueber-uns/

@@ -12,6 +12,8 @@ title: Firmware Update 2022.1.0.0
 cover:
   image: /covers/thomas-jensen-C9dTdBM3joM-unsplash.webp
   alt: "Firmware Update 2022.1.0.0"
+authors:
+  - Grotax
 ---
 Es ist wieder so weit, es gibt eine neue Firmware.
 

@@ -13,6 +13,8 @@ title: VPN und Freifunk
 cover:
   image: /covers/denny-muller-JyRTi3LoQnc-unsplash-scaled.webp
   alt: "VPN und Freifunk"
+authors:
+  - Grotax
 ---
 In diesem Beitrag geht es über VPNs und was das mit Freifunk zu tun hat.  
 Photo by [Denny Müller](https://unsplash.com/@redaquamedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/network?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

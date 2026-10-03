@@ -10,6 +10,8 @@ title: Treffen Freitag 11.02.2022
 cover:
   image: /covers/compare-fibre-fRGoTJFQAHM-unsplash.webp
   alt: "Treffen Freitag 11.02.2022"
+authors:
+  - Grotax
 ---
 Treffen #2 dieses Jahr findet am Freitag den 11.02.2022 um
 

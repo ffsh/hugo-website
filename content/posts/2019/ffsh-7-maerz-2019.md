@@ -8,6 +8,8 @@ tags:
   - märz
   - südholstein
 title: 'FFSH #7: März 2019'
+authors:
+  - Grotax
 ---
 Es wird langsam Frühling (wobei es ziemlich viel regnet) und es ist Zeit für einen neuen Blogbeitrag.
 

@@ -8,6 +8,8 @@ tags:
   - freifunk
   - südholstein
 title: FFSH Dokumentation
+authors:
+  - Grotax
 ---
 Ab heute findet ihr oben im Menü unter "Mitgestalten" einen neuen Eintrag: [Dokumentation](https://freifunk-suedholstein.readthedocs.io/de/latest/).  
 Dieser leitet euch zu [readthedocs](https://readthedocs.org/) weiter, wo ihr ab sofort eine Dokumentation zu unseren Gateways, der Firmware und anderen Projekten findet.

@@ -11,6 +11,8 @@ title: Treffen Freitag 10.12.2021
 cover:
   image: /covers/jonatan-pie-NBvcQRdRSeQ-unsplash1.webp
   alt: "Treffen Freitag 10.12.2021"
+authors:
+  - Grotax
 ---
 Moin liebe Freifunkerinnen,
 

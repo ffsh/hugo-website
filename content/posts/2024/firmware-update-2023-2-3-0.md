@@ -10,6 +10,8 @@ title: Firmware Update 2023.2.3.0
 cover:
   image: /covers/thomas-jensen-ISG-rUel0Uw-unsplash1.webp
   alt: "Firmware Update 2023.2.3.0"
+authors:
+  - Grotax
 ---
 Moin liebe Leute,
 

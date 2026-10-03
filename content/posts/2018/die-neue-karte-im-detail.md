@@ -7,6 +7,8 @@ tags:
   - karte
   - südholstein
 title: Die neue Karte im Detail
+authors:
+  - Grotax
 ---
 Seit einiger Zeit haben wir eine neue Karte für unser Community, diese zeigt alle Knoten in Freifunk-Lauenburg, -Stormarn und auch -Südholstein an.  
 Die neue Karte verwendet gegenüber der alten Karte andere und neuere Software.  

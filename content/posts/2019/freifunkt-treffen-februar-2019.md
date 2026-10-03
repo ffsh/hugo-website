@@ -9,6 +9,8 @@ tags:
   - reinbek
   - treffen
 title: Freifunk Treffen Februar 2019
+authors:
+  - Grotax
 ---
 Moin, es naht das erste Treffen des Jahres in Reinbek, nachdem wir uns im Januar 2019 in Bad Oldesloe getroffen haben.
 

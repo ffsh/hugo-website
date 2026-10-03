@@ -3,6 +3,8 @@ categories:
   - allgemein
 date: "2019-09-28T12:00:11+00:00"
 title: Wir suchen dich
+authors:
+  - Grotax
 ---
 Im Team vom Freifunk Südholstein kann man sich vielfältig mit einbringen.
 

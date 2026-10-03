@@ -6,6 +6,8 @@ tags:
   - freifunk-südholstein
   - treffen
 title: Treffen Freitag 11.03.2022
+authors:
+  - Grotax
 ---
 Moin liebe Freifunka,
 

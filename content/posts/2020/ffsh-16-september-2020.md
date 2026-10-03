@@ -10,6 +10,8 @@ tags:
   - freifunk-südholstein
   - september
 title: 'FFSH #16 September 2020'
+authors:
+  - Grotax
 ---
 Hello World!
 

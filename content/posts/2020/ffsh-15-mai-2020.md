@@ -9,6 +9,8 @@ tags:
   - mai
   - treffen
 title: 'FFSH #15 Mai 2020'
+authors:
+  - Grotax
 ---
 > Der Mai ist gekommen, die Bäume schlagen aus, da bleibe, wer Lust hat, mit Sorgen zuhaus; wie die Wolken dort wandern am himmlischen Zelt, so steht auch mir der Sinn in die weite, weite Welt.
 >

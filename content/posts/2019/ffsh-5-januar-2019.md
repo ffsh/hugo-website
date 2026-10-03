@@ -9,6 +9,8 @@ tags:
   - januar
   - südholstein
 title: 'FFSH #5: Januar 2019'
+authors:
+  - Grotax
 ---
 Der monatliche Blogbeitrag von Freifunk Südholstein.  
 Das Jahr 2019 hat begonnen und es gibt bereits ein paar Neuerungen. Wir arbeiten weiter an unserer Infrastruktur und verbessern die Dokumentation. Außerdem gab es bereits das erste Firmware-Update.

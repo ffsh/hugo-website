@@ -7,6 +7,8 @@ tags:
   - freifunk
   - oktober
 title: 'FFSH #2: Oktober 18'
+authors:
+  - Grotax
 ---
 Die Blätter fallen, die WLAN-Verbindung zum Nachbarn wird besser: Der Fall ist klar es wird Herbst.
 

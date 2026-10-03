@@ -8,6 +8,8 @@ tags:
   - firmware
   - v2018.2
 title: Firmware Update 2018.2
+authors:
+  - Grotax
 ---
 Ab heute wird 2018.2 über das Autoupdate an alle Geräte verteilt.
 
