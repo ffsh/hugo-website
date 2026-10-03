@@ -14,6 +14,32 @@ hugo version
 hugo server -D
 ```
 
+## Create new content
+
+Use the full content path when creating a file. Hugo will scaffold the front matter for you and set `draft: true` by default.
+
+```bash
+# New blog post
+hugo new content posts/2026/my-new-post.md
+
+# New content page
+hugo new content pages/my-section/index.md -k page
+```
+
+Common patterns in this repository:
+
+- Blog posts live in `content/posts/<year>/...`
+- Static pages live in `content/pages/<section>/index.md`
+- The page archetype is defined in `archetypes/page.md`
+- `url` is optional for a page and only needed when you want to override Hugo's default generated path; most pages in this repo keep the default folder-based URL unless a custom URL is required
+- Remove `draft: true` or run `hugo server -D` to preview draft content locally
+
+If you want a page under an existing section, keep the folder name and file name aligned, for example:
+
+```bash
+hugo new content pages/download/new-firmware-guide/index.md -k page
+```
+
 ## Beta deployment
 
 ```bash
@@ -68,6 +94,23 @@ echo "Update bereit"
 ./flash.sh
 {{< /code >}}
 ```
+
+### Citations
+
+Use inline citations in content with the `[cite: 1]` pattern. Then list the matching references in the page front matter:
+
+```yaml
+---
+references:
+  - "Freifunk Südholstein – Meshviewer: Interaktive Knotenkarte"
+  - "Freifunk Südholstein – Loslegen: Anleitung zur Einrichtung"
+---
+
+Der Meshviewer zeigt die Knoten in Echtzeit[cite: 1].
+Mehr Infos findest du in der Einrichtungshilfe[cite: 1, 2].
+```
+
+The citation links are rendered as superscript references and the source list is shown at the end of the page.
 
 ## Build output
 

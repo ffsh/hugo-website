@@ -45,26 +45,22 @@ menu:
       name: Statistiken
       url: /statistiken/
       weight: 40
-    - identifier: faq
-      name: FAQ
-      url: /faq/
-      weight: 50
     - identifier: download
       name: Download
       url: /download/
-      weight: 60
+      weight: 50
     - identifier: contribute
       name: Mitgestalten
       url: /mitgestalten/
-      weight: 70
+      weight: 60
     - identifier: contact
       name: Kontakt
       url: /kontakt/
+      weight: 70
+    - identifier: karte
+      name: Karte
+      url: /karte/
       weight: 80
-    - identifier: archive
-      name: Archiv
-      url: /all/
-      weight: 90
 
   footer:
     - identifier: impressum

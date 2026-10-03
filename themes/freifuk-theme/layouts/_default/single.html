@@ -35,6 +35,17 @@
       {{ .Content }}
     </div>
 
+    {{ with .Params.references }}
+      <section class="citation-references" aria-label="Quellen">
+        <h2>Quellen</h2>
+        <ol>
+          {{ range $index, $ref := . }}
+            <li id="ref-{{ add $index 1 }}">{{ $ref | markdownify }}</li>
+          {{ end }}
+        </ol>
+      </section>
+    {{ end }}
+
     <div class="article-actions" aria-label="Beitrag teilen">
       <span class="share-label">Teilen</span>
       <div class="share-links">
@@ -116,6 +127,56 @@
           }
         });
       });
+
+      const citationPattern = /\[cite:\s*([0-9,\s-]+)\]/g;
+      const transformCitations = (node) => {
+        if (!node || !node.nodeValue) return;
+
+        const original = node.nodeValue;
+        if (!citationPattern.test(original)) return;
+
+        const fragment = document.createDocumentFragment();
+        let cursor = 0;
+        let match;
+        citationPattern.lastIndex = 0;
+
+        while ((match = citationPattern.exec(original)) !== null) {
+          const before = original.slice(cursor, match.index);
+          if (before) fragment.appendChild(document.createTextNode(before));
+
+          const numbers = match[1].split(',').map((item) => item.trim()).filter(Boolean);
+          const sup = document.createElement('sup');
+          sup.className = 'citation';
+
+          numbers.forEach(function (number, index) {
+            if (index > 0) {
+              sup.appendChild(document.createTextNode(', '));
+            }
+
+            const link = document.createElement('a');
+            link.href = '#ref-' + number;
+            link.textContent = '[' + number + ']';
+            sup.appendChild(link);
+          });
+
+          fragment.appendChild(sup);
+          cursor = match.index + match[0].length;
+        }
+
+        if (cursor < original.length) {
+          fragment.appendChild(document.createTextNode(original.slice(cursor)));
+        }
+
+        node.replaceWith(fragment);
+      };
+
+      const textWalker = document.createTreeWalker(article, NodeFilter.SHOW_TEXT);
+      const textNodes = [];
+      while (textWalker.nextNode()) {
+        textNodes.push(textWalker.currentNode);
+      }
+
+      textNodes.forEach(transformCitations);
     });
   </script>
 {{ end }}

@@ -1,6 +1,5 @@
 ---
 author: Grotax
-autopostToMastodon-post-status: "off"
 date: "2019-02-08T11:53:58+00:00"
 title: Hardware
 url: /hardware/

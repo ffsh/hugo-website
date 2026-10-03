@@ -886,6 +886,45 @@ img {
 .article-content > *:first-child { margin-top: 0; }
 .article-content > *:last-child { margin-bottom: 0; }
 
+.article-content .citation {
+  font-size: 0.72em;
+  line-height: 1;
+  vertical-align: super;
+  margin-left: 0.1rem;
+}
+
+.article-content .citation a {
+  color: var(--ff-blue);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.article-content .citation a:hover {
+  text-decoration: underline;
+}
+
+.citation-references {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.citation-references h2 {
+  margin: 0 0 0.8rem;
+  font-size: 1.1rem;
+  letter-spacing: -0.04em;
+}
+
+.citation-references ol {
+  margin: 0;
+  padding-left: 1.4rem;
+  color: var(--ink-700);
+}
+
+.citation-references li + li {
+  margin-top: 0.55rem;
+}
+
 .article-content h1,
 .article-content h2,
 .article-content h3,
