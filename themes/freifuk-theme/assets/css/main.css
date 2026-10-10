@@ -33,6 +33,11 @@
   --header-bg: rgb(2 6 23 / 88%);
   --border: rgb(148 163 184 / 18%);
   --shadow: 0 18px 40px rgb(2 6 23 / 42%);
+  --chip-bg: rgb(15 23 42 / 90%);
+  --chip-border: rgb(138 180 248 / 80%);
+  --chip-text: #8ab4f8;
+  --chip-text-strong: #08111d;
+  --chip-hover-bg: #8ab4f8;
 }
 
 * { box-sizing: border-box; }
@@ -135,31 +140,41 @@ a:focus-visible {
 
 .popular-category,
 .post-category {
-  --chip-bg: rgb(0 158 224 / 10%);
-  --chip-border: rgb(0 158 224 / 28%);
-  --chip-text: var(--ink-800);
+  --chip-bg: rgb(15 23 42 / 90%);
+  --chip-border: rgb(138 180 248 / 75%);
+  --chip-text: #8ab4f8;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 0.28rem 0.7rem;
   border-radius: 999px;
   border: 1px solid var(--chip-border);
-  background: linear-gradient(180deg, rgb(0 158 224 / 10%) 0%, rgb(0 158 224 / 6%) 100%);
+  background: var(--chip-bg);
   color: var(--chip-text);
   font-size: 0.69rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  box-shadow: inset 0 1px 0 rgb(255 255 255 / 45%);
-  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 8%);
+  transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
 }
 
 .popular-category:hover,
-.post-category:hover {
-  border-color: rgb(0 158 224 / 42%);
-  color: var(--ff-blue);
-  background: linear-gradient(180deg, rgb(0 158 224 / 15%) 0%, rgb(0 158 224 / 9%) 100%);
+.post-category:hover,
+.popular-category:focus-visible,
+.post-category:focus-visible,
+.popular-category:active,
+.post-category:active,
+.popular-category.is-active,
+.post-category.is-active {
+  border-color: #8ab4f8;
+  color: #08111d;
+  background: #8ab4f8;
   transform: translateY(-1px);
+}
+
+.popular-category--all {
+  border-color: rgb(138 180 248 / 85%);
 }
 
 img {
