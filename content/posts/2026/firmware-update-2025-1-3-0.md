@@ -3,7 +3,8 @@ categories:
   - firmware
 date: "2026-09-05T10:06:36+00:00"
 title: Firmware Update 2025.1.3.0
-
+tags:
+  - security
 cover:
   image: /covers/michael-dziedzic-Rc6usOigMk-unsplash2.webp
   alt: "Firmware Update 2025.1.3.0"

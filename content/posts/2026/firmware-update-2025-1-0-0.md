@@ -1,6 +1,8 @@
 ---
 categories:
   - firmware
+tags:
+  - hardware
 cover:
   image: /covers/nano-banana-firmware-scaled.webp
   alt: "Firmware Update 2025.1.0.0"

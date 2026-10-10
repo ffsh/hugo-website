@@ -3,7 +3,8 @@ categories:
   - firmware
 date: "2025-06-07T09:27:53+00:00"
 title: Firmware Update 2023.2.5.0
-
+tags:
+  - bugfix
 cover:
   image: /covers/compare-fibre-hXVVNB6Qctg-unsplash.webp
   alt: "Firmware Update 2023.2.5.0"

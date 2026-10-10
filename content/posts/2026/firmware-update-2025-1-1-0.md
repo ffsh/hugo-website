@@ -3,7 +3,8 @@ categories:
   - firmware
 date: "2026-05-24T07:30:00+00:00"
 title: Firmware Update 2025.1.1.0
-
+tags:
+  - hardware
 cover:
   image: /covers/thomas-jensen-C9dTdBM3joM-unsplash.webp
   alt: "Firmware Update 2025.1.1.0"
