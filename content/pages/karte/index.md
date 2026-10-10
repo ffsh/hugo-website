@@ -69,7 +69,7 @@ Wir betreiben auch ein Grafana, das Statistiken über unser Freifunk-Netzwerk sa
 
 Hier kannst du sehen, wie viele Clients (Smartphones, Notebooks, ...) sich pro Stunde in unserem Netzwerk befanden.
 
-{{< grafana src="https://grafana.freifunk-suedholstein.de/d-solo/9mT4Bukmk/globale-statistiken?orgId=1&panelId=2" title="Grafana Dashboard - Globale Statistiken" height="520" >}}
+{{< grafana src="https://grafana.freifunk-suedholstein.de/d-solo/9mT4Bukmk/globale-statistiken?orgId=1&panelId=2" title="Grafana Dashboard - Globale Statistiken" height="420" >}}
 
 Hier siehst du wie viele Knoten (Router) und wie viele Clients sich in unserem Netzwerk befinden.
 
