@@ -4,8 +4,6 @@ categories:
 date: "2021-04-03T21:10:42+00:00"
 tags:
   - abuse
-  - freifunk
-  - freifunk-südholstein
   - störerhaftung
 title: 'FFSH #21 Osterspecial'
 

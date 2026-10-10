@@ -3,7 +3,6 @@ categories:
   - treffen
 date: "2021-05-12T13:00:00+00:00"
 tags:
-  - freifunk-südholstein
   - treffen
 title: Treffen Freitag 14.05.2021, 20:00
 

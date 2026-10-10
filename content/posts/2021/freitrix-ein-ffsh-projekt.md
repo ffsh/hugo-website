@@ -3,7 +3,6 @@ categories:
   - freitrix
 date: "2021-03-19T08:39:46+00:00"
 tags:
-  - freifunk-südholstein
   - freitrix
   - matrix
 title: Freitrix - ein FFSH Projekt

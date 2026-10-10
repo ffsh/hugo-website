@@ -4,7 +4,6 @@ categories:
 date: "2021-06-17T09:41:45+00:00"
 tags:
   - firmware
-  - freifunk-südholstein
   - gateways
 title: 'FFSH #22 Juni 2021'
 

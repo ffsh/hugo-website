@@ -4,7 +4,6 @@ categories:
 date: "2022-10-19T11:51:02+00:00"
 tags:
   - firmware
-  - freifunk
   - südholstein
 title: Sicherheitsupdate 2022.1.1.0
 

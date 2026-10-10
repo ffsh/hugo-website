@@ -61,6 +61,15 @@
               {{ with .Params.categories }}
                 <a class="post-category" href="{{ printf "/categories/%s" (urlize (index . 0)) | relURL }}">{{ index . 0 }}</a>
               {{ end }}
+              {{ with .Params.tags }}
+                {{ range . }}
+                  {{ if eq . "security" }}
+                    <a class="post-tag post-tag-security" href="{{ printf "/tags/%s/" (urlize .) | relURL }}">{{ . }}</a>
+                  {{ else }}
+                    <a class="post-tag" href="{{ printf "/tags/%s/" (urlize .) | relURL }}">{{ . }}</a>
+                  {{ end }}
+                {{ end }}
+              {{ end }}
             </div>
             <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
             <p>{{ .Summary | plainify | truncate 180 }}</p>

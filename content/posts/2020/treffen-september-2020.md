@@ -3,7 +3,6 @@ categories:
   - treffen
 date: "2020-09-11T17:29:00+00:00"
 tags:
-  - freifunk-südholstein
   - september
   - treffen
 title: Treffen September 2020

@@ -6,7 +6,6 @@ summary: |-
 tags:
   - "2019"
   - april
-  - freifunk
   - südholstein
 title: 'FFSH #8: April 2019'
 authors:

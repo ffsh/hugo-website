@@ -4,7 +4,6 @@ categories:
 date: "2019-06-21T05:37:55+00:00"
 tags:
   - "2019"
-  - freifunk
   - juli
   - juni
   - südholstein

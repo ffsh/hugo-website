@@ -5,7 +5,6 @@ date: "2018-05-10T11:30:16+00:00"
 summary: |-
 tags:
   - firmware
-  - gluon
   - jenkins
 title: Firmware bauen mit Jenkins
 authors:

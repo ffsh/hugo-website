@@ -5,7 +5,6 @@ date: "2019-01-21T16:58:51+00:00"
 summary: Der monatliche Blogbeitrag von Freifunk Südholstein.{{ double-space-with-newline }}Das Jahr 2019 hat begonnen und es gibt bereits ein paar Neuerungen. Wir arbeiten weiter an unserer Infrastruktur und verbessern die Dokumentation. Außerdem gab es bereits das erste Firmware-Update.
 tags:
   - "2019"
-  - freifunk
   - januar
   - südholstein
 title: 'FFSH #5: Januar 2019'

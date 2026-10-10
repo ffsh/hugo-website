@@ -4,7 +4,6 @@ categories:
 date: "2021-03-20T11:40:28+00:00"
 tags:
   - firmware
-  - freifunk-südholstein
   - freitrix
 title: 'FFSH #19 März 2021'
 

@@ -3,7 +3,6 @@ categories:
   - allgemein
 date: "2018-04-26T12:53:18+00:00"
 tags:
-  - freifunk
   - südholstein
 title: Freifunk Südholstein
 authors:

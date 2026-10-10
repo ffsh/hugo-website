@@ -6,7 +6,6 @@ summary: |-
 tags:
   - entwicklung
   - firmware
-  - gluon
 title: Das site Repository
 authors:
   - Grotax

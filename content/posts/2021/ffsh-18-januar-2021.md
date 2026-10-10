@@ -5,7 +5,6 @@ date: "2021-01-06T15:14:58+00:00"
 summary: |-
 tags:
   - ansible
-  - freifunk-südholstein
   - gateways
   - januar
   - treffen

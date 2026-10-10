@@ -6,7 +6,6 @@ date: "2020-04-18T10:06:20+00:00"
 tags:
   - "2020"
   - april
-  - freifunk
   - frimware
   - südholstein
 title: 'FFSH #14 April 2020'

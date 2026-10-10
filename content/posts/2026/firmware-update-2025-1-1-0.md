@@ -4,7 +4,6 @@ categories:
 date: "2026-05-24T07:30:00+00:00"
 tags:
   - firmware
-  - freifunk-südholstein
 title: Firmware Update 2025.1.1.0
 
 cover:

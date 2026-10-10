@@ -6,7 +6,6 @@ summary: Es ist Februar und Zeit für einen neuen Blogbeitrag, diesen Monat geht
 tags:
   - "2019"
   - februar
-  - freifunk
   - südholstein
 title: 'FFSH #6: Februar 2019'
 authors:

@@ -4,7 +4,6 @@ categories:
 date: "2019-09-15T07:51:31+00:00"
 tags:
   - firmware
-  - gluon
   - v2018.2.2
 title: Firmware Update 2018.2.2 freigegeben
 authors:

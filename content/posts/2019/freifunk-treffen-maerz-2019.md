@@ -5,7 +5,6 @@ date: "2019-02-28T08:38:53+00:00"
 tags:
   - "2019"
   - bad-oldesloe
-  - freifunk
   - januar
   - südholstein
   - treffen

@@ -4,7 +4,6 @@ categories:
 date: "2018-10-29T09:11:01+00:00"
 summary: |-
 tags:
-  - freifunk
   - oktober
 title: 'FFSH #2: Oktober 18'
 authors:

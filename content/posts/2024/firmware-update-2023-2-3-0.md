@@ -4,7 +4,6 @@ categories:
 date: "2024-06-22T12:18:33+00:00"
 tags:
   - firmware
-  - freifunk-südholstein
 title: Firmware Update 2023.2.3.0
 
 cover:

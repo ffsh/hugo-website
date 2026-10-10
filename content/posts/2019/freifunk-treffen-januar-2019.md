@@ -3,7 +3,6 @@ categories:
   - treffen
 date: "2019-01-10T14:11:20+00:00"
 tags:
-  - freifunk
   - januar
   - südholstein
   - treffen

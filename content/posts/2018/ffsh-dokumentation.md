@@ -5,7 +5,6 @@ date: "2018-12-08T16:41:01+00:00"
 summary: 'Ab heute findet ihr oben im Menü unter "Mitgestalten" einen neuen Eintrag: [Dokumentation](https://freifunk-suedholstein.readthedocs.io/de/latest/).{{ double-space-with-newline }}Dieser leitet euch zu [readthedocs](https://readthedocs.org/) weiter, wo ihr ab sofort eine Dokumentation zu unseren Gateways, der Firmware und anderen Projekten findet.'
 tags:
   - dokumentation
-  - freifunk
   - südholstein
 title: FFSH Dokumentation
 authors:

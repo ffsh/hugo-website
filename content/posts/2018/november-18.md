@@ -4,7 +4,6 @@ categories:
 date: "2018-12-02T10:43:09+00:00"
 summary: |-
 tags:
-  - freifunk
   - november
   - südholstein
 title: 'FFSH #3: November 18'

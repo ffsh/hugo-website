@@ -3,7 +3,6 @@ categories:
   - allgemein
 date: "2021-01-09T09:00:00+00:00"
 tags:
-  - freifunk-südholstein
   - lug-stormarn
   - treffen
 title: Sondertreffen 22. Januar 20:00

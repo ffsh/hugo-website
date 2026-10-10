@@ -5,7 +5,6 @@ date: "2019-09-15T08:06:50+00:00"
 tags:
   - "2019"
   - august
-  - freifunk
   - september
   - südholstein
 title: 'FFSH #11 August & September'

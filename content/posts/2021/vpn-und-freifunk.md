@@ -4,7 +4,6 @@ categories:
 date: "2021-01-24T12:57:00+00:00"
 tags:
   - fastd
-  - freifunk-südholstein
   - l2tp
   - vpn
   - wireguard

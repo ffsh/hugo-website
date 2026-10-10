@@ -4,7 +4,6 @@ categories:
 date: "2020-12-05T16:42:59+00:00"
 summary: |-
 tags:
-  - freifunk-südholstein
   - gemeinnützigkeit
   - treffen
 title: 'FFSH #17 Dezember 2020'

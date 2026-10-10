@@ -3,7 +3,6 @@ categories:
   - allgemein
 date: "2018-06-20T23:00:28+00:00"
 tags:
-  - freifunk
   - südholstein
 title: Happy Birthday!
 authors:

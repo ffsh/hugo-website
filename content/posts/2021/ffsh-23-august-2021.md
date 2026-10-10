@@ -2,8 +2,6 @@
 categories:
   - ffsh-blog
 date: "2021-08-24T17:47:07+00:00"
-tags:
-  - freifunk-südholstein
 title: 'FFSH #23 August 2021'
 
 cover:

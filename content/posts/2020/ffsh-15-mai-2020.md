@@ -4,7 +4,6 @@ categories:
 date: "2020-05-08T10:53:53+00:00"
 tags:
   - "2020"
-  - freifunk-südholstein
   - gateways
   - mai
   - treffen

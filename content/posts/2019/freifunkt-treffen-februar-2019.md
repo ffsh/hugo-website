@@ -5,7 +5,6 @@ date: "2019-02-07T06:36:32+00:00"
 tags:
   - "2019"
   - februar
-  - freifunk
   - reinbek
   - treffen
 title: Freifunk Treffen Februar 2019

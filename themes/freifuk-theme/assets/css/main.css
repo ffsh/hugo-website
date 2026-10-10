@@ -139,7 +139,8 @@ a:focus-visible {
 }
 
 .popular-category,
-.post-category {
+.post-category,
+.post-tag {
   --chip-bg: rgb(15 23 42 / 90%);
   --chip-border: rgb(138 180 248 / 75%);
   --chip-text: #8ab4f8;
@@ -161,16 +162,41 @@ a:focus-visible {
 
 .popular-category:hover,
 .post-category:hover,
+.post-tag:hover,
 .popular-category:focus-visible,
 .post-category:focus-visible,
+.post-tag:focus-visible,
 .popular-category:active,
 .post-category:active,
+.post-tag:active,
 .popular-category.is-active,
-.post-category.is-active {
+.post-category.is-active,
+.post-tag.is-active {
   border-color: #8ab4f8;
   color: #08111d;
   background: #8ab4f8;
   transform: translateY(-1px);
+}
+
+.post-tag {
+  padding: 0.18rem 0.56rem;
+  font-size: 0.62rem;
+  letter-spacing: 0.04em;
+}
+
+.post-tag-security {
+  --chip-bg: rgb(255 139 61 / 12%);
+  --chip-border: rgb(255 139 61 / 55%);
+  --chip-text: #ffb36b;
+}
+
+.post-tag-security:hover,
+.post-tag-security:focus-visible,
+.post-tag-security:active,
+.post-tag-security.is-active {
+  border-color: #ffb36b;
+  color: #1b1209;
+  background: #ffb36b;
 }
 
 .popular-category--all {

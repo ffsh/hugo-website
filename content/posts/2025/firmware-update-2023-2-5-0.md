@@ -4,8 +4,6 @@ categories:
 date: "2025-06-07T09:27:53+00:00"
 tags:
   - firmware
-  - freifunk-südholstein
-  - gluon
 title: Firmware Update 2023.2.5.0
 
 cover:

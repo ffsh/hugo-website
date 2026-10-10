@@ -5,7 +5,6 @@ date: "2018-05-08T16:23:45+00:00"
 summary: |-
 tags:
   - firmware
-  - gluon
   - lauenburg
   - stormarn
 title: Neue Firmware 2017.1.7 (Stormarn und Lauenburg)

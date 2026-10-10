@@ -4,7 +4,6 @@ categories:
 date: "2021-12-08T10:58:39+00:00"
 tags:
   - dezember
-  - freifunk-südholstein
   - treffen
 title: Treffen Freitag 10.12.2021
 

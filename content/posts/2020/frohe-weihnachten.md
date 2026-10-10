@@ -3,7 +3,6 @@ categories:
   - allgemein
 date: "2020-12-22T11:11:17+00:00"
 tags:
-  - freifunk-südholstein
   - weihnachten
 title: Frohe Weihnachten
 

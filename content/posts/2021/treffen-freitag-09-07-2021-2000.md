@@ -3,7 +3,6 @@ categories:
   - treffen
 date: "2021-07-09T09:43:16+00:00"
 tags:
-  - freifunk-südholstein
   - treffen
 title: Treffen Freitag 09.07.2021 20:00
 

@@ -4,7 +4,6 @@ categories:
 date: "2018-03-20T10:57:36+00:00"
 draft: "true"
 tags:
-  - freifunk
   - südholstein
   - verein
 title: Start Freifunk Südholstein e.V.

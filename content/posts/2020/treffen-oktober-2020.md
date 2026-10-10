@@ -3,7 +3,6 @@ categories:
   - treffen
 date: "2020-10-09T14:32:42+00:00"
 tags:
-  - freifunk-südholstein
   - oktober
   - treffen
 title: Treffen Oktober 2020

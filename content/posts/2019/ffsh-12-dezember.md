@@ -6,8 +6,6 @@ tags:
   - "2019"
   - dezember
   - firmware
-  - freifunk
-  - gluon
   - südholstein
   - v2019.1
 title: 'FFSH #12 Dezember'

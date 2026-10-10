@@ -4,7 +4,6 @@ categories:
 date: "2018-09-20T19:19:31+00:00"
 tags:
   - firmware
-  - gluon
 title: Firmware Update auf 2018.1.1
 authors:
   - Grotax

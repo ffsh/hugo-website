@@ -3,7 +3,6 @@ categories:
   - treffen
 date: "2023-02-10T12:43:48+00:00"
 tags:
-  - freifunk-südholstein
   - treffen
 title: Letztes Treffen.
 

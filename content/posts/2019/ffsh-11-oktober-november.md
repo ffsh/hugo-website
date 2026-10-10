@@ -5,7 +5,6 @@ date: "2019-11-16T10:32:08+00:00"
 tags:
   - "2019"
   - firmware
-  - freifunk
   - november
   - oktober
   - südholstein

@@ -3,7 +3,6 @@ categories:
   - treffen
 date: "2021-10-04T14:00:00+00:00"
 tags:
-  - freifunk-südholstein
   - treffen
 title: Treffen Freitag 08.10.2021
 

@@ -4,7 +4,6 @@ categories:
 date: "2019-05-30T08:00:38+00:00"
 tags:
   - "2019"
-  - freifunk
   - mai
   - südholstein
 title: 'FFSH #9: Mai 2019'

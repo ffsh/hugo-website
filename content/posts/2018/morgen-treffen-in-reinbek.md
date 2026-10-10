@@ -3,7 +3,6 @@ categories:
   - treffen
 date: "2018-10-11T08:59:56+00:00"
 tags:
-  - freifunk
   - reinbek
   - treffen
 title: Morgen Treffen in Reinbek

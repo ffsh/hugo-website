@@ -3,7 +3,6 @@ categories:
   - treffen
 date: "2022-02-08T11:00:09+00:00"
 tags:
-  - freifunk-südholstein
   - treffen
 title: Treffen Freitag 11.02.2022
 

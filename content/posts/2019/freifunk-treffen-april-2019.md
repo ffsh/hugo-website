@@ -3,7 +3,6 @@ categories:
   - allgemein
 date: "2019-04-10T16:34:56+00:00"
 tags:
-  - freifunk
   - reinbek
   - treffen
 title: Freifunk Treffen April 2019

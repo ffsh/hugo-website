@@ -5,7 +5,6 @@ date: "2020-02-15T10:42:56+00:00"
 tags:
   - "2020"
   - firmware
-  - freifunk
   - südholstein
 title: 'FFSH #13 Februar 2020'
 authors:

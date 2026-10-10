@@ -6,7 +6,6 @@ date: "2018-09-13T10:09:25+00:00"
 summary: |-
 tags:
   - firmware
-  - gluon
   - v2018.1
 title: Treffen und Fimrware-Update
 authors:

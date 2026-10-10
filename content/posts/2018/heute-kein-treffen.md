@@ -3,7 +3,6 @@ categories:
   - treffen
 date: "2018-11-09T07:14:30+00:00"
 tags:
-  - freifunk
   - treffen
 title: Heute kein Treffen!
 authors:

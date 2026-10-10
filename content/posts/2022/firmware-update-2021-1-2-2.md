@@ -4,8 +4,6 @@ categories:
 date: "2022-09-05T10:51:51+00:00"
 tags:
   - firmware
-  - freifunk-südholstein
-  - gluon
 title: Firmware Update 2021.1.2.2
 
 cover:

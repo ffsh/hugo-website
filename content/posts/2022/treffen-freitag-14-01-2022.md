@@ -3,7 +3,6 @@ categories:
   - treffen
 date: "2022-01-12T09:10:00+00:00"
 tags:
-  - freifunk-südholstein
   - treffen
 title: Treffen Freitag 14.01.2022
 

@@ -3,7 +3,6 @@ categories:
   - treffen
 date: "2022-04-06T07:15:01+00:00"
 tags:
-  - freifunk-südholstein
   - treffen
 title: Treffen Freitag 08.04.2022
 

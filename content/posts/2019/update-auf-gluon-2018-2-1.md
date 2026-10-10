@@ -5,8 +5,6 @@ date: "2019-03-17T08:33:50+00:00"
 tags:
   - "2019"
   - firmware
-  - freifunk
-  - gluon
   - südholstein
   - v2018.2.1
 title: Update auf Gluon 2018.2.1

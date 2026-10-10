@@ -4,7 +4,6 @@ categories:
 date: "2019-03-27T09:22:54+00:00"
 tags:
   - "2019"
-  - freifunk
   - märz
   - südholstein
 title: 'FFSH #7: März 2019'
