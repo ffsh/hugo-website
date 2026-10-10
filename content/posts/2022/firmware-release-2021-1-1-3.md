@@ -4,7 +4,6 @@ categories:
 date: "2022-01-13T15:56:05+00:00"
 tags:
   - 2021.1.1.3
-  - firmware
 title: Firmware Release 2021.1.1.3
 
 cover:

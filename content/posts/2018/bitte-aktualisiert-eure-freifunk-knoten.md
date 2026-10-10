@@ -3,8 +3,6 @@ categories:
   - firmware
 date: "2018-07-07T20:22:34+00:00"
 summary: |-
-tags:
-  - firmware
 title: Bitte aktualisiert eure Freifunk-Knoten
 authors:
   - Grotax

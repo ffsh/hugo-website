@@ -3,8 +3,6 @@ categories:
   - firmware
 date: "2018-07-30T10:27:23+00:00"
 summary: |-
-tags:
-  - firmware
 title: 'Neue Firmware: 2018.1'
 authors:
   - Grotax

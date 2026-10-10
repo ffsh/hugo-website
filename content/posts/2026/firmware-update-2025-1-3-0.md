@@ -2,8 +2,6 @@
 categories:
   - firmware
 date: "2026-09-05T10:06:36+00:00"
-tags:
-  - firmware
 title: Firmware Update 2025.1.3.0
 
 cover:

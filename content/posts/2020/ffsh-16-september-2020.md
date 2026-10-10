@@ -5,7 +5,6 @@ categories:
 date: "2020-09-13T16:36:33+00:00"
 tags:
   - 2020.1.2.0
-  - firmware
   - september
 title: 'FFSH #16 September 2020'
 authors:

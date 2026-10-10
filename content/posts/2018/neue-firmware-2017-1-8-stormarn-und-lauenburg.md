@@ -3,8 +3,6 @@ categories:
   - firmware
 date: "2018-06-22T13:16:34+00:00"
 summary: Heute haben wir die Version 2017.1.8 zum **testen** veröffentlicht, diese bringt einige Verbesserungen vor dem nächsten großen Update auf 2018.1. Sobald die Firmware auch im stabilen Kanal verfügbar ist mache ich eine kleine Ankündigung.{{ double-space-with-newline }}
-tags:
-  - firmware
 title: Neue Firmware 2017.1.8 (Stormarn und Lauenburg)
 authors:
   - Grotax

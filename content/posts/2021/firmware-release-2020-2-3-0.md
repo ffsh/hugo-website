@@ -4,7 +4,6 @@ categories:
 date: "2021-05-03T12:06:40+00:00"
 tags:
   - 2020.2.3.0
-  - firmware
 title: Firmware Release 2020.2.3.0
 authors:
   - Grotax

@@ -4,7 +4,6 @@ categories:
 date: "2021-01-24T15:29:30+00:00"
 tags:
   - 2020.2.2.3
-  - firmware
 title: Firmware Release 2020.2.2.3
 
 cover:

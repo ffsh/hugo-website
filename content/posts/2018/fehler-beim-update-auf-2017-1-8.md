@@ -2,8 +2,6 @@
 categories:
   - firmware
 date: "2018-07-04T19:18:00+00:00"
-tags:
-  - firmware
 title: Fehler beim Update auf 2017.1.8
 authors:
   - Grotax

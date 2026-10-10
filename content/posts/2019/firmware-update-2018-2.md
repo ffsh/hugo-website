@@ -5,7 +5,6 @@ date: "2019-01-12T16:56:40+00:00"
 summary: |-
 tags:
   - autoupdate
-  - firmware
   - v2018.2
 title: Firmware Update 2018.2
 authors:

@@ -2,8 +2,6 @@
 categories:
   - firmware
 date: "2022-05-17T11:26:12+00:00"
-tags:
-  - firmware
 title: Firmware Update 2021.1.2.1
 authors:
   - Grotax

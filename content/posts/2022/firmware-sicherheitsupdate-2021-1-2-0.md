@@ -3,7 +3,6 @@ categories:
   - firmware
 date: "2022-05-06T18:18:20+00:00"
 tags:
-  - firmware
   - sicherheit
 title: Firmware Sicherheitsupdate 2021.1.2.0
 

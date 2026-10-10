@@ -5,7 +5,6 @@ categories:
 date: "2018-12-06T17:24:02+00:00"
 summary: Ab heute wird eine neue Firmware auf dem `testing` und `rc` Zweig verteilt. Diese basiert auf Gluon 2018.1.3 und enthält einige Fehlerbhebungen.
 tags:
-  - firmware
   - v2018.2
   - v2019.1
 title: Schlüsselwechsel 2.0 &amp; Firmware Update 2018.1.3

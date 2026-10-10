@@ -2,8 +2,6 @@
 categories:
   - firmware
 date: "2018-06-05T11:01:02+00:00"
-tags:
-  - firmware
 title: '[Update] Warnung TP-Link CPE 210/510'
 authors:
   - Grotax

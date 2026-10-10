@@ -3,7 +3,6 @@ categories:
   - firmware
 date: "2018-05-20T13:00:38+00:00"
 tags:
-  - firmware
   - lauenburg
   - stormarn
   - testing

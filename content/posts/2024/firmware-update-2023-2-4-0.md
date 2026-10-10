@@ -2,8 +2,6 @@
 categories:
   - firmware
 date: "2024-11-10T19:08:00+00:00"
-tags:
-  - firmware
 title: Firmware Update 2023.2.4.0
 
 cover:
