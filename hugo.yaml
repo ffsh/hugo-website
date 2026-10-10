@@ -38,6 +38,10 @@ menu:
       name: Über uns
       url: /ueber-uns/
       weight: 10
+    - identifier: karte
+      name: Karte
+      url: /karte/
+      weight: 15
     - identifier: hardware
       name: Hardware
       url: /hardware/
@@ -58,10 +62,7 @@ menu:
       name: Kontakt
       url: /kontakt/
       weight: 70
-    - identifier: karte
-      name: Karte
-      url: /karte/
-      weight: 80
+
 
   footer:
     - identifier: impressum
