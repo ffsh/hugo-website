@@ -64,6 +64,16 @@ Unter [map.freifunk-suedholstein.de/#/en/graph](https://map.freifunk-suedholstei
 * **Nutzer-Statistik:** Wie viele Endgeräte (Smartphones, Laptops etc.) aktuell über unser Netz surfen[cite: 1].
 * **Mesh-Verbindungen (Links):** Detaillierte Übersicht über die Signalqualitäten der Funk-Verbindungen zwischen benachbarten Routern[cite: 1].
 
+Wir betreiben auch ein Grafana, das Statistiken über unser Freifunk-Netzwerk sammelt. Ein paar ausgewähle Graphen kannst du dir hier ansehen, mehr gibt es unter [grafana.freifunk-suedholstein.de](https://grafana.freifunk-suedholstein.de)
+
+<iframe src="https://grafana.freifunk-suedholstein.de/d-solo/NkTKsfkik/weitere-statistiken?timezone=browser&orgId=1&panelId=panel-8" width="450" height="200" frameborder="0"></iframe>
+
+Hier kannst du sehen, wie viele Clients (Smartphones, Notebooks, ...) sich pro Stunde in unserem Netzwerk befanden.
+
+![](https://grafana.freifunk-suedholstein.de/render/d-solo/9mT4Bukmk/globale-statistiken?orgId=1&panelId=2&width=1000&height=500)
+
+Hier siehst du wie viele Knoten (Router) und wie viele Clients sich in unserem Netzwerk befinden.
+
 ---
 
 ## Kein Freifunk auf deiner Straße?
