@@ -32,6 +32,18 @@
         </section>
       {{ end }}
 
+      {{ with site.Taxonomies.categories.ByCount }}
+        <div class="popular-categories" aria-label="Beliebte Themen">
+          <p class="popular-categories-label">Beliebte Themen</p>
+          <div class="popular-categories-list">
+            {{ range first 6 . }}
+              <a class="popular-category" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+            {{ end }}
+            <a class="popular-category popular-category--all" href="{{ "categories" | relURL }}">Alle Themen</a>
+          </div>
+        </div>
+      {{ end }}
+
       <div class="blog-list">
         {{ range $paginator.Pages }}
           {{ $post := . }}

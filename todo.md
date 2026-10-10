@@ -6,7 +6,7 @@ This is a todo file for the Hugo website project. Compared to the theme one this
 - [X] Add content to content/karte/karte.md
 - [X] Integrate FAQ into Über uns page.
 - [ ] Mitmachen should contain Downloads and Hardware and be more friendly to new people.
-- [ ] Satistikiken integrate into new Karte page
+- [X] Statistiken integrate into new Karte page
 - [ ] Post about replacing old routers since they are no longer supported.
 - [ ] Post about the changes to ansible and other things
 
