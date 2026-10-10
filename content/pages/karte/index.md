@@ -1,6 +1,5 @@
 ---
 date: '2026-10-03T06:26:27Z'
-draft: true
 title: 'Karte'
 authors:
   - Grotax
