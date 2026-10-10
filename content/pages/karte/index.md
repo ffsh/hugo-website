@@ -65,27 +65,11 @@ Unter [map.freifunk-suedholstein.de/#/en/graph](https://map.freifunk-suedholstei
 
 Wir betreiben auch ein Grafana, das Statistiken über unser Freifunk-Netzwerk sammelt. Ein paar ausgewähle Graphen kannst du dir hier ansehen, mehr gibt es unter [grafana.freifunk-suedholstein.de](https://grafana.freifunk-suedholstein.de)
 
-<div style="margin: 1.5rem 0;">
-  <iframe
-    src="https://grafana.freifunk-suedholstein.de/d-solo/NkTKsfkik/weitere-statistiken?orgId=1&panelId=panel-8&theme=light&timezone=browser"
-    style="width: 100%; height: 420px; border: 0; border-radius: 12px; background: #fff;"
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-    title="Grafana Dashboard - Weitere Statistiken">
-  </iframe>
-</div>
+{{< grafana src="https://grafana.freifunk-suedholstein.de/d-solo/NkTKsfkik/weitere-statistiken?orgId=1&panelId=panel-8" title="Grafana Dashboard - Weitere Statistiken" height="420" >}}
 
 Hier kannst du sehen, wie viele Clients (Smartphones, Notebooks, ...) sich pro Stunde in unserem Netzwerk befanden.
 
-<div style="margin: 1.5rem 0;">
-  <iframe
-    src="https://grafana.freifunk-suedholstein.de/d-solo/9mT4Bukmk/globale-statistiken?orgId=1&panelId=2&theme=light&timezone=browser"
-    style="width: 100%; height: 520px; border: 0; border-radius: 12px; background: #fff;"
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-    title="Grafana Dashboard - Globale Statistiken">
-  </iframe>
-</div>
+{{< grafana src="https://grafana.freifunk-suedholstein.de/d-solo/9mT4Bukmk/globale-statistiken?orgId=1&panelId=2" title="Grafana Dashboard - Globale Statistiken" height="520" >}}
 
 Hier siehst du wie viele Knoten (Router) und wie viele Clients sich in unserem Netzwerk befinden.
 

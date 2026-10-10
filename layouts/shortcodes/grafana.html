@@ -1,0 +1,52 @@
+{{- $src := .Get "src" -}}
+{{- $title := .Get "title" | default "Grafana dashboard" -}}
+{{- $height := .Get "height" | default "420" -}}
+{{- $class := .Get "class" | default "grafana-embed" -}}
+<div class="{{ $class }}" style="margin: 1.5rem 0;">
+  <iframe
+    data-grafana-frame
+    data-grafana-src="{{ $src }}"
+    src="{{ $src }}"
+    style="width: 100%; height: {{ $height }}px; border: 0; border-radius: 12px; background: var(--paper); box-shadow: var(--shadow);"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    title="{{ $title }}">
+  </iframe>
+</div>
+<script>
+  (function () {
+    const iframe = document.currentScript && document.currentScript.previousElementSibling && document.currentScript.previousElementSibling.querySelector('iframe[data-grafana-frame]');
+    if (!iframe) return;
+
+    const baseSrc = iframe.getAttribute('data-grafana-src');
+    if (!baseSrc) return;
+
+    const setTheme = () => {
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      try {
+        const url = new URL(baseSrc, window.location.origin);
+        url.searchParams.set('theme', theme);
+        url.searchParams.set('timezone', 'browser');
+        iframe.src = url.toString();
+      } catch (error) {
+        console.warn('Grafana embed update failed:', error);
+      }
+    };
+
+    setTheme();
+
+    const observer = new MutationObserver(function (mutations) {
+      for (const mutation of mutations) {
+        if (mutation.attributeName === 'data-theme') {
+          setTheme();
+          return;
+        }
+      }
+    });
+
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-theme']
+    });
+  })();
+</script>
