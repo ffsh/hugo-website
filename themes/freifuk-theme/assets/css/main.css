@@ -100,6 +100,7 @@ a:focus-visible {
 .post-card a,
 .related-item a,
 .taxonomy-card a,
+.article-taxonomy a,
 .post-category {
   color: var(--ink-900);
   text-decoration: none;
@@ -109,6 +110,7 @@ a:focus-visible {
 .post-card a:hover,
 .related-item a:hover,
 .taxonomy-card a:hover,
+.article-taxonomy a:hover,
 .post-category:hover {
   color: var(--ink-900);
   text-decoration: none;
@@ -547,7 +549,8 @@ img {
 
 .post-topline,
 .card-meta,
-.article-meta {
+.article-meta,
+.article-taxonomy {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -856,7 +859,7 @@ img {
 }
 
 .article-cover-wrap {
-  margin: 0 0 1.5rem;
+  margin: 0 0 0.75rem;
 }
 
 .article-cover {
@@ -867,6 +870,10 @@ img {
   border-radius: 16px;
   border: 1px solid var(--border);
   background: var(--paper-strong);
+}
+
+.article-taxonomy {
+  margin: 0 0 1.5rem;
 }
 
 .article-toc {

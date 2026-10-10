@@ -31,6 +31,23 @@
       {{ end }}
     {{ end }}
 
+    {{ if or (.GetTerms "categories") (.GetTerms "tags") }}
+      <nav class="post-topline article-taxonomy" aria-label="Kategorien und Schlagwörter">
+        {{ with .GetTerms "categories" }}
+          {{ range . }}<a class="post-category" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+        {{ end }}
+        {{ with .GetTerms "tags" }}
+          {{ range . }}
+            {{ if eq (urlize .LinkTitle) "security" }}
+              <a class="post-tag post-tag-security" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            {{ else }}
+              <a class="post-tag" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </nav>
+    {{ end }}
+
     {{ $toc := .TableOfContents }}
     {{ with $toc }}
       {{ if ne (plainify .) "" }}
