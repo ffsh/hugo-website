@@ -16,7 +16,7 @@ Außerdem bieten wir eine reihe von anderen Möglichkeiten an.
 Folge uns auf [Mastodon](https://norden.social/@ffsh) hier bekommst du Updates aus dem Blog und kannst natürlich auch Fragen stellen.  
 [@ffsh.norden.social](https://norden.social/@ffsh)
 
-Auch auf unserem Telegram Kanal werden, die Updates aus dem Blog veröffentlicht so kannst du dich benachrichtigen lassen:   
+Auch auf unserem Telegram Kanal werden, die Updates aus dem Blog veröffentlicht so kannst du dich benachrichtigen lassen:
 [https://t.me/freifunk\_suedholstein](https://t.me/freifunk_suedholstein)
 
 Wir haben auch einen [RSS feed](/feed/).

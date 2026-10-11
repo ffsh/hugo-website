@@ -15,7 +15,7 @@ Damit wir gluon in unserer Community einsetzen können, müssen wir eine eigene 
 
 Struktur des site Repository.
 
-```
+```text
 site/
 ├── build.py
 ├── CHANGELOG.md

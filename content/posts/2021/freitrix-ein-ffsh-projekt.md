@@ -37,7 +37,7 @@ Optional kannst du dich auch an einem Identity Server registrieren, diese werden
 
 Da Matrix ein offener Standard ist gibt es auch diverse Clients, einer dieser Clients ist Element, diesen gibt es für diverse Plattformen und ist gewisser weise der Standard, da er von der Firma welche Matrix voran treibt entwickelt wird. Du kannst ihn direkt im Web unter [https://webchat.freitrix.de](https://webchat.freitrix.de) dort kannst du dich auch registrieren. Für die anderen Plattform findest du Element auf [element.io](https://element.io/get-started).
 
-Als Homeserver trägst egal bei welchem Client einfach "https://freitrix.de" ein.
+Als Homeserver trägst egal bei welchem Client einfach "<https://freitrix.de>" ein.
 
 Daneben gibt es aber noch diverse andere Clients, du findest eine Übersicht auf [matrix.org](https://matrix.org/clients/). Recht beliebt, weil er den klassischen Messengern im Design sehr ähnelt ist [FluffyChat](https://fluffychat.im/de/), probier einfach mal aus, welche Client dir am besten gefällt. Aber Achtung nicht alle Clients sind auf dem gleichen Stand und unterstützten alle Features. Dies liegt in der Natur der Sache, die Clients sind OpenSource und werden in der Freizeit entwickelt.
 

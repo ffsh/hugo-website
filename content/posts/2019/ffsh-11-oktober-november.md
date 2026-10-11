@@ -21,7 +21,7 @@ Damit sinkt auch unsere Chance auf einen gemeinnützigen Verein. Wie man um dies
 
 ## Firmware
 
-Heute habe ich die letzte Firmware der 2018er Serie, 2018.2.3 veröffentlicht.   
+Heute habe ich die letzte Firmware der 2018er Serie, 2018.2.3 veröffentlicht.
 Neue Geräte:
 
 - TP-Link CPE210 v3

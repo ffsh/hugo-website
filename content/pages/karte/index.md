@@ -8,7 +8,7 @@ references:
   - "Freifunk Südholstein – Meshviewer: Interaktive Knotenkarte auf map.freifunk-suedholstein.de"
   - "Freifunk Südholstein – Loslegen: Schritt-für-Schritt-Anleitung zur Einrichtung eines Freifunk-Routers"
 ---
-Das Freifunk-Netzwerk lebt vom Mitmachen: Jedes Gerät (Knoten) erweitert das dezentrale WLAN-Netz und verbindet sich per Funk oder VPN mit anderen Routern in der Region[cite: 1]. 
+Das Freifunk-Netzwerk lebt vom Mitmachen: Jedes Gerät (Knoten) erweitert das dezentrale WLAN-Netz und verbindet sich per Funk oder VPN mit anderen Routern in der Region[cite: 1].
 
 Auf unserer interaktiven Karte (**Meshviewer**) kannst du in Echtzeit sehen, wo Freifunk-Knoten aktiv sind, wie sie untereinander vernetzt sind und welche Leistung das Netz aktuell erbringt[cite: 1].
 
@@ -28,17 +28,20 @@ Auf unserer interaktiven Karte (**Meshviewer**) kannst du in Echtzeit sehen, wo 
 Damit du dich auf der Karte auf Anhieb zurechtfindest, hier die Bedeutung der Status-Punkte und Verbindungssymbole[cite: 1]:
 
 ### Status der Knoten (Nodes)
+
 * **🟢 Hellgrün (new):** Kürzlich neu zum Netzwerk hinzugefügte Knoten[cite: 1].
 * **🔵 Blau (online):** Aktive, betriebsbereite Freifunk-Knoten[cite: 1].
 * **🔴 Rot (offline):** Knoten, die aktuell nicht erreichbar oder ausgeschaltet sind[cite: 1].
-* **🔵🔘 Blau mit weißem Kern (uplink):** Knoten mit direkter Internetverbindung (VPN-Uplink zum Freifunk-Server)[cite: 1].
+* **🔵🔘 Blau mit weißem Kern (uplink):** Knoten mit direkter Internetverbindung [VPN-Uplink zum Freifunk-Server](cite: 1).
 
 ### Verbundene Clients
+
 * **🟣 Pink:** Geräte im **2.4 GHz** WLAN-Frequenzband[cite: 1].
 * **🟡 Gelb:** Geräte im **5 GHz** WLAN-Frequenzband[cite: 1].
 * **🟢 Türkis (other):** Geräte mit alternativer/sonstiger Anbindung[cite: 1].
 
 ### Tipps zur Kartenbedienung
+
 * **Zoom:** Nutze einen Doppelklick zum Hineinzoomen und `Umschalt` + Doppelklick (`Shift` + Doppelklick) zum Herauszoomen[cite: 1].
 * **Filter:** Über das Suchfeld *Node filter* oben links kannst du gezielt nach bestimmten Knoten-Namen oder Standorten suchen[cite: 1].
 * **Details:** Klicke auf einen einzelnen Knoten, um Details wie das Router-Modell, die Firmware-Version und die Anzahl der verbundenen Nutzer zu sehen[cite: 1].
@@ -47,7 +50,7 @@ Damit du dich auf der Karte auf Anhieb zurechtfindest, hier die Bedeutung der St
 
 ## Der Netzwerkgraph (Graph-Ansicht)
 
-Unter [map.freifunk-suedholstein.de/#/en/graph](https://map.freifunk-suedholstein.de/#/en/graph) findest du eine abstrakte, topologische Darstellung unseres Netzwerks (die **Graph-Ansicht**)[cite: 1]:
+Unter [map.freifunk-suedholstein.de/#/en/graph](https://map.freifunk-suedholstein.de/#/en/graph) findest du eine abstrakte, topologische Darstellung unseres Netzwerks [die **Graph-Ansicht**](cite: 1):
 
 * **Unabhängig von Geografie:** Hier werden die Knoten nicht auf einer geografischen Landkarte platziert, sondern als mathematischer Graph dargestellt[cite: 1].
 * **Visualisierung des Meshes:** Der Graph veranschaulicht eindrucksvoll, wie dicht das Netz verwoben ist. Du siehst sofort, welche Router als zentrale **Infrastruktur-Knotenpunkte** dienen, welche Gateways die Datenpakete weiterleiten und wie sich das WLAN-Mesh organisch über Funkverbindungen ausbreitet[cite: 1].
@@ -65,11 +68,11 @@ Unter [map.freifunk-suedholstein.de/#/en/graph](https://map.freifunk-suedholstei
 
 Wir betreiben auch ein Grafana, das Statistiken über unser Freifunk-Netzwerk sammelt. Ein paar ausgewähle Graphen kannst du dir hier ansehen, mehr gibt es unter [grafana.freifunk-suedholstein.de](https://grafana.freifunk-suedholstein.de)
 
-{{< grafana src="https://grafana.freifunk-suedholstein.de/d-solo/NkTKsfkik/weitere-statistiken?orgId=1&panelId=panel-8" title="Grafana Dashboard - Weitere Statistiken" height="420" >}}
+{{< grafana src="<https://grafana.freifunk-suedholstein.de/d-solo/NkTKsfkik/weitere-statistiken?orgId=1&panelId=panel-8>" title="Grafana Dashboard - Weitere Statistiken" height="420" >}}
 
 Hier kannst du sehen, wie viele Clients (Smartphones, Notebooks, ...) sich pro Stunde in unserem Netzwerk befanden.
 
-{{< grafana src="https://grafana.freifunk-suedholstein.de/d-solo/9mT4Bukmk/globale-statistiken?orgId=1&panelId=2" title="Grafana Dashboard - Globale Statistiken" height="420" >}}
+{{< grafana src="<https://grafana.freifunk-suedholstein.de/d-solo/9mT4Bukmk/globale-statistiken?orgId=1&panelId=2>" title="Grafana Dashboard - Globale Statistiken" height="420" >}}
 
 Hier siehst du wie viele Knoten (Router) und wie viele Clients sich in unserem Netzwerk befinden.
 

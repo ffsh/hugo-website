@@ -14,7 +14,7 @@ Moin liebe Freifunka,
 Am **02.06** ist es wieder so weit es findet das zweite Freifunk Vernetzungstreffen im Norden statt.  
 Ihr seid herzlich dazu eingeladen, teilzunehmen.
 
-```
+```text
 Das Treffen findet online statt: https://meet.ffmuc.net/ffnord-vernetzungstreffen
 02.06.2021, 18:00-20:30
 ```

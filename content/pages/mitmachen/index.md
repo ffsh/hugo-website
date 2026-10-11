@@ -23,6 +23,7 @@ Du möchtest einen neuen Router für Freifunk kaufen, weißt aber nicht welchen?
 ### Der "Goldene Standard" für Einsteiger
 
 Wenn du einfach nur mitmachen möchtest und ein zukunftssicheres, leicht einzurichtendes Gerät suchst, empfehlen wir dir aktuell folgende Modelle:
+
 * **Xiaomi Mi Router 4A (Gigabit Edition):** Er ist relativ günstig in der Anschaffung, zukunftssicher und leicht einzurichten.
 * **AVM FRITZ!Box 4040:** Etwas teurer, aber eine exzellente Wahl. Einsteiger vertrauen der Marke Fritz!Box und die Hardware-Versionen sind hier meistens sehr stabil.
 
@@ -55,9 +56,10 @@ Wir haben die Auswahl extrem vereinfacht: Auf unserer Installations-Seite werden
 ## 3. Flashen & Einrichten
 
 Das Aufspielen der Freifunk-Firmware (das sogenannte "Flashen") ist bei vielen Routern fast so einfach wie ein normales Hersteller-Update.
+
 * Ein beispielhaftes Video, wie so eine Installation abläuft, findest du **[hier auf YouTube](https://www.youtube.com/watch?v=dI5JcmURtEM)**.
 
-### Hilfe, ich stecke fest!
+### Hilfe, ich stecke fest
 
 Du bist dir unsicher, ob du den falschen Router kaufst, oder das Flashen klappt nicht so, wie du es dir vorgestellt hast? Kein Problem!
 

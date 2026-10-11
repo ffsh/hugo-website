@@ -41,7 +41,7 @@ Bevor man sich dafür entscheidet den testing oder rc Kanal zu nutzen sind folge
 - Wir sind auf Telegram und Matrix aktiv - siehe [/kontakt/](/kontakt/)
 - Linux, SSH Kenntnisse sind von Vorteil, aber diese Dinge kann man auch lernen
 
-Wenn du Lust hast deinen Knoten umzustellen, dann geht das über den Experten Modus im [Config Mode](https://gluon.readthedocs.io/en/latest/features/configmode.html),   
+Wenn du Lust hast deinen Knoten umzustellen, dann geht das über den Experten Modus im [Config Mode](https://gluon.readthedocs.io/en/latest/features/configmode.html),
 Oder über ssh und [uci](https://wiki.freifunk.net/Konsole#Autoupdater_Branch_festlegen).
 
 Photo by [Michael Dziedzic](https://unsplash.com/@lazycreekimages?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/firmware?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

@@ -9,6 +9,7 @@
     "element-required-content": "off",
     "long-title": "off",
     "no-inline-style": "off",
+    "no-trailing-whitespace": "off",
     "wcag/h37": "off"
   }
 }

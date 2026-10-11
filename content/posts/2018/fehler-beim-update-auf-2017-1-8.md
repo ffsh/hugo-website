@@ -23,7 +23,7 @@ Leider ist es uns nicht möglich diesen Fehler von außen zu beheben. Wenn du wi
 
 Du gehst auf die neue [Firmware Seite](/firmware-ffrz/) und suchst nach deinem Router. Dort lädst du die aktuelle "stable" (die Upgrade Datei reicht) Version herunter.  
 Verbinde nun deinen Rechner über ein LAN-Kabel mit einer der (gelben) Anschlüsse.  
-Halte die Reset-taste an deinem Router für etwa drei Sekunden gedrückt.   
+Halte die Reset-taste an deinem Router für etwa drei Sekunden gedrückt.
 Nun sollten alle LEDs kurz aufblinken und der Router startet in den Konfigurationsmodus.
 
 {{< figure src="/media/posts/2018/fehler-beim-update-auf-2017-1-8/00.webp" alt="" caption="" >}}

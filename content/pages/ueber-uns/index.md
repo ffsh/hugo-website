@@ -6,32 +6,29 @@ title: Über uns
 url: /ueber-uns/
 ---
 ## Über uns
+
 - [Impressum](https://www.freifunk-suedholstein.de/impressum/)
 - [Datenschutz](https://www.freifunk-suedholstein.de/datenschutz/)
 
-im Juni 2015 ging Freifunk Stormarn ans Netz. Wenige Monate später schlossen sich ein paar Freifunkas aus dem Kreis Herzogtum Lauenburg an, so dass wir damals die gleiche Infrastruktur aufbauten und die Firmware so gestalteten, dass sie sich hauptsächlich nur durch die SSID unterschied.
+Wir sind eine kleine Freifunk-Community im südlichen Schleswig-Holstein. Unser Ziel ist es, ein freies, offenes und dezentrales WLAN-Netzwerk aufzubauen, das von allen genutzt werden kann.
 
-Dies brachte aber nicht nur Vorteile, so mussten wir seit dem zwei unterschiedliche aber in fast allen Punkten gleiche Firmware Versionen bereitstellen und betreuen, wir traten getrennt in der Öffentlichkeit auf und pflegen die gleichen Dinge an unterschiedlichen Stellen.
+### Unsere Infrastruktur & Technik
 
-Freifunk Stormarn ist seit dem ersten Tag auf (Stand März '18) ca 220 Knoten gewachsen, Freifunk Lauenburg hat (Stand März '18) ca 30 Knoten.
+Wir sind stolz auf unsere Infrastruktur: Sie ist bewusst einfach gehalten, befindet sich aber stets auf einem aktuellen Stand. Unser Netz wird kontinuierlich gepflegt und weiterentwickelt. Auch die Firmware für die Knoten wird regelmäßig aktualisiert und steht allen Mitgliedern der Community zur Verfügung.
 
-Sprich gemeinsam haben wir ca 250 Knoten und täglich über 500 Nutzerinnen und Nutzer. Die Nutzerzahlen sprechen durchaus für unser Netz und zeigen wie notwendig es ist weiter zu machen.
+### Die Community
 
-Auf Grund der großen Nähe beschlossen wir die Ressourcen aus Lauenburg und Stormarn zusammen zu legen und unter dem gemeinsam Namen Freifunk Südholstein aufzutreten.
+Abseits von Routern und Servern sind wir in erster Linie eine lockere Gemeinschaft von Menschen, die Spaß daran haben, ein freies Netzwerk zu betreiben und sich gegenseitig zu unterstützen. Egal, ob du Technik-Neuling bist oder schon viel Erfahrung mitbringst – bei uns ist jeder willkommen, der Lust hat, mitzumachen und zu lernen.
 
-Doppelte Infrastrukturen wie eigene Webseiten wurden abgeschafft.  
+---
 
-Die Firmware wird seit der Version 2018.1 für beide Landkreise verwendet.  
-
-Unsere Dokumentation findest du hier: [https://docs.freifunk-suedholstein.de/de/latest/](https://docs.freifunk-suedholstein.de/de/latest/)  
-
-## Unsere Geschichte: Aus zwei mach eins
+### Unsere Geschichte: Aus zwei mach eins
 
 Im Juni 2015 funkte **Freifunk Stormarn** zum ersten Mal. Nur wenige Monate später schloss sich eine motivierte Gruppe aus dem Kreis Herzogtum Lauenburg an. Wir nutzten damals dieselbe Infrastruktur und eine fast identische Firmware – im Grunde unterschieden sich unsere Netze nur durch den Netzwerknamen.
 
-Dieses schnelle Wachstum brachte uns bald an einen Punkt, den viele Open-Source-Projekte kennen: doppelte Arbeit. Wir pflegten zwei Firmware-Versionen, bespielten unterschiedliche Webseiten und traten in der Öffentlichkeit getrennt auf, obwohl wir eigentlich an genau derselben Sache arbeiteten. 
+Dieses schnelle Wachstum brachte uns bald an einen Punkt, den viele Open-Source-Projekte kennen: doppelte Arbeit. Wir pflegten zwei Firmware-Versionen, bespielten unterschiedliche Webseiten und traten in der Öffentlichkeit getrennt auf, obwohl wir eigentlich an genau derselben Sache arbeiteten.
 
-Als wir im Frühjahr 2018 gemeinsam die Marke von 250 Knoten und täglich über 500 Nutzerinnen und Nutzern knackten, wurde endgültig klar, wie unverzichtbar unser Netz geworden war. Die logische Konsequenz: Wir ignorierten administrative Grenzen und bündelten unsere Ressourcen. 
+Als wir im Frühjahr 2018 gemeinsam die Marke von 250 Knoten und täglich über 500 Nutzerinnen und Nutzern knackten, wurde endgültig klar, wie unverzichtbar unser Netz geworden war. Die logische Konsequenz: Wir ignorierten administrative Grenzen und bündelten unsere Ressourcen.
 
 Seitdem treten wir gemeinsam unter dem Namen **Freifunk Südholstein** auf und nutzen eine einheitliche, starke Infrastruktur.
 
@@ -49,7 +46,7 @@ Wenn du einen eigenen Knoten in unserem Netzwerk betreiben willst, dann brauchst
 
 ### **Was ist mit der Störerhaftung?**
 
-In mehreren Versuchen hat der Gesetzgeber versucht die so genannte [Störerhaftung](https://de.wikipedia.org/wiki/St%C3%B6rerhaftung) für Betreiber von offenen WLANs abzuschaffen. Bei uns wird der Datenverkehr nicht direkt über deinen Internetzugang geleitet sondern über unsere [Gateways](#gateways). Jeder Gateway-Betreiber kann frei entscheiden ob er einen VPN-Dienst benutzen möchte, um sich vor nervigen Fragen zu schützen.
+In mehreren Versuchen hat der Gesetzgeber versucht die so genannte [Störerhaftung](https://de.wikipedia.org/wiki/St%C3%B6rerhaftung) für Betreiber von offenen WLANs abzuschaffen. Bei uns wird der Datenverkehr nicht direkt über deinen Internetzugang geleitet sondern über unsere [Gateways](#was-ist-ein-gateway). Jeder Gateway-Betreiber kann frei entscheiden ob er einen VPN-Dienst benutzen möchte, um sich vor nervigen Fragen zu schützen.
 
 ### **Jugendschutz im Freifunk?**
 

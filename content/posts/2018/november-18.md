@@ -14,7 +14,7 @@ Etwas verspätet und obwohl es bereits Dezember ist hier der November-Beitrag.
 
 ## Anerkennung der Gemeinnützigkeit von Freifunk-Initiativen
 
-Wie ich schon mehrfach berichtet hatte gab es erneut eine Gesetzesinitiative, um Freifunk-Vereine, die freie Netzwerke betreiben, als gemeinnützig anzuerkennen.   
+Wie ich schon mehrfach berichtet hatte gab es erneut eine Gesetzesinitiative, um Freifunk-Vereine, die freie Netzwerke betreiben, als gemeinnützig anzuerkennen.
 Dieses Vorhaben hat seit meinem letzten Vortrag große Fortschritte gemacht.
 
 Die Gesetzesinitiative wurde vom Landrat (SH) bestätigt und im Bundesrat eingereicht. Der Bundesrat stimmte ohne große Beratungen mit einer Mehrheit für die Gesetzesinitiative.
@@ -26,7 +26,7 @@ Der alte Antrag des Bundesrates, hatte aufgrund der [Diskontinuität](https://ww
 Die Beschlussfassung findet ihr [hier](https://www.bundesrat.de/SharedDocs/drucksachen/2018/0501-0600/573-18(B).pdf?__blob=publicationFile&v=1).  
 Den Tagesordnungspunkt mit einem Link zur Mediathek, mit einem Video der Beratung, [hier](https://www.bundesrat.de/SharedDocs/TO/972/tagesordnung-972.html?nn=4732016#top-60).
 
-Noch gibt es kein Dokument im System des Bundestages, wer selbst beobachten will wann dies der Fall ist, kann [hier](http://pdok.bundestag.de/index.php) nachsehen   
+Noch gibt es kein Dokument im System des Bundestages, wer selbst beobachten will wann dies der Fall ist, kann [hier](http://pdok.bundestag.de/index.php) nachsehen
 
 ## Firmware
 

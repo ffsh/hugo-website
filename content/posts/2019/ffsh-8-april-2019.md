@@ -37,6 +37,6 @@ Die neue Firmware wird aktuell noch nicht per Autoupdate verteilt. Sie läuft je
 
 ## Treffen: April 2019
 
-Das letzte Treffen fand in Reinbek statt. Erfreulicherweise waren wieder neue Personen dabei. Wir haben über diverse Dinge gesprochen und laden herzlich dazu ein, zu unserem nächsten Treffen in   
+Das letzte Treffen fand in Reinbek statt. Erfreulicherweise waren wieder neue Personen dabei. Wir haben über diverse Dinge gesprochen und laden herzlich dazu ein, zu unserem nächsten Treffen in
 **Bad Oldesloe**  
 am **10\. Mai 2019** ein.

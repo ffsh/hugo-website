@@ -10,5 +10,7 @@ RUN apt-get update \
         python3 \
         python3-pip \
         nodejs \
-        npm \
+        npm \   
     && rm -rf /var/lib/apt/lists/*
+
+RUN npx playwright install-deps chromium

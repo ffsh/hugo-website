@@ -49,13 +49,11 @@
     {{ end }}
 
     {{ $toc := .TableOfContents }}
-    {{ with $toc }}
-      {{ if ne (plainify .) "" }}
-        <aside class="article-toc" aria-label="Inhaltsverzeichnis">
-          <h2>Inhalt</h2>
-          {{ . }}
-        </aside>
-      {{ end }}
+    {{ if gt (len .Fragments.Headings) 0 }}
+      <aside class="article-toc" aria-label="Inhaltsverzeichnis">
+        <h2>Inhalt</h2>
+        {{ replace $toc `<nav id="TableOfContents">` `<nav id="TableOfContents" aria-label="Inhaltsnavigation">` | safeHTML }}
+      </aside>
     {{ end }}
 
     <div class="article-content">

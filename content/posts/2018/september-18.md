@@ -44,7 +44,7 @@ Solltest du einen oder mehrere Knoten haben die nun offline sind, dann hat dies 
 ** Knoten mit Rechner verbinden (Konfigurationsmodus aktivieren) und passende [Firmware](/firmware) installieren.
 
 **Lösung 2  
-** Mesh-Netz im WLAN aktivieren, dass geht entweder über den Konfigurationsmodus oder per SSH (Funktioniert nur wenn andere Knoten in der Nähe über WLAN meshen) .   
+** Mesh-Netz im WLAN aktivieren, dass geht entweder über den Konfigurationsmodus oder per SSH (Funktioniert nur wenn andere Knoten in der Nähe über WLAN meshen) .
 
 Wenn du Fragen oder Probleme hast kannst du dich auch gerne bei uns [melden](https://www.freifunk-suedholstein.de/kontakt/). Sowie Fragen in unserer Gruppe auf [freitrix.de](https://webchat.freitrix.de/#/room/#ffsh:freitrix.de) oder in unserer [Telegram](https://t.me/freifunk_suedholstein) Gruppe stellen.  
 
@@ -76,12 +76,12 @@ Nach dem studieren der Dokumentation und der Konfiguration, konnte das Problem i
 ### Gemeinnützigkeit für Freifunk Vereine
 
 Auf dem letzten Treffen wurde diesmal hauptsächlich über die Anfrage des Wirtschaftsausschusses des Schleswig-Holsteinischen Landtags gesprochen.  
-Dieser möchte eine Stellungnahme von den Freifunk Initiativen aus SH zu zwei Anträgen ([1](http://www.landtag.ltsh.de/infothek/wahl19/drucks/00700/drucksache-19-00757.pdf), [2](https://www.landtag.ltsh.de/infothek/wahl19/drucks/00700/drucksache-19-00778.pdf)) haben.   
+Dieser möchte eine Stellungnahme von den Freifunk Initiativen aus SH zu zwei Anträgen ([1](http://www.landtag.ltsh.de/infothek/wahl19/drucks/00700/drucksache-19-00757.pdf), [2](https://www.landtag.ltsh.de/infothek/wahl19/drucks/00700/drucksache-19-00778.pdf)) haben.
 
 In diesen Anträgen geht es um eine [Gesetzesinitiative](http://dipbt.bundestag.de/dip21/brd/2017/0107-17.pdf), die es bereits in der vergangenen Bundestags Periode gab. In dieser soll das Vereinsrecht dahin gehend angepasst werden, dass auch das betreiben von Freien Netzen ein Grund für Gemeinnützigkeit ist.
 
->   
-„26\. die Einrichtung und Unterhaltung von Kommunikationsnetzwerken, die der Allgemeinheit ohne Gegenleistung offenstehen (Freifunk-Netze). Als Gegenleistung in diesem Sinne gilt insbesondere die Erlaubnis zur   
+>
+„26\. die Einrichtung und Unterhaltung von Kommunikationsnetzwerken, die der Allgemeinheit ohne Gegenleistung offenstehen (Freifunk-Netze). Als Gegenleistung in diesem Sinne gilt insbesondere die Erlaubnis zur
 Verwendung oder Weitergabe der Nutzerdaten für gewerbliche Zwecke.“
 >
 > Drucksache 107/17 aus der alten Initative  

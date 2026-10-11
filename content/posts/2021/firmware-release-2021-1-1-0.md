@@ -36,32 +36,32 @@ Und viele interne Verbesserungen.
 
 Die Firmware findest du unter [https://install.freifunk-suedholstein.de](https://install.freifunk-suedholstein.de)
 
-**Plasma Cloud**
+### Plasma Cloud
 
 - PA300
 - PA300E
 - PA1200
 - PA2200
 
-**TP-Link**
+### TP-Link
 
 - Archer C2 v3
 - Archer D50 v1
 
-**AVM**
+### AVM
 
 - FRITZ!BOX 7530
 
-**Netgear**
+### Netgear
 
 - EX3700
 - EX3800
 
-**Xiaomi**
+### Xiaomi
 
 - Mi Router 4A (100M Edition)
 
-**Joy-IT**
+### Joy-IT
 
 - JT-OR750i
 

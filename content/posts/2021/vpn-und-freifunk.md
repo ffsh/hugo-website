@@ -38,7 +38,7 @@ Jetzt leben wir seit einigen Monaten in einer neuen Situation. Durch die Pandemi
 
 > **Tipp: In unserer Firmware kannst du die Verschlüsselung zwischen dem Freifunk Knoten und den Gateways ausschalten und erreichst somit eine schnellere Verbindung.**
 
-**L2TP** ist im eigentlichen Sinne kein VPN aber das ignorieren wir an dieser Stelle und betrachten die Lösung als ganzes, welche auf L2TP basiert. Ein paar Freifunk Communitys sind auf diese Lösung umgestiegen, weil sie eine bessere Geschwindigkeit selbst auf schwachen Geräten bietet. Der große Nachteil ist jedoch, dass keine Verschlüsselung unterstützt wird.   
+**L2TP** ist im eigentlichen Sinne kein VPN aber das ignorieren wir an dieser Stelle und betrachten die Lösung als ganzes, welche auf L2TP basiert. Ein paar Freifunk Communitys sind auf diese Lösung umgestiegen, weil sie eine bessere Geschwindigkeit selbst auf schwachen Geräten bietet. Der große Nachteil ist jedoch, dass keine Verschlüsselung unterstützt wird.
 Auch wenn wir durchaus Empfehlen die Verschlüsselung bei fastd abzuschalten sollte doch jeder Knotenbetreiber selber entscheiden können, ob er das tun möchte oder nicht.
 
 **WireGuard** ist gegenüber den anderen beiden Lösungen der große Star, nicht nur bietet WireGuard eine sichere Verschlüsselung, sondern auch noch eine hohe Geschwindigkeit und einfach Konfiguration. Der größte Nachteil von WireGuard ist, dass es noch nicht in Gluon, der Firmware welche wir einsetzen, integriert ist. Außerdem ist die Gateway-Seite nur teilweise dokumentiert. Andere Communitys z.b. Freifunk München haben sehr viel Zeit und Aufwand investiert um WireGuard in ihrem Netzwerk verwenden zu können. Daher sehen wir vom FFSH-Kern-Team aktuell keine Möglichkeit WireGuard bei uns einzuführen.

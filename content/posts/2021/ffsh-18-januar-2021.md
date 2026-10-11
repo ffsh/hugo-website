@@ -42,13 +42,13 @@ Bitte verwendet das Freifunk Netzwerk nicht als VPN oder anonymes Netzwerk, denn
 
 Nächsten Freitag ist es wieder so weit wir treffen uns digital auf dem Jitsi Server unserer Freunde der Linux User Group (LUG) Stormarn. Dieses mal wird der Gateway betrieb im Mittelpunkt stehen und wie wir die Gateway Architektur weiter entwickeln wollen.
 
-Andere Themen und Fragen sind willkommen. Mitmachen könnt ihr einfach auf https://meet.lug-stormarn.de/FFSH.
+Andere Themen und Fragen sind willkommen. Mitmachen könnt ihr einfach auf <https://meet.lug-stormarn.de/FFSH>.
 
 ## Ansible für Gateways
 
 Ich habe mich in den letzten Wochen mit Ansible beschäftigt. Ganz einfach gesagt ist Ansible ein Tool zur automatischen Konfigurierung von Computern. Auf [Wikipedia](https://de.wikipedia.org/wiki/Ansible) findest du einen Beitrag, der Ansible korrekter und komplizierter erklärt.
 
-Die Idee für unsere Community ist es das erstellen eines Gateways weitestgehend zu automatisieren und im Grunde unsere bisherige Dokumentation unter https://docs.freifunk-suedholstein.de abzulösen, keine Sorge die Inhalte werden sicherlich in anderer Form erhalten bleiben allerdings angepasst an Ansible.
+Die Idee für unsere Community ist es das erstellen eines Gateways weitestgehend zu automatisieren und im Grunde unsere bisherige Dokumentation unter <https://docs.freifunk-suedholstein.de> abzulösen, keine Sorge die Inhalte werden sicherlich in anderer Form erhalten bleiben allerdings angepasst an Ansible.
 
 Als Test hat mir bisher das Gateway [Brunsbach](https://map.freifunk-suedholstein.de/#!/de/map/005b27810096) gedient, das Gateway wird voraussichtlich nur temporär aktiv bleiben.
 

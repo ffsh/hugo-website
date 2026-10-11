@@ -5,41 +5,39 @@ date: "2018-03-20T10:41:10+00:00"
 title: Impressum
 url: /impressum/
 ---
-# Impressum
-
-## Angaben gemäß § 5 TMG:
+## Angaben gemäß § 5 TMG
 
 Freifunk Südholstein e.V.  
 Kaj-Simon Jebens  
 Zum Bastgraben 3  
 23847 Rethwischdorf
 
-## Vertreten durch:
+## Vertreten durch
 
 Vorstand:  
  1\. Vorsitzender  
  2\. Vorsitzender  
  Kassenwart
 
-## Kontakt:
+## Kontakt
 
 Telefon: +49 (0) 4539 2180785  
-E-Mail: kontakt@freifunk-suedholstein.de
+E-Mail: <kontakt@freifunk-suedholstein.de>
 
-## Registereintrag:
+## Registereintrag
 
 Eintragung im Vereinsregister.  
  Registergericht:Registergericht  
  Registernummer: Registernummer
 
-## Umsatzsteuer:
+## Umsatzsteuer
 
 UmsatzsteuerIdentifikationsnummer  
  gemäß §27 a Umsatzsteuergesetz:  
  Ust.-ID falls  
  vorhanden
 
-## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
+## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
 Kaj-Simon Jebens  
 Zum Bastgraben 3  

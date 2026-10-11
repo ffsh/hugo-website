@@ -30,7 +30,7 @@ Seit langem kämpfen Freifunk Initiativen für eine Aufnahme in die Gemeinnützi
 
 ## Treffen Dezember
 
-Nächste Woche Freitag treffen wir uns wieder um 20:00 auf Jitsi https://meet.lug-stormarn.de/FFSH  
+Nächste Woche Freitag treffen wir uns wieder um 20:00 auf Jitsi <https://meet.lug-stormarn.de/FFSH>  
 Wenn du möchtest kannst du gerne Teilnehmen, wir unterhalten uns meistens über technische Themen rund um Freifunk und andere interessante Themen.  
 Dafür brauchst du nichts weiter als einen Browser und ein Headset, spezielle Software musst du nicht installieren.  
 Für Mobilgeräte gibt es Apps, du findest sie im AppStore deines Vertrauens suche einfach nach „Jitsi“.

@@ -1,5 +1,6 @@
 
 ---
+
 title: "All"
 layout: "archives"
 url: "/all/"

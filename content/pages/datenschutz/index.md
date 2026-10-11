@@ -5,9 +5,7 @@ date: "2018-03-11T19:27:58+00:00"
 title: Datenschutz
 url: /datenschutz/
 ---
-# Datenschutzerklärung
-
-Wir sind die Freifunk Community Südholstein, wir betreiben die Seite https://freifunk-suedholstein.de  
+Wir sind die Freifunk Community Südholstein, wir betreiben die Seite <https://freifunk-suedholstein.de>  
 Außerdem betreiben wir folgende Dienste:
 
 - map.freifunk-suedholstein.de - Eine Karte unseres Freifunknetzwerks.
@@ -16,7 +14,7 @@ Außerdem betreiben wir folgende Dienste:
 
 Des weiteren betreiben wir die folgenden Social Media Accounts:
 
-- https://norden.social/@ffsh - ein Mastodon Account
+- <https://norden.social/@ffsh> - ein Mastodon Account
 
 Ein Freifunk-Knoten ist ein Router welcher von seinem Betreiber mit der auf dieser Seite Angebotenen Firmware betrieben wird.
 
@@ -71,7 +69,7 @@ personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenve
 
 ### Kontakt via E-Mail
 
-Wenn Du uns per E-Mail Anfragen an kontakt@freifunk-suedholstein.de sendest, so werden diese E-Mails auf unbestimmte Zeit gespeichert. Diese Postfach wird von eine Gruppe von aktiven Mitgliedern gelesen.  
+Wenn Du uns per E-Mail Anfragen an <kontakt@freifunk-suedholstein.de> sendest, so werden diese E-Mails auf unbestimmte Zeit gespeichert. Diese Postfach wird von eine Gruppe von aktiven Mitgliedern gelesen.  
 Inhalte der E-Mail werden nicht ohne Deine Zustimmung veröffentlicht.
 
 Wenn Du möchtest, dass deine Daten gelöscht werden sende uns einfach eine E-Mail zu und wir löschen den gesamten Verlauf.

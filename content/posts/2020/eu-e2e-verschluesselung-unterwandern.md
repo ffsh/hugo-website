@@ -21,7 +21,7 @@ Genau daher gibt es ja Ende zu Ende Verschlüsslung weil es viel einfacher ist e
 Vertrauen in eine gute Technologie wird dadurch untergraben.
 
 Im aktuellen Versuch die Verschlüsselung zu umgehen, wird von minimalen Eingriffen gesprochen. Damit ist gemeint, dass der App Anbieter oder der AppStore oder im Zweifel der Internetanbieter ein spezielle Version der App ausliefert, diese würde dann anders als normal auch für einen dritten Empfänger die Nachricht verschlüsseln, im Grunde so wie in einem Gruppenchat, nur das der dritte Empfänger unsichtbar ist. Die Nachrichten könnten dann abgegriffen und entschlüsselt werden.  
-Jetzt ist es aber so, dass Apps selbst signiert sind, damit nur der Entwickler bzw. der AppStore in der Lage ist eine neue Version der App zu veröffentlichen. Weiterhin kommunizieren die Apps mit ihren Diensten per https.   
+Jetzt ist es aber so, dass Apps selbst signiert sind, damit nur der Entwickler bzw. der AppStore in der Lage ist eine neue Version der App zu veröffentlichen. Weiterhin kommunizieren die Apps mit ihren Diensten per https.
 Das bedeutet, dass wenigstens der AppStore aber besser auch noch der Entwickler mitspielen muss.
 
 Auf den ersten Blick ist dieser Ansatz vielleicht weniger schädlich, Ermittler finden einen Verdächtigen und fordern das mitlesen beim AppStore an, dieser versendet eine manipulierte Version der App als extra update nur für diesen einen Nutzer. Was die Ermittler in die Lage versetzt die Kommunikation zu verfolgen.  
@@ -36,6 +36,6 @@ Kurz, E2E Verschlüsselung beruht auf dem Konzept niemanden vertrauen zu müssen
 
 ### Referenzen
 
-1. https://de.wikipedia.org/wiki/Informationssicherheit#Motivation\_und\_Ziele\_der\_Informationssicherheit
-1. https://netzpolitik.org/2020/neuer-angriff-auf-ende-zu-ende-verschluesselung/
-1. https://www.golem.de/news/crypto-wars-regierung-dementiert-plaene-fuer-verschluesselungsverbot-2011-152012.html
+1. <https://de.wikipedia.org/wiki/Informationssicherheit#Motivation\_und\_Ziele\_der\_Informationssicherheit>
+1. <https://netzpolitik.org/2020/neuer-angriff-auf-ende-zu-ende-verschluesselung/>
+1. <https://www.golem.de/news/crypto-wars-regierung-dementiert-plaene-fuer-verschluesselungsverbot-2011-152012.html>
