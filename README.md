@@ -40,6 +40,33 @@ If you want a page under an existing section, keep the folder name and file name
 hugo new content pages/download/new-firmware-guide/index.md -k page
 ```
 
+## Images
+
+Hugo copies files from `static/` without converting them. Convert new images to WebP before adding them to the site. Install the WebP tools to use `cwebp`, then convert an image with:
+
+```bash
+cwebp -q 82 input.jpg -o output.webp
+```
+
+Use a quality setting appropriate to the image; for screenshots or diagrams with sharp text, lossless output may be preferable:
+
+```bash
+cwebp -lossless input.png -o output.webp
+```
+
+Store inline post images under `static/media/` and reference them with the `figure` shortcode:
+
+```md
+{{< figure src="/media/posts/2026/example.webp" alt="Description of the image" caption="" >}}
+```
+
+Store post cover images under `static/covers/` and use the public path in front matter:
+
+```yaml
+cover:
+  image: /covers/example.webp
+```
+
 ## Beta deployment
 
 ```bash
