@@ -46,22 +46,6 @@ menu:
       name: Mitmachen
       url: /mitmachen/
       weight: 16
-    - identifier: hardware
-      name: Hardware
-      url: /hardware/
-      weight: 20
-    - identifier: stats
-      name: Statistiken
-      url: /statistiken/
-      weight: 40
-    - identifier: download
-      name: Download
-      url: /download/
-      weight: 50
-    - identifier: contribute
-      name: Mitgestalten
-      url: /mitgestalten/
-      weight: 60
     - identifier: contact
       name: Kontakt
       url: /kontakt/
