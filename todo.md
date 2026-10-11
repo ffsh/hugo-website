@@ -1,6 +1,6 @@
 # Todo for Hugo Website Project
 
-This is a todo file for the Hugo website project. Compared to the theme one this focuses on content.
+This is a todo file for the Hugo website project.
 
 - [ ] Review and update content for the main Hugo website.
 - [X] Add content to content/karte/karte.md

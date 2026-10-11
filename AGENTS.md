@@ -15,3 +15,7 @@ This repository uses the custom Hugo theme for Freifunk Südholstein. Future age
 - Maintain consistency with the existing Hugo theme and Freifunk Südholstein branding.
 - When in doubt, consult the main repository guidance in `.github/copilot-instructions.md`.
 - No security-sensitive information should be hardcoded or exposed in the repository.
+- Clean custom CSS with no framework dependency
+- Icons use Lucide-style minimal SVGs where possible
+- Comments are intentionally not implemented; contact channels are preferred
+- Statistics stay external; traffic can be measured with Prometheus or a hosted analytics tool

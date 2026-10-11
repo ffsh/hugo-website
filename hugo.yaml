@@ -42,6 +42,10 @@ menu:
       name: Karte
       url: /karte/
       weight: 15
+    - identifier: mitmachen
+      name: Mitmachen
+      url: /mitmachen/
+      weight: 16
     - identifier: hardware
       name: Hardware
       url: /hardware/
