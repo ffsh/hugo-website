@@ -2,7 +2,7 @@
   <article class="container content-block article-shell">
     <header class="page-header article-header">
       <p class="eyebrow">
-        {{ with .Section }}{{ . | humanize }}{{ end }}
+        {{ with .Section }}{{ if eq . "pages" }}Seite{{ else if eq . "posts" }}Beitrag{{ else }}{{ . | humanize }}{{ end }}{{ end }}
       </p>
       <h1>{{ .Title }}</h1>
       <div class="article-meta">
