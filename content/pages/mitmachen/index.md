@@ -5,6 +5,10 @@ authors:
   - Grotax
 title: 'Mitmachen'
 url: '/mitmachen/'
+aliases:
+  - /download/
+  - /hardware/
+  - /mitgestalten/
 ---
 Freifunk lebt vom Mitmachen! Für uns bedeutet Freifunk aber nicht nur, einfach einen kostenlosen WLAN-Hotspot zur Verfügung zu stellen, sondern vor allem auch **Spaß und gemeinsames Lernen an der Technik**. Egal, ob du ein absoluter Technik-Neuling bist oder schon seit Jahren Linux-Server administrierst – bei uns ist jeder willkommen.
 

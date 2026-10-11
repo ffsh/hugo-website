@@ -10,7 +10,6 @@ url: /datenschutz/
 Wir sind die Freifunk Community Südholstein, wir betreiben die Seite https://freifunk-suedholstein.de  
 Außerdem betreiben wir folgende Dienste:
 
-- freitrix.de - ein Matrix Server an dem Nutzer sich registrieren können um mit anderen Matrix Nutzern zu chatten
 - map.freifunk-suedholstein.de - Eine Karte unseres Freifunknetzwerks.
 - install.freifunk-suedholstein.de - Eine Seite um die passende Firmware auszuwählen.
 - grafana.freifunk-suedholstein.de - Eine Seite mit Statistiken unseres Freifunknetzerks.
