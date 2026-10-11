@@ -50,10 +50,13 @@
 
     {{ $toc := .TableOfContents }}
     {{ if gt (len .Fragments.Headings) 0 }}
-      <aside class="article-toc" aria-label="Inhaltsverzeichnis">
-        <h2>Inhalt</h2>
+      <details class="article-toc">
+        <summary>
+          <span>Inhalt</span>
+          <svg class="article-toc-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6" /></svg>
+        </summary>
         {{ replace $toc `<nav id="TableOfContents">` `<nav id="TableOfContents" aria-label="Inhaltsnavigation">` | safeHTML }}
-      </aside>
+      </details>
     {{ end }}
 
     <div class="article-content">
