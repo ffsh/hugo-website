@@ -305,7 +305,7 @@ img {
 }
 
 .nav-link {
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   line-height: 1.2;
   color: var(--ink-700);
   position: relative;
@@ -889,7 +889,7 @@ img {
 
 .article-toc {
   margin: 1.25rem 0 1.5rem;
-  padding: 1rem 1.1rem;
+  padding: 0.8rem 1.1rem;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--panel);
@@ -898,7 +898,7 @@ img {
 
 .article-toc summary {
   display: flex;
-  min-height: 2.75rem;
+  min-height: 2.5rem;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
