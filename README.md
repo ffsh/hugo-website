@@ -73,7 +73,9 @@ cover:
 hugo --gc --minify --baseURL "https://beta.freifunk-suedholstein.de/" && rsync -az --delete --checksum public/ web-ffsh:/var/www/web-beta/  
 ```
 
-The GitHub Actions workflow deploys the generated output via SSH afterwards.
+GitHub Actions deploys pushes to `main` and manual runs on `main` to beta. Pushing a `v*` tag (for example, `v1.2.3`) deploys to production at `https://freifunk-suedholstein.de/`.
+
+Configure the `beta` and `production` GitHub Actions environments with `DEPLOY_USER`, `DEPLOY_SSH_PRIVATE_KEY`, and `DEPLOY_PATH` secrets. Set the shared `DEPLOY_HOST` and optional `DEPLOY_PORT` repository secrets; the same host and port are used for both environments. Keep the beta and production deploy paths distinct.
 
 ## Project layout
 
