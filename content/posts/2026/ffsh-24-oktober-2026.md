@@ -11,7 +11,7 @@ categories:
 tags:
   - website
   - firmware
-  - infrastructure
+  - infrastruktur
 ---
 Moin zusammen,
 
