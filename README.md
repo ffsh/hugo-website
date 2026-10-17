@@ -3,6 +3,14 @@ Source for the Freifunk Südholstein Hugo website.
 
 This repository contains the Hugo site source for the public website and keeps the original WordPress export as a reference source in the project root.
 
+## Beta website
+
+The beta website is available at [https://beta.freifunk-suedholstein.de/](https://beta.freifunk-suedholstein.de/). It reflects the latest changes pushed to the `main` branch and allows for testing before deploying to the production site.
+
+## Production website
+
+The production website is available at [https://freifunk-suedholstein.de/](https://freifunk-suedholstein.de/).
+
 ## Local development
 
 This repository includes a devcontainer setup in `.devcontainer`.
