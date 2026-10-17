@@ -1,6 +1,6 @@
 ---
 date: '2026-10-17T09:05:58Z'
-draft: true
+draft: false
 authors:
   - Grotax
 title: 'FFSH #24 Oktober 2026 - Neues aus dem Maschinenraum'
